@@ -1,0 +1,68 @@
+[
+  {
+    "from_path": "/index.html",
+    "to_path": "/en",
+    "status": 308,
+    "is_auto": 0
+  },
+  {
+    "from_path": "/pages/about.html",
+    "to_path": "/en/about",
+    "status": 308,
+    "is_auto": 0
+  },
+  {
+    "from_path": "/pages/mission.html",
+    "to_path": "/en/about#mission",
+    "status": 308,
+    "is_auto": 0
+  },
+  {
+    "from_path": "/pages/events.html",
+    "to_path": "/en/events",
+    "status": 308,
+    "is_auto": 0
+  },
+  {
+    "from_path": "/pages/contact.html",
+    "to_path": "/en/contact",
+    "status": 308,
+    "is_auto": 0
+  },
+  {
+    "from_path": "/pages/churches.html",
+    "to_path": "/en/churches",
+    "status": 308,
+    "is_auto": 0
+  },
+  {
+    "from_path": "/pages/church-montreal.html",
+    "to_path": "/en/churches/montreal",
+    "status": 308,
+    "is_auto": 0
+  },
+  {
+    "from_path": "/pages/church-granby.html",
+    "to_path": "/en/churches/granby",
+    "status": 308,
+    "is_auto": 0
+  },
+  {
+    "from_path": "/pages/church-ottawa.html",
+    "to_path": "/en/churches/ottawa",
+    "status": 308,
+    "is_auto": 0
+  },
+  {
+    "from_path": "/pages/church-quebec.html",
+    "to_path": "/en/churches/quebec",
+    "status": 308,
+    "is_auto": 0
+  },
+  {
+    "from_path": "/pages/gallery.html",
+    "to_path": "/en/stories",
+    "status": 308,
+    "is_auto": 0
+  }
+]

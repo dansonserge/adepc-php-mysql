@@ -1,0 +1,40 @@
+import { createRequire } from 'node:module';
+const require = createRequire('/Users/sergedanson/projects/smallwebsites/minani-apps/adepc/package.json');
+const { chromium } = require('@playwright/test');
+const BASE = 'http://localhost:8090';
+const b = await chromium.launch();
+const p = await b.newPage();
+let fail = 0;
+const check = (ok, label) => { console.log(`${ok ? 'PASS' : 'FAIL'}  ${label}`); if (!ok) fail++; };
+
+check((await p.goto(`${BASE}/fr`)).url().endsWith('/install/'), 'site sends to the installer before installation');
+await p.goto(`${BASE}/install/`);
+check(!(await p.locator('text=Manquant').count()), 'server check passes (PHP, extensions, writable folders)');
+await p.fill('#db_host', 'db');
+await p.fill('#db_name', 'cpanel_adepc');
+await p.fill('#db_user', 'cpanel_user');
+await p.fill('#db_pass', 'rehearsal_pw_123');
+await p.fill('#site_url', BASE);
+await p.fill('#admin_name', 'Pasteur Test');
+await p.fill('#admin_email', 'owner@adepc.test');
+await p.fill('#admin_pass', 'owner-password-1');
+await Promise.all([p.waitForNavigation(), p.click('button[type=submit]')]);
+check(await p.locator('text=Installation terminée').isVisible(), 'installer completes');
+await p.goto(`${BASE}/install/`);
+check(await p.locator('text=verrouillé').isVisible(), 'installer locks itself afterwards');
+const home = await p.goto(`${BASE}/`);
+check(home.url() === `${BASE}/fr` && home.status() === 200, 'home redirects to /fr and renders');
+check((await p.locator('h1').innerText()).includes('APPARTENIR'), 'French home headline from the database');
+for (const path of ['/en/churches/ottawa', '/fr/histoires', '/en/give', '/fr/contact', '/sitemap.xml', '/robots.txt']) {
+  check((await p.goto(BASE + path)).status() === 200, `${path} is served`);
+}
+check((await p.goto(`${BASE}/pages/about.html`)).url() === `${BASE}/en/about`, 'legacy URL redirects');
+check((await p.goto(`${BASE}/app/config.php`)).status() === 403, 'app/ is not reachable from the web');
+await p.goto(`${BASE}/admin/login`);
+await p.fill('#email', 'owner@adepc.test');
+await p.fill('#password', 'owner-password-1');
+await Promise.all([p.waitForNavigation(), p.click('form[action="/admin/login"] button[type=submit]')]);
+check(p.url() === `${BASE}/admin`, 'the new admin account can log in');
+await b.close();
+console.log(fail ? `${fail} failure(s)` : 'deployment rehearsal passed');
+process.exit(fail ? 1 : 0);

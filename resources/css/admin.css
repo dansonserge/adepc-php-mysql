@@ -1,0 +1,100 @@
+@import "tailwindcss" source(none);
+@import "./fonts.css";
+
+/* Admin panel: the site's own design tokens (same palette, type, 0 radius). */
+@source "../../app/views/admin";
+@source "../../app/src/Admin";
+@source "../../app/src/helpers.php";
+@source "../../public/assets/js/admin.js";
+@source "../../public/install";
+
+@theme {
+  --color-*: initial;
+  --color-ink: #0b0d12;
+  --color-night: #0e1a33;
+  --color-blue: #00327d;
+  --color-gold: #f2b705;
+  --color-cream: #f3ede2;
+  --color-paper: #faf8f4;
+  --color-stone: #5f5a4e;
+  --color-fog: #a9b0bf;
+  --color-ember: #c8102e;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-transparent: transparent;
+  --color-current: currentColor;
+
+  --radius-*: initial;
+  --shadow-*: initial;
+  --inset-shadow-*: initial;
+  --drop-shadow-*: initial;
+
+  --font-sans: var(--font-instrument-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-instrument-serif), Georgia, "Times New Roman", serif;
+
+  --breakpoint-3xl: 120rem;
+
+  /* Fluid type scale. Display sizes are set condensed, bold, uppercase. */
+  --text-display-xl: clamp(4rem, 15vw, 17rem);
+  --text-display-xl--line-height: 0.82;
+  --text-display-xl--letter-spacing: -0.015em;
+  --text-display-l: clamp(3rem, 10vw, 11rem);
+  --text-display-l--line-height: 0.85;
+  --text-display-l--letter-spacing: -0.015em;
+  --text-display-m: clamp(2.75rem, 6.5vw, 7rem);
+  --text-display-m--line-height: 0.9;
+  --text-display-m--letter-spacing: -0.01em;
+  --text-h1: clamp(2.25rem, 5vw, 5rem);
+  --text-h1--line-height: 0.95;
+  --text-h2: clamp(1.75rem, 3.4vw, 3.25rem);
+  --text-h2--line-height: 1;
+  --text-h3: clamp(1.375rem, 2vw, 2rem);
+  --text-h3--line-height: 1.1;
+  --text-lead: clamp(1.125rem, 1.45vw, 1.5rem);
+  --text-lead--line-height: 1.45;
+  --text-body: 1.0625rem;
+  --text-body--line-height: 1.6;
+  --text-small: 0.9375rem;
+  --text-small--line-height: 1.5;
+  --text-caption: 0.8125rem;
+  --text-caption--line-height: 1.3;
+  --text-caption--letter-spacing: 0.14em;
+  --text-nav: 0.875rem;
+  --text-nav--line-height: 1;
+  --text-nav--letter-spacing: 0.08em;
+
+  --ease-expo: cubic-bezier(0.2, 0.7, 0, 1);
+  --animate-marquee: marquee 40s linear infinite;
+}
+
+:root {
+  --font-instrument-sans: "Instrument Sans", "Instrument Sans Fallback";
+  --font-instrument-serif: "Instrument Serif", "Instrument Serif Fallback";
+  --edge: clamp(1rem, 3vw, 3rem);
+  color-scheme: light;
+}
+
+@layer base {
+  *, ::before, ::after { border-radius: 0 !important; }
+  html { -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; }
+  body { background: var(--color-paper); color: var(--color-ink); font-family: var(--font-sans); font-size: var(--text-body); line-height: var(--text-body--line-height); }
+  ::selection { background: var(--color-gold); color: var(--color-ink); }
+  :focus-visible { outline: 3px solid var(--color-gold); outline-offset: 2px; }
+  input, textarea, select, button { font: inherit; color: inherit; }
+  input[type="checkbox"].check, select { appearance: none; }
+  select { background: var(--color-white) url("/media/icons/chevron.svg") right 0.75rem center / 12px no-repeat; padding-right: 2.25rem; }
+  summary { list-style: none; }
+  summary::-webkit-details-marker { display: none; }
+  details > summary::after { content: "+"; float: right; font-family: var(--font-sans); }
+  details[open] > summary::after { content: "−"; }
+  [hidden] { display: none !important; }
+}
+
+@layer components {
+  .display { font-weight: 700; font-stretch: 75%; font-variation-settings: "wdth" 75; text-transform: uppercase; }
+  .caption { font-size: var(--text-caption); line-height: var(--text-caption--line-height); letter-spacing: var(--text-caption--letter-spacing); font-weight: 600; text-transform: uppercase; }
+}
+
+.check:checked {
+  background: var(--color-ink) url("/media/icons/check.svg") center / 14px no-repeat;
+}

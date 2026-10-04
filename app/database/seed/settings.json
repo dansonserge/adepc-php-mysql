@@ -1,0 +1,302 @@
+[
+  {
+    "skey": "site.url",
+    "value": "https://adepc.ca",
+    "is_default": 0
+  },
+  {
+    "skey": "site.short_name",
+    "value": "ADEPC",
+    "is_default": 0
+  },
+  {
+    "skey": "site.theme_color",
+    "value": "#0b0d12",
+    "is_default": 0
+  },
+  {
+    "skey": "org.name.fr",
+    "value": "Association des Églises de la Pentecôte au Canada",
+    "is_default": 0
+  },
+  {
+    "skey": "org.name.en",
+    "value": "Association of Pentecostal Churches in Canada",
+    "is_default": 0
+  },
+  {
+    "skey": "org.email",
+    "value": "info@adepc.ca",
+    "is_default": 0
+  },
+  {
+    "skey": "org.phone",
+    "value": "",
+    "is_default": 0
+  },
+  {
+    "skey": "org.country",
+    "value": "CA",
+    "is_default": 0
+  },
+  {
+    "skey": "hq.label.fr",
+    "value": "Siège social",
+    "is_default": 0
+  },
+  {
+    "skey": "hq.label.en",
+    "value": "Head office",
+    "is_default": 0
+  },
+  {
+    "skey": "hq.building",
+    "value": "ADEPC Montréal",
+    "is_default": 0
+  },
+  {
+    "skey": "hq.street",
+    "value": "2825, boul. Henri-Bourassa Est",
+    "is_default": 0
+  },
+  {
+    "skey": "hq.locality",
+    "value": "Montréal (QC)",
+    "is_default": 0
+  },
+  {
+    "skey": "hq.postal_code",
+    "value": "H2B 1V9",
+    "is_default": 0
+  },
+  {
+    "skey": "hq.city",
+    "value": "Montréal",
+    "is_default": 0
+  },
+  {
+    "skey": "hq.region",
+    "value": "QC",
+    "is_default": 0
+  },
+  {
+    "skey": "motto.text.fr",
+    "value": "Le feu brûlera continuellement sur l'autel, il ne s'éteindra point.",
+    "is_default": 0
+  },
+  {
+    "skey": "motto.text.en",
+    "value": "The fire shall ever be burning upon the altar; it shall never go out.",
+    "is_default": 0
+  },
+  {
+    "skey": "motto.ref.fr",
+    "value": "Lévitique 6:6",
+    "is_default": 0
+  },
+  {
+    "skey": "motto.ref.en",
+    "value": "Leviticus 6:13",
+    "is_default": 0
+  },
+  {
+    "skey": "pastor.name.fr",
+    "value": "Pasteur principal",
+    "is_default": 1
+  },
+  {
+    "skey": "pastor.name.en",
+    "value": "Senior Pastor",
+    "is_default": 1
+  },
+  {
+    "skey": "pastor.role.fr",
+    "value": "Association des Églises de la Pentecôte au Canada",
+    "is_default": 1
+  },
+  {
+    "skey": "pastor.role.en",
+    "value": "Association of Pentecostal Churches in Canada",
+    "is_default": 1
+  },
+  {
+    "skey": "giving.paypal.client_id",
+    "value": "BAAmdH_tm0SNY5v5EkUqs5fypwGpgVQv98yLokSb7A7nTyEK0D9pC2Rmk1MtDZCKB_T0QJdHWVHfpUZBes",
+    "is_default": 0
+  },
+  {
+    "skey": "giving.paypal.button_id",
+    "value": "AGGWEGNNNB97S",
+    "is_default": 0
+  },
+  {
+    "skey": "giving.paypal.currency",
+    "value": "CAD",
+    "is_default": 0
+  },
+  {
+    "skey": "giving.paypal.sdk_url",
+    "value": "https://www.paypal.com/sdk/js?client-id={client}&components=hosted-buttons&disable-funding=venmo&currency={currency}",
+    "is_default": 0
+  },
+  {
+    "skey": "giving.interac.email",
+    "value": "adepc.quebec@adepc.ca",
+    "is_default": 0
+  },
+  {
+    "skey": "youtube.channel_id",
+    "value": "",
+    "is_default": 0
+  },
+  {
+    "skey": "youtube.feed_url",
+    "value": "https://www.youtube.com/feeds/videos.xml?channel_id={channel}",
+    "is_default": 0
+  },
+  {
+    "skey": "youtube.embed_url",
+    "value": "https://www.youtube-nocookie.com/embed/{id}?autoplay=1&rel=0",
+    "is_default": 0
+  },
+  {
+    "skey": "youtube.thumb_url",
+    "value": "https://i.ytimg.com/vi/{id}/hqdefault.jpg",
+    "is_default": 0
+  },
+  {
+    "skey": "youtube.live_pattern",
+    "value": "live|en direct",
+    "is_default": 0
+  },
+  {
+    "skey": "youtube.limit",
+    "value": "12",
+    "is_default": 0
+  },
+  {
+    "skey": "maps.directions_url",
+    "value": "https://www.google.com/maps/dir/?api=1&destination={destination}",
+    "is_default": 0
+  },
+  {
+    "skey": "maps.mapbox_token",
+    "value": "",
+    "is_default": 0
+  },
+  {
+    "skey": "maps.mapbox_style",
+    "value": "mapbox://styles/mapbox/light-v11",
+    "is_default": 0
+  },
+  {
+    "skey": "maps.mapbox_js",
+    "value": "https://api.mapbox.com/mapbox-gl-js/v3.15.0/mapbox-gl.js",
+    "is_default": 0
+  },
+  {
+    "skey": "maps.mapbox_css",
+    "value": "https://api.mapbox.com/mapbox-gl-js/v3.15.0/mapbox-gl.css",
+    "is_default": 0
+  },
+  {
+    "skey": "phone.country_code",
+    "value": "1",
+    "is_default": 0
+  },
+  {
+    "skey": "schedule.timezone",
+    "value": "America/Toronto",
+    "is_default": 0
+  },
+  {
+    "skey": "analytics.ga_id",
+    "value": "",
+    "is_default": 0
+  },
+  {
+    "skey": "seo.robots_disallow",
+    "value": "/admin\n/api/",
+    "is_default": 0
+  },
+  {
+    "skey": "home.film.video_id",
+    "value": "1",
+    "is_default": 0
+  },
+  {
+    "skey": "contact.min_seconds",
+    "value": "3",
+    "is_default": 0
+  },
+  {
+    "skey": "mail.transport",
+    "value": "none",
+    "is_default": 0
+  },
+  {
+    "skey": "mail.smtp_host",
+    "value": "",
+    "is_default": 0
+  },
+  {
+    "skey": "mail.smtp_port",
+    "value": "465",
+    "is_default": 0
+  },
+  {
+    "skey": "mail.smtp_secure",
+    "value": "ssl",
+    "is_default": 0
+  },
+  {
+    "skey": "mail.smtp_user",
+    "value": "",
+    "is_default": 0
+  },
+  {
+    "skey": "mail.smtp_pass",
+    "value": "",
+    "is_default": 0
+  },
+  {
+    "skey": "mail.from_address",
+    "value": "",
+    "is_default": 0
+  },
+  {
+    "skey": "mail.from_name",
+    "value": "ADEPC",
+    "is_default": 0
+  },
+  {
+    "skey": "mail.to",
+    "value": "info@adepc.ca",
+    "is_default": 0
+  },
+  {
+    "skey": "mail.to_pastor",
+    "value": "",
+    "is_default": 0
+  },
+  {
+    "skey": "privacy.policy.fr",
+    "value": "L'ADEPC ne recueille que les renseignements personnels que vous choisissez de lui transmettre.\n\nLes messages envoyés avec le formulaire de contact sont acheminés par courriel à l'ADEPC et ne sont pas conservés sur ce site. Les visites sont comptées par des statistiques sans témoins ; Google Analytics, qui utilise des témoins, ne se charge que si vous l'acceptez. Les dons sont traités par PayPal ou par votre banque (virement Interac) : l'ADEPC ne voit jamais les données de votre carte.\n\nPour consulter, corriger ou supprimer vos renseignements, écrivez à info@adepc.ca.",
+    "is_default": 1
+  },
+  {
+    "skey": "privacy.policy.en",
+    "value": "ADEPC only collects the personal information you choose to send it.\n\nMessages sent with the contact form are delivered to ADEPC by email and are not kept on this website. Visits are counted with cookie-free statistics; Google Analytics, which uses cookies, only loads if you accept it. Donations are processed by PayPal or by your bank (Interac e-Transfer): ADEPC never sees your card details.\n\nTo access, correct or delete your information, write to info@adepc.ca.",
+    "is_default": 1
+  },
+  {
+    "skey": "privacy.officer.fr",
+    "value": "La direction de l'ADEPC — info@adepc.ca",
+    "is_default": 1
+  },
+  {
+    "skey": "privacy.officer.en",
+    "value": "ADEPC leadership — info@adepc.ca",
+    "is_default": 1
+  }
+]

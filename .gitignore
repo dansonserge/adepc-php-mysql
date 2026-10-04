@@ -1,0 +1,4 @@
+.compare/
+tools/bin/
+app/config.php
+.DS_Store

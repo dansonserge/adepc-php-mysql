@@ -1,0 +1,4812 @@
+[
+  {
+    "locale": "fr",
+    "tkey": "admin.account.password",
+    "value": "Changer de mot de passe"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.action.addItem",
+    "value": "+ Ajouter un élément"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.action.addService",
+    "value": "+ Ajouter un horaire"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.action.cancel",
+    "value": "Annuler"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.action.delete",
+    "value": "Supprimer"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.action.edit",
+    "value": "Modifier"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.action.editThing",
+    "value": "Modifier : {thing}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.action.moveDown",
+    "value": "Descendre"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.action.moveUp",
+    "value": "Monter"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.action.newThing",
+    "value": "Ajouter : {thing}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.action.remove",
+    "value": "Retirer"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.action.resetDefault",
+    "value": "Rétablir la valeur d'origine"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.action.save",
+    "value": "Enregistrer"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.action.upload",
+    "value": "Téléverser"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.backToDashboard",
+    "value": "Retour au tableau de bord"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.brand",
+    "value": "Administration ADEPC"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.brandShort",
+    "value": "Admin"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.col.actions",
+    "value": "Actions"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.col.category_id",
+    "value": "Catégorie"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.col.city_fr",
+    "value": "Ville"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.col.from_path",
+    "value": "Ancienne adresse"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.col.kind",
+    "value": "Type"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.col.label_fr",
+    "value": "Libellé"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.col.name",
+    "value": "Nom"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.col.name_fr",
+    "value": "Nom"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.col.pkey",
+    "value": "Clé"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.col.published",
+    "value": "Publié"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.col.slug",
+    "value": "Ancre"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.col.status",
+    "value": "Type"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.col.title_fr",
+    "value": "Titre"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.col.to_path",
+    "value": "Nouvelle adresse"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.col.visible",
+    "value": "Visible"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.confirm.delete",
+    "value": "Supprimer définitivement ? Cette action est irréversible."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.dash.churchPastor",
+    "value": "Pasteur de {church}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.dash.confirmTitle",
+    "value": "À confirmer"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.dash.defaultsLead",
+    "value": "Ces informations affichent un texte provisoire neutre. Remplacez-les par les vraies informations."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.dash.defaultsTitle",
+    "value": "Valeurs par défaut à remplacer"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.dash.eventField",
+    "value": "{event} — {field}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.dash.fix",
+    "value": "Modifier"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.dash.hiddenLead",
+    "value": "Rien n'apparaît sur le site pour ces éléments tant qu'ils sont vides."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.dash.hiddenTitle",
+    "value": "Masqué tant que ce n'est pas rempli"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.dash.mail",
+    "value": "Envoi de courriels du formulaire de contact"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.dash.mapbox",
+    "value": "Cartes (jeton Mapbox) — facultatif"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.dash.none",
+    "value": "Tout est à jour."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.dash.note.banner",
+    "value": "Bannière"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.dash.note.removed",
+    "value": "Retiré"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.dash.notesLead",
+    "value": "Contenus de l'ancien site volontairement non repris, et faits tirés de la bannière à vérifier."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.dash.notesTitle",
+    "value": "Notes éditoriales"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.dash.phone",
+    "value": "Téléphone général (pied de page)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.dash.registration",
+    "value": "Lien d'inscription : {event}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.dash.setting",
+    "value": "Réglage : {key}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.dash.social",
+    "value": "Réseaux sociaux (pied de page, « Suivre »)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.dash.youtube",
+    "value": "Chaîne YouTube (messages et directs)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.error.csrf",
+    "value": "Le formulaire a expiré. Revenez en arrière, rechargez la page, puis réessayez."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.error.csrfTitle",
+    "value": "Session expirée"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.error.forbidden",
+    "value": "Seuls les administrateurs peuvent ouvrir cette page."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.error.forbiddenTitle",
+    "value": "Accès refusé"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.error.notFound",
+    "value": "Cette page de l'administration n'existe pas."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.error.notFoundTitle",
+    "value": "Introuvable"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.aboutTitle",
+    "value": "Titre « À propos »"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.allChurches",
+    "value": "Toutes les églises"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.alt",
+    "value": "Description de l'image"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.anchor",
+    "value": "Ancre"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.bandFocus",
+    "value": "Cadrage dans la bande d'accueil"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.body",
+    "value": "Texte"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.category",
+    "value": "Catégorie"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.changefreq",
+    "value": "Fréquence de mise à jour"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.church",
+    "value": "Église"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.churchName",
+    "value": "Nom de l'église"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.churches",
+    "value": "Églises"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.city",
+    "value": "Ville"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.confirmNote",
+    "value": "Note interne à vérifier"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.consent",
+    "value": "La personne a accepté la publication"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.country",
+    "value": "Pays (code)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.countryCode",
+    "value": "Indicatif téléphonique"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.currency",
+    "value": "Devise"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.currentPassword",
+    "value": "Mot de passe actuel"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.date",
+    "value": "Date"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.dateLabel",
+    "value": "Date affichée"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.dateMode",
+    "value": "Date"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.dateText",
+    "value": "Texte de la date"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.day",
+    "value": "Jour"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.defaultLanguage",
+    "value": "Langue par défaut du site"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.description",
+    "value": "Description"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.detail",
+    "value": "Détail"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.directionsUrl",
+    "value": "Adresse des itinéraires"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.duration",
+    "value": "Durée (secondes)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.email",
+    "value": "Courriel"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.emptyText",
+    "value": "Texte si vide"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.figure",
+    "value": "Chiffre"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.focus",
+    "value": "Cadrage (point d'intérêt)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.focusOverride",
+    "value": "Cadrage pour cet emplacement (facultatif)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.fromAddress",
+    "value": "Adresse d'expédition"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.fromName",
+    "value": "Nom d'expéditeur"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.fromPath",
+    "value": "Ancienne adresse"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.gaId",
+    "value": "Google Analytics (ID GA4)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.heroPhoto",
+    "value": "Photo principale"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.highlight",
+    "value": "Mis en valeur (or)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.homeFilm",
+    "value": "Vidéo du film de l'accueil"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.hqBuilding",
+    "value": "Lieu du siège"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.hqCity",
+    "value": "Ville du siège (données structurées)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.hqLabel",
+    "value": "Libellé du siège"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.icon",
+    "value": "Icône"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.inGallery",
+    "value": "Afficher dans la galerie « Histoires »"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.inMoments",
+    "value": "Afficher dans « Moments » de la page d'église"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.inSitemap",
+    "value": "Inclure dans le plan du site"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.interacEmail",
+    "value": "Courriel du virement Interac"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.intro",
+    "value": "Introduction"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.isPrayer",
+    "value": "Demande de prière"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.key",
+    "value": "Clé"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.kind",
+    "value": "Type"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.label",
+    "value": "Libellé"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.lat",
+    "value": "Latitude"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.livePattern",
+    "value": "Mots indiquant un direct"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.lng",
+    "value": "Longitude"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.locale_hreflang",
+    "value": "Code hreflang"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.locale_name",
+    "value": "Nom"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.locale_og_locale",
+    "value": "Code Open Graph"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.locale_short_label",
+    "value": "Abréviation"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.locality",
+    "value": "Ville (adresse postale)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.mailTo",
+    "value": "Destinataire des messages"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.mailToPastor",
+    "value": "Destinataire des demandes confidentielles"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.mapboxCss",
+    "value": "Feuille de style Mapbox"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.mapboxJs",
+    "value": "Script Mapbox"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.mapboxStyle",
+    "value": "Style Mapbox"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.mapboxToken",
+    "value": "Jeton Mapbox"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.metaDescription",
+    "value": "Description (moteurs de recherche)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.metaTitle",
+    "value": "Titre (moteurs de recherche)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.minSeconds",
+    "value": "Délai anti-robot (secondes)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.motto",
+    "value": "Devise"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.mottoRef",
+    "value": "Référence de la devise"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.mp4",
+    "value": "Fichier MP4"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.name",
+    "value": "Nom"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.newPassword",
+    "value": "Nouveau mot de passe"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.newPasswordOptional",
+    "value": "Nouveau mot de passe (laisser vide pour ne pas changer)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.orgName",
+    "value": "Nom officiel"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.page",
+    "value": "Page"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.password",
+    "value": "Mot de passe"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.pastor",
+    "value": "Pasteur"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.pastorName",
+    "value": "Nom du pasteur principal"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.pastorRole",
+    "value": "Titre du pasteur principal"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.paypalButton",
+    "value": "PayPal — bouton hébergé"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.paypalClient",
+    "value": "PayPal — Client ID"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.paypalSdk",
+    "value": "Adresse du SDK PayPal"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.people",
+    "value": "Avec (intervenants)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.personName",
+    "value": "Nom de la personne"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.phone",
+    "value": "Téléphone"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.photo",
+    "value": "Photo"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.postalCode",
+    "value": "Code postal"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.poster",
+    "value": "Image de la vidéo"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.priority",
+    "value": "Priorité"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.privacyOfficer",
+    "value": "Responsable des renseignements personnels"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.privacyPolicy",
+    "value": "Politique de confidentialité"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.published",
+    "value": "Publié sur le site"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.quote",
+    "value": "Témoignage"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.recurrence",
+    "value": "Rythme (ex. « Chaque dimanche »)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.region",
+    "value": "Province"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.registration",
+    "value": "Lien d'inscription"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.robots",
+    "value": "Chemins exclus des moteurs de recherche"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.role",
+    "value": "Rôle"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.services",
+    "value": "Horaires"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.shortName",
+    "value": "Nom court"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.showSundayTimes",
+    "value": "Afficher les heures du dimanche de chaque église"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.siteUrl",
+    "value": "Adresse du site"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.slug",
+    "value": "Adresse (identifiant)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.slugIn",
+    "value": "Adresse en {lang}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.smtpHost",
+    "value": "Serveur SMTP"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.smtpPass",
+    "value": "Mot de passe SMTP"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.smtpPort",
+    "value": "Port"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.smtpSecure",
+    "value": "Chiffrement"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.smtpUser",
+    "value": "Utilisateur SMTP"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.source",
+    "value": "Source"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.status",
+    "value": "Type"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.street",
+    "value": "Adresse"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.summary",
+    "value": "Résumé"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.tags",
+    "value": "Mots-clés"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.text",
+    "value": "Texte"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.themeColor",
+    "value": "Couleur du navigateur"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.time",
+    "value": "Heure"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.timeMode",
+    "value": "Heure"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.timeText",
+    "value": "Texte de l'heure"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.timezone",
+    "value": "Fuseau horaire"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.title",
+    "value": "Titre"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.toPath",
+    "value": "Nouvelle adresse"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.transport",
+    "value": "Mode d'envoi"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.uiLanguage",
+    "value": "Langue de l'administration"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.url",
+    "value": "Adresse web"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.value",
+    "value": "Valeur"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.venue",
+    "value": "Lieu"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.visible",
+    "value": "Visible"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.webm",
+    "value": "Fichier WebM (facultatif)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.youtubeChannel",
+    "value": "ID de la chaîne YouTube"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.youtubeEmbed",
+    "value": "Lecteur YouTube"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.youtubeFeed",
+    "value": "Flux YouTube"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.youtubeId",
+    "value": "Identifiant YouTube"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.youtubeLimit",
+    "value": "Nombre de vidéos YouTube"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.youtubeThumb",
+    "value": "Vignettes YouTube"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.flash.cannotDeleteSelf",
+    "value": "Vous ne pouvez pas supprimer votre propre compte."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.flash.categoryInUse",
+    "value": "Cette catégorie contient des vidéos : déplacez-les avant de la supprimer."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.flash.deleted",
+    "value": "Élément supprimé."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.flash.fixErrors",
+    "value": "Certains champs sont à corriger — rien n'a été enregistré."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.flash.iconInvalid",
+    "value": "Ce fichier n'est pas un SVG utilisable."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.flash.iconReset",
+    "value": "Icône d'origine rétablie."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.flash.lastAdmin",
+    "value": "Il doit rester au moins un administrateur."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.flash.mailFailed",
+    "value": "L'envoi a échoué : {error}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.flash.mailNotConfigured",
+    "value": "L'envoi de courriels n'est pas configuré (expéditeur et serveur requis)."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.flash.mailSent",
+    "value": "Courriel de test envoyé à {email}."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.flash.mediaInUse",
+    "value": "Ce fichier est utilisé sur le site et ne peut pas être supprimé."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.flash.passwordReset",
+    "value": "Mot de passe modifié. Vous pouvez vous connecter."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.flash.saved",
+    "value": "Modifications enregistrées. Le site est à jour."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.flash.uploadEmpty",
+    "value": "Aucun fichier reçu. Taille maximale par envoi : {size}."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.flash.uploadFailed",
+    "value": "Le téléversement de « {file} » a échoué."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.flash.uploadTooBig",
+    "value": "« {file} » dépasse la taille permise par l'hébergement ({size})."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.flash.uploadUnsupported",
+    "value": "« {file} » n'est pas un format accepté (JPEG, PNG, WebP, MP4, WebM)."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.flash.uploaded",
+    "value": "{count, plural, one {# fichier téléversé.} other {# fichiers téléversés.}}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.forgot.back",
+    "value": "Retour à la connexion"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.forgot.lead",
+    "value": "Indiquez votre courriel : vous recevrez un lien valable une heure."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.forgot.noMail",
+    "value": "L'envoi de courriels n'est pas encore configuré : demandez à un administrateur de changer votre mot de passe dans « Utilisateurs »."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.forgot.sent",
+    "value": "Si un compte existe pour cette adresse, un lien vient d'être envoyé."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.forgot.submit",
+    "value": "Envoyer le lien"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.forgot.title",
+    "value": "Mot de passe oublié"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.advanced",
+    "value": "Réglage avancé : ne changer qu'en connaissance de cause."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.alt",
+    "value": "Décrivez ce qu'on voit, pour les personnes qui utilisent un lecteur d'écran."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.anchor",
+    "value": "Utilisée dans l'adresse de la page Regarder (ex. #message)."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.churchSlug",
+    "value": "Utilisé dans l'adresse de la page (ex. /fr/eglises/montreal). Les anciennes adresses sont redirigées automatiquement."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.confirmNote",
+    "value": "Visible seulement dans l'administration (tableau de bord)."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.consent",
+    "value": "Obligatoire pour publier un témoignage."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.coords",
+    "value": "Pour la carte. Clic droit sur Google Maps pour copier les coordonnées."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.dateLabel",
+    "value": "Texte libre, ex. 2024."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.focus",
+    "value": "Point gardé dans le cadre, en pourcentages « horizontal vertical », ex. 30% 50%."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.gaId",
+    "value": "Facultatif. Commence par G-. Ne se charge qu'après consentement (Loi 25)."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.hiddenIfEmpty",
+    "value": "Laisser vide pour ne rien afficher."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.hqLocality",
+    "value": "Tel qu'affiché, ex. Montréal (QC)."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.isPrayer",
+    "value": "Ajoute l'invite de prière et la case « confidentiel »."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.keepPassword",
+    "value": "Laisser vide pour garder le mot de passe enregistré."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.livePattern",
+    "value": "Séparés par | , ex. live|en direct."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.mailToPastor",
+    "value": "Facultatif : sinon, elles vont au destinataire principal."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.mapboxToken",
+    "value": "Facultatif. Sans jeton, une photo remplace la carte."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.minSeconds",
+    "value": "Les envois plus rapides sont ignorés (robots)."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.paragraphs",
+    "value": "Une ligne vide sépare les paragraphes."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.password",
+    "value": "Au moins 10 caractères."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.pastor",
+    "value": "Un texte provisoire neutre est affiché tant que le nom n'est pas fourni."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.path",
+    "value": "Chemin sans le domaine, ex. /pages/about.html."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.people",
+    "value": "Un nom par ligne."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.purposeKey",
+    "value": "Identifiant technique utilisé dans les liens (ex. visit)."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.region",
+    "value": "Abréviation, ex. QC ou ON."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.registration",
+    "value": "Si rempli, un bouton « S'inscrire » apparaît sur la page Événements."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.robots",
+    "value": "Un chemin par ligne."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.role",
+    "value": "Rédacteur : contenu seulement. Administrateur : aussi les utilisateurs."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.siteUrl",
+    "value": "Adresse publique, ex. https://adepc.ca"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.structured",
+    "value": "Utilisé par les moteurs de recherche."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.transport",
+    "value": "SMTP avec une boîte courriel de l'hébergement (cPanel) est recommandé. Sans envoi, le formulaire ouvre le logiciel de courriel du visiteur."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.youtubeChannel",
+    "value": "Commence par UC… Les derniers messages s'affichent automatiquement."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.youtubeId",
+    "value": "La partie après « v= » dans l'adresse YouTube."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.icon.arrow",
+    "value": "Flèche"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.icon.calendar",
+    "value": "Calendrier"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.icon.check",
+    "value": "Coche (case)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.icon.chevron",
+    "value": "Chevron (liste déroulante)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.icon.church",
+    "value": "Église"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.icon.close",
+    "value": "Fermer"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.icon.give",
+    "value": "Donner"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.icon.home",
+    "value": "Accueil"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.icon.menu",
+    "value": "Menu"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.icon.pause",
+    "value": "Pause"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.icon.pin",
+    "value": "Repère"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.icon.play",
+    "value": "Lecture"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.icons.lead",
+    "value": "Icônes du site (fichiers SVG). Téléversez un SVG simple pour en remplacer une ; il est nettoyé automatiquement."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.languages.lead",
+    "value": "Noms et codes des deux langues du site."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.list.banner",
+    "value": "Énoncés de la bannière"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.list.beliefs",
+    "value": "Croyances"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.list.count",
+    "value": "{count, plural, one {# élément} other {# éléments}}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.list.glance",
+    "value": "Chiffres"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.list.heritage",
+    "value": "Familles d'églises"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.list.heroLines",
+    "value": "Lignes du grand titre"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.list.missionRows",
+    "value": "Les trois verbes"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.list.pillars",
+    "value": "Piliers"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.list.social",
+    "value": "Réseaux sociaux"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.list.strategic",
+    "value": "Piliers stratégiques"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.list.values",
+    "value": "Valeurs"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.login.forgot",
+    "value": "Mot de passe oublié ?"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.login.invalid",
+    "value": "Courriel ou mot de passe incorrect."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.login.locked",
+    "value": "Trop de tentatives. Réessayez dans 15 minutes."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.login.submit",
+    "value": "Se connecter"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.login.title",
+    "value": "Connexion"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.logout",
+    "value": "Se déconnecter"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.mail.resetBody",
+    "value": "Bonjour,\n\nPour choisir un nouveau mot de passe, ouvrez ce lien (valable une heure) :\n{link}\n\nSi vous n'avez rien demandé, ignorez ce message."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.mail.resetSubject",
+    "value": "ADEPC — réinitialisation du mot de passe"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.mail.testBody",
+    "value": "Ce message confirme que le site {site} peut envoyer des courriels."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.mail.testLead",
+    "value": "Envoie un courriel de test à votre adresse avec les réglages enregistrés."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.mail.testSubject",
+    "value": "ADEPC — courriel de test"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.mail.testSubmit",
+    "value": "Envoyer un courriel de test"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.media.browse",
+    "value": "Parcourir la médiathèque"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.media.edit",
+    "value": "Modifier le média"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.media.focusHelp",
+    "value": "Cliquez sur la photo pour choisir le point qui reste visible quand elle est recadrée."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.media.images",
+    "value": "Photos"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.media.kind",
+    "value": "Type de média"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.media.noAlt",
+    "value": "Sans description"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.media.replace",
+    "value": "Remplacer le fichier"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.media.replaceHelp",
+    "value": "Garde cet élément partout où il est utilisé."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.media.replaceSubmit",
+    "value": "Remplacer"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.media.unused",
+    "value": "N'est utilisé nulle part."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.media.upload",
+    "value": "Téléverser"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.media.uploadLead",
+    "value": "JPEG, PNG, WebP, MP4 ou WebM. Taille maximale par envoi : {size}. Les photos sont optimisées automatiquement."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.media.uploadTitle",
+    "value": "Ajouter des photos ou des vidéos"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.media.usage",
+    "value": "Utilisé sur le site"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.media.videos",
+    "value": "Vidéos"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.menu.cta",
+    "value": "Bouton doré"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.menu.ctaHelp",
+    "value": "Le premier lien sert de bouton « Donner »."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.menu.footer",
+    "value": "Pied de page « Explorer »"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.menu.footerHelp",
+    "value": "Colonne de liens du pied de page."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.menu.header",
+    "value": "En-tête (grand écran)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.menu.headerHelp",
+    "value": "Liens au centre de l'en-tête."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.menu.overlay",
+    "value": "Menu plein écran (mobile)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.menu.overlayHelp",
+    "value": "Numérotés 01, 02… dans l'ordre."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.menu.tabbar",
+    "value": "Barre d'onglets (téléphone)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.menu.tabbarHelp",
+    "value": "Cinq onglets avec icône ; « Mis en valeur » = fond or."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.menus.lead",
+    "value": "Liens de navigation du site. L'ordre ici est l'ordre affiché."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.nav.account",
+    "value": "Mon compte"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.nav.categories",
+    "value": "Catégories de vidéos"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.nav.churches",
+    "value": "Églises"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.nav.dashboard",
+    "value": "Tableau de bord"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.nav.events",
+    "value": "Événements"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.nav.groupContent",
+    "value": "Contenu"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.nav.groupSite",
+    "value": "Site"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.nav.icons",
+    "value": "Icônes"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.nav.label",
+    "value": "Navigation de l'administration"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.nav.languages",
+    "value": "Langues"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.nav.media",
+    "value": "Médiathèque"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.nav.menu",
+    "value": "Menu"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.nav.menus",
+    "value": "Menus"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.nav.pages",
+    "value": "Pages"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.nav.purposes",
+    "value": "Objets du formulaire"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.nav.redirects",
+    "value": "Redirections"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.nav.settings",
+    "value": "Réglages"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.nav.stories",
+    "value": "Témoignages"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.nav.texts",
+    "value": "Textes"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.nav.users",
+    "value": "Utilisateurs"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.nav.videos",
+    "value": "Vidéos"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.no",
+    "value": "Non"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.o.countChurches",
+    "value": "Nombre d'églises (calculé)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.o.countCities",
+    "value": "Nombre de villes (calculé)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.o.countProvinces",
+    "value": "Nombre de provinces (calculé)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.o.daily",
+    "value": "Quotidienne"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.o.dateDate",
+    "value": "Date précise"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.o.dateNone",
+    "value": "Pas de date (rythme)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.o.dateText",
+    "value": "Texte (ex. « Date à annoncer »)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.o.featured",
+    "value": "À l'affiche"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.o.mailNone",
+    "value": "Pas d'envoi (ouvre le courriel du visiteur)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.o.mailPhp",
+    "value": "Fonction mail() de PHP"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.o.mailSmtp",
+    "value": "SMTP (recommandé)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.o.manual",
+    "value": "Valeur saisie"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.o.monthly",
+    "value": "Mensuelle"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.o.noEncryption",
+    "value": "Aucun"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.o.none",
+    "value": "— Aucun —"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.o.permanent",
+    "value": "Permanente (308)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.o.recurring",
+    "value": "Hebdomadaire"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.o.roleLive",
+    "value": "Direct"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.o.roleMessages",
+    "value": "Messages"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.o.roleNone",
+    "value": "Aucun"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.o.sourceFile",
+    "value": "Fichier vidéo"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.o.sourceYoutube",
+    "value": "YouTube"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.o.ssl",
+    "value": "SSL (port 465)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.o.temporary",
+    "value": "Temporaire (307)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.o.timeNone",
+    "value": "Pas d'heure"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.o.timeText",
+    "value": "Texte (ex. « Heure à annoncer »)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.o.timeTime",
+    "value": "Heure précise"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.o.tls",
+    "value": "TLS (port 587)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.o.weekly",
+    "value": "Hebdomadaire"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.o.yearly",
+    "value": "Annuelle"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.page.about",
+    "value": "À propos"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.page.churches",
+    "value": "Églises"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.page.common",
+    "value": "Éléments communs"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.page.contact",
+    "value": "Contact"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.page.events",
+    "value": "Événements"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.page.give",
+    "value": "Donner"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.page.home",
+    "value": "Accueil"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.page.privacy",
+    "value": "Confidentialité"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.page.stories",
+    "value": "Histoires"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.page.watch",
+    "value": "Regarder"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.pages.lead",
+    "value": "Chaque page reprend ses sections dans l'ordre du site. La mise en page est fixe ; tout ce qui s'y affiche se modifie ici."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.pages.sections",
+    "value": "{count, plural, one {# section} other {# sections}}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.pages.urlSeo",
+    "value": "Adresse et référencement"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.pages.viewIn",
+    "value": "Voir en {lang}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.res.category",
+    "value": "catégorie"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.res.church",
+    "value": "église"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.res.event",
+    "value": "événement"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.res.purpose",
+    "value": "objet"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.res.redirect",
+    "value": "redirection"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.res.story",
+    "value": "témoignage"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.res.video",
+    "value": "vidéo"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.reset.invalid",
+    "value": "Ce lien est invalide ou a expiré."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.reset.submit",
+    "value": "Enregistrer le mot de passe"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.reset.title",
+    "value": "Nouveau mot de passe"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.role.admin",
+    "value": "Administrateur"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.role.editor",
+    "value": "Rédacteur"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.search",
+    "value": "Rechercher"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.beliefs",
+    "value": "Croyances"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.brand",
+    "value": "Icône du site et image de partage"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.churchBand",
+    "value": "Bande des églises"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.churchPage",
+    "value": "Modèle des pages d'église"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.common",
+    "value": "Libellés communs et cookies"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.cta",
+    "value": "Appel final"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.dates",
+    "value": "Dates et heures"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.directory",
+    "value": "Appel « Pas d'église proche ? »"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.events",
+    "value": "Agenda"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.film",
+    "value": "Film"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.footer",
+    "value": "Pied de page"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.form",
+    "value": "Formulaire"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.formats",
+    "value": "Formats et ponctuation"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.give",
+    "value": "Donner"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.glance",
+    "value": "En un coup d'œil"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.heritage",
+    "value": "Héritage"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.hero",
+    "value": "Bandeau d'ouverture"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.list",
+    "value": "Contenu de la page"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.map",
+    "value": "Carte"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.mission",
+    "value": "Mission"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.nav",
+    "value": "En-tête et navigation"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.notFound",
+    "value": "Page introuvable (404)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.pastor",
+    "value": "Mot du pasteur"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.pillars",
+    "value": "Piliers"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.storiesStrip",
+    "value": "Histoires (photos)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.story",
+    "value": "Notre histoire"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.strategic",
+    "value": "Piliers stratégiques"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.testimonial",
+    "value": "Témoignage"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.thisSunday",
+    "value": "Ce dimanche"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.values",
+    "value": "Valeurs"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.vision",
+    "value": "Vision"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.watch",
+    "value": "Regarder"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.sec.who",
+    "value": "Qui sommes-nous"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.set.email",
+    "value": "Courriel"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.set.giving",
+    "value": "Dons"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.set.integrations",
+    "value": "Intégrations"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.set.organization",
+    "value": "Organisation"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.set.pastor",
+    "value": "Pasteur principal"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.set.privacy",
+    "value": "Confidentialité"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.set.seo",
+    "value": "Référencement"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.slot.aboutStory",
+    "value": "Photo « Notre histoire »"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.slot.appleIcon",
+    "value": "Icône Apple (180 px)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.slot.emblem",
+    "value": "Emblème de l'en-tête"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.slot.filmPoster",
+    "value": "Image du film"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.slot.heroMp4",
+    "value": "Vidéo d'arrière-plan (MP4)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.slot.heroPoster",
+    "value": "Image du bandeau (affichée avant la vidéo)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.slot.heroWebm",
+    "value": "Vidéo d'arrière-plan (WebM, facultatif)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.slot.icon",
+    "value": "Icône du navigateur (192 px)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.slot.logo",
+    "value": "Logo du pied de page"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.slot.pageHero",
+    "value": "Photo d'ouverture"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.slot.pastorPhoto",
+    "value": "Portrait du pasteur principal"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.slot.share",
+    "value": "Image de partage (1200 × 630)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.slot.stories1",
+    "value": "Grande photo"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.slot.stories2",
+    "value": "Petite photo 1"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.slot.stories3",
+    "value": "Petite photo 2"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.slot.stories4",
+    "value": "Photo large"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.texts.allGroups",
+    "value": "Tous"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.texts.filter",
+    "value": "Filtrer"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.texts.group",
+    "value": "Groupe"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.texts.lead",
+    "value": "Tous les textes du site et de l'administration. Les éléments entre accolades, comme {city}, sont remplacés automatiquement : gardez-les."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.texts.shown",
+    "value": "{shown} affichés sur {total}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.users.edit",
+    "value": "Modifier l'utilisateur"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.users.lastLogin",
+    "value": "Dernière connexion"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.users.new",
+    "value": "Nouvel utilisateur"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.v.consent",
+    "value": "Obtenez le consentement de la personne avant de publier."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.v.currentPassword",
+    "value": "Mot de passe actuel incorrect."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.v.date",
+    "value": "Date invalide."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.v.decimal",
+    "value": "Nombre attendu."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.v.email",
+    "value": "Adresse courriel invalide."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.v.max",
+    "value": "Texte trop long."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.v.number",
+    "value": "Nombre entier attendu."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.v.ownRole",
+    "value": "Vous ne pouvez pas retirer votre propre rôle d'administrateur."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.v.password",
+    "value": "Au moins 10 caractères."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.v.path",
+    "value": "Doit commencer par « / »."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.v.placeholders",
+    "value": "Gardez les éléments entre accolades, comme {city} ou {count, plural…}, exactement comme dans le texte d'origine."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.v.required",
+    "value": "Champ obligatoire."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.v.slug",
+    "value": "Lettres minuscules, chiffres et tirets seulement (ex. saint-jean)."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.v.time",
+    "value": "Heure invalide (format 24 h, ex. 13:30)."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.v.unique",
+    "value": "Déjà utilisé : choisissez une autre valeur."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.v.url",
+    "value": "Adresse web invalide (doit commencer par https://)."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.viewOnSite",
+    "value": "Voir sur le site"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.viewSite",
+    "value": "Voir le site ↗"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.yes",
+    "value": "Oui"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.account.password",
+    "value": "Change password"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.action.addItem",
+    "value": "+ Add an item"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.action.addService",
+    "value": "+ Add a service"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.action.cancel",
+    "value": "Cancel"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.action.delete",
+    "value": "Delete"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.action.edit",
+    "value": "Edit"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.action.editThing",
+    "value": "Edit {thing}"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.action.moveDown",
+    "value": "Move down"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.action.moveUp",
+    "value": "Move up"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.action.newThing",
+    "value": "New {thing}"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.action.remove",
+    "value": "Remove"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.action.resetDefault",
+    "value": "Reset to default"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.action.save",
+    "value": "Save"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.action.upload",
+    "value": "Upload"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.backToDashboard",
+    "value": "Back to the dashboard"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.brand",
+    "value": "ADEPC admin"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.brandShort",
+    "value": "Admin"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.col.actions",
+    "value": "Actions"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.col.category_id",
+    "value": "Category"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.col.city_fr",
+    "value": "City"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.col.from_path",
+    "value": "Old address"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.col.kind",
+    "value": "Type"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.col.label_fr",
+    "value": "Label"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.col.name",
+    "value": "Name"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.col.name_fr",
+    "value": "Name"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.col.pkey",
+    "value": "Key"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.col.published",
+    "value": "Published"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.col.slug",
+    "value": "Anchor"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.col.status",
+    "value": "Type"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.col.title_fr",
+    "value": "Title"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.col.to_path",
+    "value": "New address"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.col.visible",
+    "value": "Visible"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.confirm.delete",
+    "value": "Delete permanently? This cannot be undone."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.dash.churchPastor",
+    "value": "Pastor of {church}"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.dash.confirmTitle",
+    "value": "To confirm"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.dash.defaultsLead",
+    "value": "These show neutral placeholder wording. Replace them with the real information."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.dash.defaultsTitle",
+    "value": "Default values to replace"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.dash.eventField",
+    "value": "{event} — {field}"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.dash.fix",
+    "value": "Edit"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.dash.hiddenLead",
+    "value": "Nothing shows on the site for these until they are filled in."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.dash.hiddenTitle",
+    "value": "Hidden until filled in"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.dash.mail",
+    "value": "Contact form email sending"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.dash.mapbox",
+    "value": "Maps (Mapbox token) — optional"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.dash.none",
+    "value": "All up to date."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.dash.note.banner",
+    "value": "Banner"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.dash.note.removed",
+    "value": "Removed"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.dash.notesLead",
+    "value": "Old-site content deliberately left out, and facts from the banner to double-check."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.dash.notesTitle",
+    "value": "Editorial notes"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.dash.phone",
+    "value": "General phone (footer)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.dash.registration",
+    "value": "Registration link: {event}"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.dash.setting",
+    "value": "Setting: {key}"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.dash.social",
+    "value": "Social links (footer, “Follow”)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.dash.youtube",
+    "value": "YouTube channel (messages and live)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.error.csrf",
+    "value": "This form has expired. Go back, reload the page and try again."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.error.csrfTitle",
+    "value": "Session expired"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.error.forbidden",
+    "value": "Only administrators can open this page."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.error.forbiddenTitle",
+    "value": "Access denied"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.error.notFound",
+    "value": "This admin page does not exist."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.error.notFoundTitle",
+    "value": "Not found"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.aboutTitle",
+    "value": "“About” title"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.allChurches",
+    "value": "All churches"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.alt",
+    "value": "Image description"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.anchor",
+    "value": "Anchor"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.bandFocus",
+    "value": "Framing in the home band"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.body",
+    "value": "Body"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.category",
+    "value": "Category"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.changefreq",
+    "value": "Update frequency"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.church",
+    "value": "Church"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.churchName",
+    "value": "Church name"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.churches",
+    "value": "Churches"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.city",
+    "value": "City"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.confirmNote",
+    "value": "Internal note to check"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.consent",
+    "value": "The person agreed to publication"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.country",
+    "value": "Country (code)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.countryCode",
+    "value": "Phone country code"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.currency",
+    "value": "Currency"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.currentPassword",
+    "value": "Current password"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.date",
+    "value": "Date"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.dateLabel",
+    "value": "Date shown"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.dateMode",
+    "value": "Date"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.dateText",
+    "value": "Date wording"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.day",
+    "value": "Day"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.defaultLanguage",
+    "value": "Site's default language"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.description",
+    "value": "Description"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.detail",
+    "value": "Detail"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.directionsUrl",
+    "value": "Directions address"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.duration",
+    "value": "Length (seconds)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.email",
+    "value": "Email"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.emptyText",
+    "value": "Text when empty"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.figure",
+    "value": "Figure"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.focus",
+    "value": "Framing (focus point)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.focusOverride",
+    "value": "Framing for this spot (optional)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.fromAddress",
+    "value": "Sender address"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.fromName",
+    "value": "Sender name"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.fromPath",
+    "value": "Old address"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.gaId",
+    "value": "Google Analytics (GA4 ID)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.heroPhoto",
+    "value": "Main photo"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.highlight",
+    "value": "Highlighted (gold)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.homeFilm",
+    "value": "Home page film"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.hqBuilding",
+    "value": "Head office building"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.hqCity",
+    "value": "Head office city (structured data)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.hqLabel",
+    "value": "Head office label"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.icon",
+    "value": "Icon"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.inGallery",
+    "value": "Show in the Stories gallery"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.inMoments",
+    "value": "Show in the church page's “Moments”"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.inSitemap",
+    "value": "Include in the sitemap"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.interacEmail",
+    "value": "Interac e-Transfer email"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.intro",
+    "value": "Introduction"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.isPrayer",
+    "value": "Prayer request"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.key",
+    "value": "Key"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.kind",
+    "value": "Type"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.label",
+    "value": "Label"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.lat",
+    "value": "Latitude"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.livePattern",
+    "value": "Words that mark a live stream"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.lng",
+    "value": "Longitude"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.locale_hreflang",
+    "value": "hreflang code"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.locale_name",
+    "value": "Name"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.locale_og_locale",
+    "value": "Open Graph code"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.locale_short_label",
+    "value": "Abbreviation"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.locality",
+    "value": "City (postal address)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.mailTo",
+    "value": "Messages go to"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.mailToPastor",
+    "value": "Confidential requests go to"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.mapboxCss",
+    "value": "Mapbox stylesheet"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.mapboxJs",
+    "value": "Mapbox script"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.mapboxStyle",
+    "value": "Mapbox style"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.mapboxToken",
+    "value": "Mapbox token"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.metaDescription",
+    "value": "Description (search engines)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.metaTitle",
+    "value": "Title (search engines)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.minSeconds",
+    "value": "Anti-bot delay (seconds)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.motto",
+    "value": "Motto"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.mottoRef",
+    "value": "Motto reference"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.mp4",
+    "value": "MP4 file"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.name",
+    "value": "Name"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.newPassword",
+    "value": "New password"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.newPasswordOptional",
+    "value": "New password (leave empty to keep it)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.orgName",
+    "value": "Official name"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.page",
+    "value": "Page"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.password",
+    "value": "Password"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.pastor",
+    "value": "Pastor"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.pastorName",
+    "value": "Senior pastor's name"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.pastorRole",
+    "value": "Senior pastor's title"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.paypalButton",
+    "value": "PayPal hosted button ID"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.paypalClient",
+    "value": "PayPal client ID"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.paypalSdk",
+    "value": "PayPal SDK address"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.people",
+    "value": "With (speakers)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.personName",
+    "value": "Person's name"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.phone",
+    "value": "Phone"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.photo",
+    "value": "Photo"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.postalCode",
+    "value": "Postal code"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.poster",
+    "value": "Video poster"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.priority",
+    "value": "Priority"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.privacyOfficer",
+    "value": "Person in charge of personal information"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.privacyPolicy",
+    "value": "Privacy policy"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.published",
+    "value": "Published on the site"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.quote",
+    "value": "Testimony"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.recurrence",
+    "value": "Rhythm (e.g. “Every Sunday”)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.region",
+    "value": "Province"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.registration",
+    "value": "Registration link"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.robots",
+    "value": "Paths hidden from search engines"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.role",
+    "value": "Role"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.services",
+    "value": "Service times"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.shortName",
+    "value": "Short name"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.showSundayTimes",
+    "value": "Show each church's Sunday time"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.siteUrl",
+    "value": "Site address"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.slug",
+    "value": "Address (identifier)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.slugIn",
+    "value": "Address in {lang}"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.smtpHost",
+    "value": "SMTP server"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.smtpPass",
+    "value": "SMTP password"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.smtpPort",
+    "value": "Port"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.smtpSecure",
+    "value": "Encryption"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.smtpUser",
+    "value": "SMTP user"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.source",
+    "value": "Source"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.status",
+    "value": "Type"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.street",
+    "value": "Street address"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.summary",
+    "value": "Summary"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.tags",
+    "value": "Tags"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.text",
+    "value": "Text"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.themeColor",
+    "value": "Browser colour"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.time",
+    "value": "Time"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.timeMode",
+    "value": "Time"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.timeText",
+    "value": "Time wording"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.timezone",
+    "value": "Time zone"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.title",
+    "value": "Title"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.toPath",
+    "value": "New address"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.transport",
+    "value": "Sending method"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.uiLanguage",
+    "value": "Admin language"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.url",
+    "value": "Web address"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.value",
+    "value": "Value"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.venue",
+    "value": "Venue"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.visible",
+    "value": "Visible"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.webm",
+    "value": "WebM file (optional)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.youtubeChannel",
+    "value": "YouTube channel ID"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.youtubeEmbed",
+    "value": "YouTube player"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.youtubeFeed",
+    "value": "YouTube feed"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.youtubeId",
+    "value": "YouTube ID"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.youtubeLimit",
+    "value": "Number of YouTube videos"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.youtubeThumb",
+    "value": "YouTube thumbnails"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.flash.cannotDeleteSelf",
+    "value": "You can't delete your own account."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.flash.categoryInUse",
+    "value": "This category still has videos: move them before deleting it."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.flash.deleted",
+    "value": "Item deleted."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.flash.fixErrors",
+    "value": "Some fields need fixing — nothing was saved."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.flash.iconInvalid",
+    "value": "This file is not a usable SVG."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.flash.iconReset",
+    "value": "Original icon restored."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.flash.lastAdmin",
+    "value": "There must be at least one administrator."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.flash.mailFailed",
+    "value": "Sending failed: {error}"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.flash.mailNotConfigured",
+    "value": "Email sending is not configured (sender and server required)."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.flash.mailSent",
+    "value": "Test email sent to {email}."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.flash.mediaInUse",
+    "value": "This file is used on the site and can't be deleted."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.flash.passwordReset",
+    "value": "Password changed. You can log in."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.flash.saved",
+    "value": "Changes saved. The site is up to date."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.flash.uploadEmpty",
+    "value": "No file received. Maximum size per upload: {size}."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.flash.uploadFailed",
+    "value": "Uploading “{file}” failed."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.flash.uploadTooBig",
+    "value": "“{file}” is larger than the hosting allows ({size})."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.flash.uploadUnsupported",
+    "value": "“{file}” is not a supported format (JPEG, PNG, WebP, MP4, WebM)."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.flash.uploaded",
+    "value": "{count, plural, one {# file uploaded.} other {# files uploaded.}}"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.forgot.back",
+    "value": "Back to log in"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.forgot.lead",
+    "value": "Enter your email: you'll receive a link valid for one hour."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.forgot.noMail",
+    "value": "Email sending is not configured yet: ask an administrator to change your password under “Users”."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.forgot.sent",
+    "value": "If an account exists for this address, a link has been sent."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.forgot.submit",
+    "value": "Send the link"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.forgot.title",
+    "value": "Forgot password"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.advanced",
+    "value": "Advanced: only change if you know why."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.alt",
+    "value": "Describe what's in the picture, for people using a screen reader."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.anchor",
+    "value": "Used in the Watch page address (e.g. #message)."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.churchSlug",
+    "value": "Used in the page address (e.g. /en/churches/montreal). Old addresses redirect automatically."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.confirmNote",
+    "value": "Only visible in the admin (dashboard)."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.consent",
+    "value": "Required to publish a testimony."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.coords",
+    "value": "For the map. Right-click in Google Maps to copy the coordinates."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.dateLabel",
+    "value": "Free text, e.g. 2024."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.focus",
+    "value": "Point kept in frame, as “horizontal vertical” percentages, e.g. 30% 50%."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.gaId",
+    "value": "Optional. Starts with G-. Only loads after consent (Law 25)."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.hiddenIfEmpty",
+    "value": "Leave empty to show nothing."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.hqLocality",
+    "value": "As shown, e.g. Montréal (QC)."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.isPrayer",
+    "value": "Adds the prayer prompt and the “confidential” box."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.keepPassword",
+    "value": "Leave empty to keep the saved password."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.livePattern",
+    "value": "Separated by |, e.g. live|en direct."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.mailToPastor",
+    "value": "Optional: otherwise they go to the main recipient."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.mapboxToken",
+    "value": "Optional. Without a token, a photo replaces the map."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.minSeconds",
+    "value": "Faster submissions are ignored (bots)."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.paragraphs",
+    "value": "A blank line separates paragraphs."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.password",
+    "value": "At least 10 characters."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.pastor",
+    "value": "Neutral placeholder wording shows until the name is provided."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.path",
+    "value": "Path without the domain, e.g. /pages/about.html."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.people",
+    "value": "One name per line."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.purposeKey",
+    "value": "Technical identifier used in links (e.g. visit)."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.region",
+    "value": "Abbreviation, e.g. QC or ON."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.registration",
+    "value": "When filled in, a “Register” button appears on the Events page."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.robots",
+    "value": "One path per line."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.role",
+    "value": "Editor: content only. Administrator: users too."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.siteUrl",
+    "value": "Public address, e.g. https://adepc.ca"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.structured",
+    "value": "Used by search engines."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.transport",
+    "value": "SMTP with a hosting (cPanel) mailbox is recommended. Without sending, the form opens the visitor's email app."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.youtubeChannel",
+    "value": "Starts with UC… The latest messages then appear automatically."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.youtubeId",
+    "value": "The part after “v=” in the YouTube address."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.icon.arrow",
+    "value": "Arrow"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.icon.calendar",
+    "value": "Calendar"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.icon.check",
+    "value": "Tick (checkbox)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.icon.chevron",
+    "value": "Chevron (dropdown)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.icon.church",
+    "value": "Church"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.icon.close",
+    "value": "Close"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.icon.give",
+    "value": "Give"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.icon.home",
+    "value": "Home"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.icon.menu",
+    "value": "Menu"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.icon.pause",
+    "value": "Pause"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.icon.pin",
+    "value": "Pin"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.icon.play",
+    "value": "Play"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.icons.lead",
+    "value": "The site's icons (SVG files). Upload a simple SVG to replace one; it is cleaned automatically."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.languages.lead",
+    "value": "Names and codes of the site's two languages."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.list.banner",
+    "value": "Banner statements"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.list.beliefs",
+    "value": "Beliefs"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.list.count",
+    "value": "{count, plural, one {# item} other {# items}}"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.list.glance",
+    "value": "Figures"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.list.heritage",
+    "value": "Church families"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.list.heroLines",
+    "value": "Headline lines"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.list.missionRows",
+    "value": "The three verbs"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.list.pillars",
+    "value": "Pillars"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.list.social",
+    "value": "Social links"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.list.strategic",
+    "value": "Strategic pillars"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.list.values",
+    "value": "Values"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.login.forgot",
+    "value": "Forgot your password?"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.login.invalid",
+    "value": "Incorrect email or password."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.login.locked",
+    "value": "Too many attempts. Try again in 15 minutes."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.login.submit",
+    "value": "Log in"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.login.title",
+    "value": "Log in"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.logout",
+    "value": "Log out"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.mail.resetBody",
+    "value": "Hello,\n\nTo choose a new password, open this link (valid for one hour):\n{link}\n\nIf you didn't ask for this, ignore this message."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.mail.resetSubject",
+    "value": "ADEPC — password reset"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.mail.testBody",
+    "value": "This message confirms that {site} can send email."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.mail.testLead",
+    "value": "Sends a test email to your address with the saved settings."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.mail.testSubject",
+    "value": "ADEPC — test email"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.mail.testSubmit",
+    "value": "Send a test email"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.media.browse",
+    "value": "Browse the library"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.media.edit",
+    "value": "Edit media"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.media.focusHelp",
+    "value": "Click the photo to choose the point that stays visible when it is cropped."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.media.images",
+    "value": "Photos"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.media.kind",
+    "value": "Media type"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.media.noAlt",
+    "value": "No description"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.media.replace",
+    "value": "Replace the file"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.media.replaceHelp",
+    "value": "Keeps this item everywhere it is used."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.media.replaceSubmit",
+    "value": "Replace"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.media.unused",
+    "value": "Not used anywhere."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.media.upload",
+    "value": "Upload"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.media.uploadLead",
+    "value": "JPEG, PNG, WebP, MP4 or WebM. Maximum size per upload: {size}. Photos are optimized automatically."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.media.uploadTitle",
+    "value": "Add photos or videos"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.media.usage",
+    "value": "Used on the site"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.media.videos",
+    "value": "Videos"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.menu.cta",
+    "value": "Gold button"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.menu.ctaHelp",
+    "value": "The first link is used as the “Give” button."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.menu.footer",
+    "value": "Footer “Explore”"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.menu.footerHelp",
+    "value": "The footer's column of links."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.menu.header",
+    "value": "Header (large screens)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.menu.headerHelp",
+    "value": "Links in the middle of the header."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.menu.overlay",
+    "value": "Full-screen menu (mobile)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.menu.overlayHelp",
+    "value": "Numbered 01, 02… in order."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.menu.tabbar",
+    "value": "Tab bar (phones)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.menu.tabbarHelp",
+    "value": "Five tabs with icons; “Highlighted” = gold background."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.menus.lead",
+    "value": "The site's navigation links. The order here is the order shown."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.nav.account",
+    "value": "My account"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.nav.categories",
+    "value": "Video categories"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.nav.churches",
+    "value": "Churches"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.nav.dashboard",
+    "value": "Dashboard"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.nav.events",
+    "value": "Events"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.nav.groupContent",
+    "value": "Content"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.nav.groupSite",
+    "value": "Site"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.nav.icons",
+    "value": "Icons"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.nav.label",
+    "value": "Admin navigation"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.nav.languages",
+    "value": "Languages"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.nav.media",
+    "value": "Media library"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.nav.menu",
+    "value": "Menu"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.nav.menus",
+    "value": "Menus"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.nav.pages",
+    "value": "Pages"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.nav.purposes",
+    "value": "Contact form purposes"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.nav.redirects",
+    "value": "Redirects"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.nav.settings",
+    "value": "Settings"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.nav.stories",
+    "value": "Testimonies"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.nav.texts",
+    "value": "Texts"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.nav.users",
+    "value": "Users"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.nav.videos",
+    "value": "Videos"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.no",
+    "value": "No"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.o.countChurches",
+    "value": "Number of churches (computed)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.o.countCities",
+    "value": "Number of cities (computed)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.o.countProvinces",
+    "value": "Number of provinces (computed)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.o.daily",
+    "value": "Daily"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.o.dateDate",
+    "value": "Exact date"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.o.dateNone",
+    "value": "No date (rhythm)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.o.dateText",
+    "value": "Text (e.g. “Date to be announced”)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.o.featured",
+    "value": "Featured"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.o.mailNone",
+    "value": "No sending (opens the visitor's email)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.o.mailPhp",
+    "value": "PHP mail() function"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.o.mailSmtp",
+    "value": "SMTP (recommended)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.o.manual",
+    "value": "Typed value"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.o.monthly",
+    "value": "Monthly"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.o.noEncryption",
+    "value": "None"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.o.none",
+    "value": "— None —"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.o.permanent",
+    "value": "Permanent (308)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.o.recurring",
+    "value": "Weekly"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.o.roleLive",
+    "value": "Live"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.o.roleMessages",
+    "value": "Messages"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.o.roleNone",
+    "value": "None"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.o.sourceFile",
+    "value": "Video file"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.o.sourceYoutube",
+    "value": "YouTube"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.o.ssl",
+    "value": "SSL (port 465)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.o.temporary",
+    "value": "Temporary (307)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.o.timeNone",
+    "value": "No time"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.o.timeText",
+    "value": "Text (e.g. “Time to be announced”)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.o.timeTime",
+    "value": "Exact time"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.o.tls",
+    "value": "TLS (port 587)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.o.weekly",
+    "value": "Weekly"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.o.yearly",
+    "value": "Yearly"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.page.about",
+    "value": "About"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.page.churches",
+    "value": "Churches"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.page.common",
+    "value": "Shared elements"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.page.contact",
+    "value": "Contact"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.page.events",
+    "value": "Events"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.page.give",
+    "value": "Give"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.page.home",
+    "value": "Home"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.page.privacy",
+    "value": "Privacy"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.page.stories",
+    "value": "Stories"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.page.watch",
+    "value": "Watch"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.pages.lead",
+    "value": "Each page lists its sections in site order. The layout is fixed; everything shown in it is edited here."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.pages.sections",
+    "value": "{count, plural, one {# section} other {# sections}}"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.pages.urlSeo",
+    "value": "Address and SEO"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.pages.viewIn",
+    "value": "View in {lang}"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.res.category",
+    "value": "category"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.res.church",
+    "value": "church"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.res.event",
+    "value": "event"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.res.purpose",
+    "value": "purpose"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.res.redirect",
+    "value": "redirect"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.res.story",
+    "value": "testimony"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.res.video",
+    "value": "video"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.reset.invalid",
+    "value": "This link is invalid or has expired."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.reset.submit",
+    "value": "Save password"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.reset.title",
+    "value": "New password"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.role.admin",
+    "value": "Administrator"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.role.editor",
+    "value": "Editor"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.search",
+    "value": "Search"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.beliefs",
+    "value": "Beliefs"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.brand",
+    "value": "Site icon and share image"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.churchBand",
+    "value": "Churches band"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.churchPage",
+    "value": "Church page template"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.common",
+    "value": "Shared labels and cookies"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.cta",
+    "value": "Closing call"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.dates",
+    "value": "Dates and times"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.directory",
+    "value": "“No church nearby?” call"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.events",
+    "value": "What's happening"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.film",
+    "value": "Film"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.footer",
+    "value": "Footer"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.form",
+    "value": "Form"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.formats",
+    "value": "Formats and punctuation"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.give",
+    "value": "Give"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.glance",
+    "value": "At a glance"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.heritage",
+    "value": "Heritage"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.hero",
+    "value": "Opening banner"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.list",
+    "value": "Page content"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.map",
+    "value": "Map"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.mission",
+    "value": "Mission"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.nav",
+    "value": "Header and navigation"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.notFound",
+    "value": "Page not found (404)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.pastor",
+    "value": "Word from the pastor"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.pillars",
+    "value": "Pillars"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.storiesStrip",
+    "value": "Stories (photos)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.story",
+    "value": "Our story"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.strategic",
+    "value": "Strategic pillars"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.testimonial",
+    "value": "Testimony"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.thisSunday",
+    "value": "This Sunday"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.values",
+    "value": "Values"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.vision",
+    "value": "Vision"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.watch",
+    "value": "Watch"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.sec.who",
+    "value": "Who we are"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.set.email",
+    "value": "Email"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.set.giving",
+    "value": "Giving"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.set.integrations",
+    "value": "Integrations"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.set.organization",
+    "value": "Organization"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.set.pastor",
+    "value": "Senior pastor"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.set.privacy",
+    "value": "Privacy"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.set.seo",
+    "value": "SEO"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.slot.aboutStory",
+    "value": "“Our story” photo"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.slot.appleIcon",
+    "value": "Apple icon (180 px)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.slot.emblem",
+    "value": "Header emblem"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.slot.filmPoster",
+    "value": "Film poster"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.slot.heroMp4",
+    "value": "Background video (MP4)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.slot.heroPoster",
+    "value": "Banner image (shown before the video)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.slot.heroWebm",
+    "value": "Background video (WebM, optional)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.slot.icon",
+    "value": "Browser icon (192 px)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.slot.logo",
+    "value": "Footer logo"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.slot.pageHero",
+    "value": "Opening photo"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.slot.pastorPhoto",
+    "value": "Senior pastor portrait"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.slot.share",
+    "value": "Share image (1200 × 630)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.slot.stories1",
+    "value": "Large photo"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.slot.stories2",
+    "value": "Small photo 1"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.slot.stories3",
+    "value": "Small photo 2"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.slot.stories4",
+    "value": "Wide photo"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.texts.allGroups",
+    "value": "All"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.texts.filter",
+    "value": "Filter"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.texts.group",
+    "value": "Group"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.texts.lead",
+    "value": "Every text of the site and of this admin. Parts in braces, such as {city}, are filled in automatically: keep them."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.texts.shown",
+    "value": "{shown} shown of {total}"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.users.edit",
+    "value": "Edit user"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.users.lastLogin",
+    "value": "Last login"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.users.new",
+    "value": "New user"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.v.consent",
+    "value": "Get the person's consent before publishing."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.v.currentPassword",
+    "value": "Current password is incorrect."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.v.date",
+    "value": "Invalid date."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.v.decimal",
+    "value": "Number expected."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.v.email",
+    "value": "Invalid email address."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.v.max",
+    "value": "Too long."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.v.number",
+    "value": "Whole number expected."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.v.ownRole",
+    "value": "You can't remove your own administrator role."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.v.password",
+    "value": "At least 10 characters."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.v.path",
+    "value": "Must start with “/”."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.v.placeholders",
+    "value": "Keep the parts in braces, such as {city} or {count, plural…}, exactly as in the original text."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.v.required",
+    "value": "Required."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.v.slug",
+    "value": "Lowercase letters, numbers and hyphens only (e.g. saint-jean)."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.v.time",
+    "value": "Invalid time (24 h format, e.g. 13:30)."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.v.unique",
+    "value": "Already in use: choose another value."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.v.url",
+    "value": "Invalid web address (must start with https://)."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.viewOnSite",
+    "value": "View on the site"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.viewSite",
+    "value": "View the site ↗"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.yes",
+    "value": "Yes"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.action.close",
+    "value": "Fermer"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.action.close",
+    "value": "Close"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.media.dimensions",
+    "value": "{w} × {h} px · {mime}"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.media.dimensions",
+    "value": "{w} × {h} px · {mime}"
+  }
+]

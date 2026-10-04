@@ -1,0 +1,242 @@
+[
+  {
+    "menu": "header",
+    "page_key": "churches",
+    "label_fr": "Églises",
+    "label_en": "Churches",
+    "icon": null,
+    "highlight": 0,
+    "sort": 1,
+    "visible": 1
+  },
+  {
+    "menu": "header",
+    "page_key": "events",
+    "label_fr": "Événements",
+    "label_en": "Events",
+    "icon": null,
+    "highlight": 0,
+    "sort": 2,
+    "visible": 1
+  },
+  {
+    "menu": "header",
+    "page_key": "watch",
+    "label_fr": "Regarder",
+    "label_en": "Watch",
+    "icon": null,
+    "highlight": 0,
+    "sort": 3,
+    "visible": 1
+  },
+  {
+    "menu": "header",
+    "page_key": "about",
+    "label_fr": "À propos",
+    "label_en": "About",
+    "icon": null,
+    "highlight": 0,
+    "sort": 4,
+    "visible": 1
+  },
+  {
+    "menu": "header",
+    "page_key": "stories",
+    "label_fr": "Histoires",
+    "label_en": "Stories",
+    "icon": null,
+    "highlight": 0,
+    "sort": 5,
+    "visible": 1
+  },
+  {
+    "menu": "overlay",
+    "page_key": "churches",
+    "label_fr": "Églises",
+    "label_en": "Churches",
+    "icon": null,
+    "highlight": 0,
+    "sort": 1,
+    "visible": 1
+  },
+  {
+    "menu": "overlay",
+    "page_key": "events",
+    "label_fr": "Événements",
+    "label_en": "Events",
+    "icon": null,
+    "highlight": 0,
+    "sort": 2,
+    "visible": 1
+  },
+  {
+    "menu": "overlay",
+    "page_key": "watch",
+    "label_fr": "Regarder",
+    "label_en": "Watch",
+    "icon": null,
+    "highlight": 0,
+    "sort": 3,
+    "visible": 1
+  },
+  {
+    "menu": "overlay",
+    "page_key": "about",
+    "label_fr": "À propos",
+    "label_en": "About",
+    "icon": null,
+    "highlight": 0,
+    "sort": 4,
+    "visible": 1
+  },
+  {
+    "menu": "overlay",
+    "page_key": "stories",
+    "label_fr": "Histoires",
+    "label_en": "Stories",
+    "icon": null,
+    "highlight": 0,
+    "sort": 5,
+    "visible": 1
+  },
+  {
+    "menu": "overlay",
+    "page_key": "contact",
+    "label_fr": "Contact",
+    "label_en": "Contact",
+    "icon": null,
+    "highlight": 0,
+    "sort": 6,
+    "visible": 1
+  },
+  {
+    "menu": "cta",
+    "page_key": "give",
+    "label_fr": "Donner",
+    "label_en": "Give",
+    "icon": null,
+    "highlight": 0,
+    "sort": 1,
+    "visible": 1
+  },
+  {
+    "menu": "footer",
+    "page_key": "churches",
+    "label_fr": "Églises",
+    "label_en": "Churches",
+    "icon": null,
+    "highlight": 0,
+    "sort": 1,
+    "visible": 1
+  },
+  {
+    "menu": "footer",
+    "page_key": "events",
+    "label_fr": "Événements",
+    "label_en": "Events",
+    "icon": null,
+    "highlight": 0,
+    "sort": 2,
+    "visible": 1
+  },
+  {
+    "menu": "footer",
+    "page_key": "watch",
+    "label_fr": "Regarder",
+    "label_en": "Watch",
+    "icon": null,
+    "highlight": 0,
+    "sort": 3,
+    "visible": 1
+  },
+  {
+    "menu": "footer",
+    "page_key": "about",
+    "label_fr": "À propos",
+    "label_en": "About",
+    "icon": null,
+    "highlight": 0,
+    "sort": 4,
+    "visible": 1
+  },
+  {
+    "menu": "footer",
+    "page_key": "stories",
+    "label_fr": "Histoires",
+    "label_en": "Stories",
+    "icon": null,
+    "highlight": 0,
+    "sort": 5,
+    "visible": 1
+  },
+  {
+    "menu": "footer",
+    "page_key": "give",
+    "label_fr": "Donner",
+    "label_en": "Give",
+    "icon": null,
+    "highlight": 0,
+    "sort": 6,
+    "visible": 1
+  },
+  {
+    "menu": "footer",
+    "page_key": "contact",
+    "label_fr": "Contact",
+    "label_en": "Contact",
+    "icon": null,
+    "highlight": 0,
+    "sort": 7,
+    "visible": 1
+  },
+  {
+    "menu": "tabbar",
+    "page_key": "home",
+    "label_fr": "Accueil",
+    "label_en": "Home",
+    "icon": "home",
+    "highlight": 0,
+    "sort": 1,
+    "visible": 1
+  },
+  {
+    "menu": "tabbar",
+    "page_key": "churches",
+    "label_fr": "Églises",
+    "label_en": "Churches",
+    "icon": "church",
+    "highlight": 0,
+    "sort": 2,
+    "visible": 1
+  },
+  {
+    "menu": "tabbar",
+    "page_key": "watch",
+    "label_fr": "Regarder",
+    "label_en": "Watch",
+    "icon": "play",
+    "highlight": 0,
+    "sort": 3,
+    "visible": 1
+  },
+  {
+    "menu": "tabbar",
+    "page_key": "events",
+    "label_fr": "Agenda",
+    "label_en": "Events",
+    "icon": "calendar",
+    "highlight": 0,
+    "sort": 4,
+    "visible": 1
+  },
+  {
+    "menu": "tabbar",
+    "page_key": "give",
+    "label_fr": "Donner",
+    "label_en": "Give",
+    "icon": "give",
+    "highlight": 1,
+    "sort": 5,
+    "visible": 1
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "skey": "home.hero.poster",
+    "media_id": 34,
+    "focus": null
+  },
+  {
+    "skey": "home.hero.mp4",
+    "media_id": 42,
+    "focus": null
+  },
+  {
+    "skey": "home.hero.webm",
+    "media_id": 43,
+    "focus": null
+  },
+  {
+    "skey": "home.film.poster",
+    "media_id": 3,
+    "focus": "50% 78%"
+  },
+  {
+    "skey": "home.stories.1",
+    "media_id": 17,
+    "focus": null
+  },
+  {
+    "skey": "home.stories.2",
+    "media_id": 25,
+    "focus": null
+  },
+  {
+    "skey": "home.stories.3",
+    "media_id": 16,
+    "focus": null
+  },
+  {
+    "skey": "home.stories.4",
+    "media_id": 20,
+    "focus": null
+  },
+  {
+    "skey": "about.hero",
+    "media_id": 4,
+    "focus": null
+  },
+  {
+    "skey": "about.story",
+    "media_id": 30,
+    "focus": null
+  },
+  {
+    "skey": "churches.hero",
+    "media_id": 23,
+    "focus": null
+  },
+  {
+    "skey": "stories.hero",
+    "media_id": 16,
+    "focus": null
+  },
+  {
+    "skey": "give.hero",
+    "media_id": 6,
+    "focus": null
+  },
+  {
+    "skey": "pastor.photo",
+    "media_id": 33,
+    "focus": null
+  },
+  {
+    "skey": "brand.emblem",
+    "media_id": 37,
+    "focus": null
+  },
+  {
+    "skey": "brand.logo",
+    "media_id": 38,
+    "focus": null
+  },
+  {
+    "skey": "brand.icon",
+    "media_id": 39,
+    "focus": null
+  },
+  {
+    "skey": "brand.apple_icon",
+    "media_id": 40,
+    "focus": null
+  },
+  {
+    "skey": "brand.share",
+    "media_id": 41,
+    "focus": null
+  }
+]

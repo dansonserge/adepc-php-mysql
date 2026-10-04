@@ -1,0 +1,2962 @@
+[
+  {
+    "locale": "fr",
+    "tkey": "about.beliefs.eyebrow",
+    "value": "Ce que nous croyons"
+  },
+  {
+    "locale": "fr",
+    "tkey": "about.beliefs.title",
+    "value": "Le cœur de notre foi"
+  },
+  {
+    "locale": "fr",
+    "tkey": "about.cta.button",
+    "value": "Trouver une église"
+  },
+  {
+    "locale": "fr",
+    "tkey": "about.cta.lead",
+    "value": "La meilleure façon de nous connaître est de nous rejoindre. Trouvez une église locale près de chez vous et faites l'expérience de la famille."
+  },
+  {
+    "locale": "fr",
+    "tkey": "about.cta.title",
+    "value": "Venez et voyez."
+  },
+  {
+    "locale": "fr",
+    "tkey": "about.heritage.eyebrow",
+    "value": "Notre héritage"
+  },
+  {
+    "locale": "fr",
+    "tkey": "about.heritage.lead",
+    "value": "Fondée sur les Saintes Écritures et inspirée de la tradition pentecôtiste, l'ADEPC s'appuie sur l'héritage spirituel de deux familles d'églises."
+  },
+  {
+    "locale": "fr",
+    "tkey": "about.hero.eyebrow",
+    "value": "À propos de l'ADEPC"
+  },
+  {
+    "locale": "fr",
+    "tkey": "about.hero.title",
+    "value": "Enracinés dans la Pentecôte. En croissance au Canada."
+  },
+  {
+    "locale": "fr",
+    "tkey": "about.mission.bannerTitle",
+    "value": "Tel qu'inscrit sur notre bannière"
+  },
+  {
+    "locale": "fr",
+    "tkey": "about.mission.body",
+    "value": "La mission de l'ADEPC est de proclamer l'Évangile de Jésus-Christ, d'enseigner fidèlement la Parole de Dieu et de conduire les hommes et les femmes à une relation personnelle avec leur Sauveur. Nous nous engageons à former des disciples de Jésus-Christ, à soutenir les familles, à favoriser la croissance spirituelle et à contribuer au bien-être social et communautaire des personnes que nous servons. À travers nos églises locales, nos ministères et nos actions communautaires, nous cherchons à manifester l'amour de Dieu et à répondre aux besoins spirituels et humains de notre société."
+  },
+  {
+    "locale": "fr",
+    "tkey": "about.mission.eyebrow",
+    "value": "Notre mission"
+  },
+  {
+    "locale": "fr",
+    "tkey": "about.story.eyebrow",
+    "value": "Notre histoire"
+  },
+  {
+    "locale": "fr",
+    "tkey": "about.story.p1",
+    "value": "L'ADEPC est née du désir d'apporter l'Évangile de Jésus-Christ à chaque communauté."
+  },
+  {
+    "locale": "fr",
+    "tkey": "about.story.p2",
+    "value": "D'une petite communauté de croyants, l'ADEPC est devenue un réseau d'églises locales unies par les Écritures, la prière et un engagement commun envers l'amour du Christ."
+  },
+  {
+    "locale": "fr",
+    "tkey": "about.story.p3",
+    "value": "À travers les joies et les épreuves, notre foi a été le sol stable sous nos pieds. Aujourd'hui, nous poursuivons cet héritage : accueillir l'étranger, marcher avec les blessés et proclamer l'espérance."
+  },
+  {
+    "locale": "fr",
+    "tkey": "about.strategic.eyebrow",
+    "value": "Comment nous le vivons"
+  },
+  {
+    "locale": "fr",
+    "tkey": "about.strategic.title",
+    "value": "Cinq piliers stratégiques"
+  },
+  {
+    "locale": "fr",
+    "tkey": "about.values.eyebrow",
+    "value": "Ce qui nous guide"
+  },
+  {
+    "locale": "fr",
+    "tkey": "about.vision.body",
+    "value": "Notre vision est de voir des vies transformées par la puissance de l'Évangile, des familles fortifiées par les valeurs chrétiennes et des communautés renouvelées par l'amour de Dieu. Nous aspirons à être une Église dynamique qui forme des disciples engagés, développe des leaders spirituels et partage l'espérance de Jésus-Christ au Canada et au-delà."
+  },
+  {
+    "locale": "fr",
+    "tkey": "about.vision.eyebrow",
+    "value": "Notre vision"
+  },
+  {
+    "locale": "fr",
+    "tkey": "about.vision.title",
+    "value": "Un Canada transformé par l'Évangile"
+  },
+  {
+    "locale": "fr",
+    "tkey": "about.vision.verse",
+    "value": "Allez, faites de toutes les nations des disciples…"
+  },
+  {
+    "locale": "fr",
+    "tkey": "about.vision.verseRef",
+    "value": "Matthieu 28:19"
+  },
+  {
+    "locale": "fr",
+    "tkey": "about.who.eyebrow",
+    "value": "Qui nous sommes"
+  },
+  {
+    "locale": "fr",
+    "tkey": "about.who.p1",
+    "value": "L'Association des Églises de la Pentecôte au Canada (ADEPC) est une communauté chrétienne évangélique pentecôtiste engagée à proclamer l'Évangile de Jésus-Christ, à enseigner fidèlement la Parole de Dieu et à servir les communautés avec amour et compassion."
+  },
+  {
+    "locale": "fr",
+    "tkey": "about.who.p2",
+    "value": "Notre mission est d'accompagner les personnes dans leur croissance spirituelle, de former des disciples engagés et de contribuer au bien-être des familles et des communautés."
+  },
+  {
+    "locale": "fr",
+    "tkey": "about.who.p3",
+    "value": "À travers nos églises locales, nous aspirons à voir des vies transformées par la puissance de l'Évangile et des communautés renouvelées par l'espérance, la foi et l'amour en Jésus-Christ."
+  },
+  {
+    "locale": "fr",
+    "tkey": "churches.directory.cta",
+    "value": "Nous écrire"
+  },
+  {
+    "locale": "fr",
+    "tkey": "churches.directory.lead",
+    "value": "Écrivez-nous — nous vous aiderons à entrer en lien avec la communauté ADEPC la plus proche."
+  },
+  {
+    "locale": "fr",
+    "tkey": "churches.directory.title",
+    "value": "Pas d'église près de chez vous ?"
+  },
+  {
+    "locale": "fr",
+    "tkey": "churches.hero.eyebrow",
+    "value": "Églises"
+  },
+  {
+    "locale": "fr",
+    "tkey": "churches.hero.lead",
+    "value": "Trouvez une communauté près de chez vous. Rejoignez-nous pour le culte et la communion dans nos églises locales."
+  },
+  {
+    "locale": "fr",
+    "tkey": "churches.hero.title",
+    "value": "Trouvez votre église"
+  },
+  {
+    "locale": "fr",
+    "tkey": "churches.map.fallback",
+    "value": "Carte indisponible — chaque adresse ci-dessus mène à un itinéraire."
+  },
+  {
+    "locale": "fr",
+    "tkey": "churches.map.label",
+    "value": "Carte des quatre églises ADEPC"
+  },
+  {
+    "locale": "fr",
+    "tkey": "churches.map.title",
+    "value": "Sur la carte"
+  },
+  {
+    "locale": "fr",
+    "tkey": "churches.page.aboutP1",
+    "value": "Chaque dimanche, notre communauté se rassemble pour le culte, l'enseignement biblique et la prière. Nos portes sont ouvertes à toute personne en quête d'un lieu pour appartenir, croire et devenir."
+  },
+  {
+    "locale": "fr",
+    "tkey": "churches.page.aboutP2",
+    "value": "Que vous soyez nouveau à {city}, de passage ou que vous marchiez avec nous depuis des années, nous vous accueillons dans la famille."
+  },
+  {
+    "locale": "fr",
+    "tkey": "churches.page.back",
+    "value": "Toutes les églises"
+  },
+  {
+    "locale": "fr",
+    "tkey": "churches.page.contact",
+    "value": "Coordonnées"
+  },
+  {
+    "locale": "fr",
+    "tkey": "churches.page.eyebrow",
+    "value": "Église locale · ADEPC"
+  },
+  {
+    "locale": "fr",
+    "tkey": "churches.page.moments",
+    "value": "Moments"
+  },
+  {
+    "locale": "fr",
+    "tkey": "churches.page.others",
+    "value": "Les autres églises ADEPC"
+  },
+  {
+    "locale": "fr",
+    "tkey": "churches.page.services",
+    "value": "Heures de culte"
+  },
+  {
+    "locale": "fr",
+    "tkey": "churches.page.visitCta",
+    "value": "Planifier une visite"
+  },
+  {
+    "locale": "fr",
+    "tkey": "churches.page.visitLead",
+    "value": "Nous serions ravis de vous accueillir. Écrivez-nous et nous vous aiderons à vous sentir chez vous dès votre tout premier dimanche."
+  },
+  {
+    "locale": "fr",
+    "tkey": "churches.page.visitTitle",
+    "value": "Préparez votre première visite"
+  },
+  {
+    "locale": "fr",
+    "tkey": "common.address",
+    "value": "Adresse"
+  },
+  {
+    "locale": "fr",
+    "tkey": "common.allChurches",
+    "value": "Nos quatre églises"
+  },
+  {
+    "locale": "fr",
+    "tkey": "common.churchPage",
+    "value": "Page de l'église"
+  },
+  {
+    "locale": "fr",
+    "tkey": "common.closeVideo",
+    "value": "Fermer la vidéo"
+  },
+  {
+    "locale": "fr",
+    "tkey": "common.copied",
+    "value": "Copié"
+  },
+  {
+    "locale": "fr",
+    "tkey": "common.copy",
+    "value": "Copier"
+  },
+  {
+    "locale": "fr",
+    "tkey": "common.directions",
+    "value": "Itinéraire"
+  },
+  {
+    "locale": "fr",
+    "tkey": "common.email",
+    "value": "Courriel"
+  },
+  {
+    "locale": "fr",
+    "tkey": "common.friday",
+    "value": "Vendredi"
+  },
+  {
+    "locale": "fr",
+    "tkey": "common.learnMore",
+    "value": "En savoir plus"
+  },
+  {
+    "locale": "fr",
+    "tkey": "common.localTime",
+    "value": "heure de l'Est"
+  },
+  {
+    "locale": "fr",
+    "tkey": "common.opensInNewTab",
+    "value": "(s'ouvre dans un nouvel onglet)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "common.pastor",
+    "value": "Pasteur"
+  },
+  {
+    "locale": "fr",
+    "tkey": "common.pause",
+    "value": "Pause"
+  },
+  {
+    "locale": "fr",
+    "tkey": "common.pauseBackground",
+    "value": "Mettre la vidéo d'arrière-plan en pause"
+  },
+  {
+    "locale": "fr",
+    "tkey": "common.phone",
+    "value": "Téléphone"
+  },
+  {
+    "locale": "fr",
+    "tkey": "common.play",
+    "value": "Lecture"
+  },
+  {
+    "locale": "fr",
+    "tkey": "common.playBackground",
+    "value": "Lire la vidéo d'arrière-plan"
+  },
+  {
+    "locale": "fr",
+    "tkey": "common.playFilm",
+    "value": "Lancer le film : {title}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "common.sunday",
+    "value": "Dimanche"
+  },
+  {
+    "locale": "fr",
+    "tkey": "common.viewAll",
+    "value": "Tout voir"
+  },
+  {
+    "locale": "fr",
+    "tkey": "common.with",
+    "value": "Avec"
+  },
+  {
+    "locale": "fr",
+    "tkey": "consent.accept",
+    "value": "Autoriser"
+  },
+  {
+    "locale": "fr",
+    "tkey": "consent.decline",
+    "value": "Refuser"
+  },
+  {
+    "locale": "fr",
+    "tkey": "consent.label",
+    "value": "Préférences de témoins"
+  },
+  {
+    "locale": "fr",
+    "tkey": "consent.more",
+    "value": "Confidentialité"
+  },
+  {
+    "locale": "fr",
+    "tkey": "consent.text",
+    "value": "Nous comptons les visites sans témoins. Pouvons-nous aussi utiliser Google Analytics, qui dépose des témoins ?"
+  },
+  {
+    "locale": "fr",
+    "tkey": "contact.form.church",
+    "value": "Église"
+  },
+  {
+    "locale": "fr",
+    "tkey": "contact.form.churchAny",
+    "value": "Aucune préférence"
+  },
+  {
+    "locale": "fr",
+    "tkey": "contact.form.confidential",
+    "value": "Garder cette demande confidentielle (pasteur uniquement)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "contact.form.email",
+    "value": "Adresse courriel"
+  },
+  {
+    "locale": "fr",
+    "tkey": "contact.form.error",
+    "value": "Une erreur est survenue. Réessayez, ou écrivez-nous à {email}."
+  },
+  {
+    "locale": "fr",
+    "tkey": "contact.form.fallback",
+    "value": "Votre application de courriel devrait s'ouvrir avec votre message prêt à envoyer. Sinon, écrivez-nous à {email}."
+  },
+  {
+    "locale": "fr",
+    "tkey": "contact.form.honeypot",
+    "value": "Website"
+  },
+  {
+    "locale": "fr",
+    "tkey": "contact.form.invalidEmail",
+    "value": "Entrez une adresse courriel valide"
+  },
+  {
+    "locale": "fr",
+    "tkey": "contact.form.message",
+    "value": "Message"
+  },
+  {
+    "locale": "fr",
+    "tkey": "contact.form.messagePlaceholder",
+    "value": "Pour quoi pouvons-nous prier aujourd'hui ?"
+  },
+  {
+    "locale": "fr",
+    "tkey": "contact.form.name",
+    "value": "Nom complet"
+  },
+  {
+    "locale": "fr",
+    "tkey": "contact.form.purpose",
+    "value": "Objet"
+  },
+  {
+    "locale": "fr",
+    "tkey": "contact.form.required",
+    "value": "Obligatoire"
+  },
+  {
+    "locale": "fr",
+    "tkey": "contact.form.sending",
+    "value": "Envoi…"
+  },
+  {
+    "locale": "fr",
+    "tkey": "contact.form.submit",
+    "value": "Envoyer le message"
+  },
+  {
+    "locale": "fr",
+    "tkey": "contact.form.success",
+    "value": "Merci — votre message a été envoyé. Nous vous répondrons dès que possible."
+  },
+  {
+    "locale": "fr",
+    "tkey": "contact.form.title",
+    "value": "Envoyer un message"
+  },
+  {
+    "locale": "fr",
+    "tkey": "contact.form.tooShort",
+    "value": "Écrivez-nous un peu plus"
+  },
+  {
+    "locale": "fr",
+    "tkey": "contact.form.verse",
+    "value": "Car là où deux ou trois sont assemblés en mon nom, je suis au milieu d'eux."
+  },
+  {
+    "locale": "fr",
+    "tkey": "contact.form.verseRef",
+    "value": "Matthieu 18:20"
+  },
+  {
+    "locale": "fr",
+    "tkey": "contact.general",
+    "value": "Questions générales"
+  },
+  {
+    "locale": "fr",
+    "tkey": "contact.hero.eyebrow",
+    "value": "Contact"
+  },
+  {
+    "locale": "fr",
+    "tkey": "contact.hero.lead",
+    "value": "Écrivez-nous pour la prière, vos questions, ou pour préparer votre première visite."
+  },
+  {
+    "locale": "fr",
+    "tkey": "contact.hero.title",
+    "value": "Nous sommes là pour marcher avec vous."
+  },
+  {
+    "locale": "fr",
+    "tkey": "contact.reach",
+    "value": "Joindre une église directement"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.am",
+    "value": ""
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.dayDate",
+    "value": "{weekday} {day} {month}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.month.1",
+    "value": "janvier"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.month.10",
+    "value": "octobre"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.month.11",
+    "value": "novembre"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.month.12",
+    "value": "décembre"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.month.2",
+    "value": "février"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.month.3",
+    "value": "mars"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.month.4",
+    "value": "avril"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.month.5",
+    "value": "mai"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.month.6",
+    "value": "juin"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.month.7",
+    "value": "juillet"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.month.8",
+    "value": "août"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.month.9",
+    "value": "septembre"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.monthShort.1",
+    "value": "janv"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.monthShort.10",
+    "value": "oct"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.monthShort.11",
+    "value": "nov"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.monthShort.12",
+    "value": "déc"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.monthShort.2",
+    "value": "févr"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.monthShort.3",
+    "value": "mars"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.monthShort.4",
+    "value": "avr"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.monthShort.5",
+    "value": "mai"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.monthShort.6",
+    "value": "juin"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.monthShort.7",
+    "value": "juill"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.monthShort.8",
+    "value": "août"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.monthShort.9",
+    "value": "sept"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.monthYear",
+    "value": "{month} {year}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.pm",
+    "value": ""
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.timeOnHour",
+    "value": "{h} h"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.timeWithMinutes",
+    "value": "{h} h {mm}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.weekday.0",
+    "value": "dimanche"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.weekday.1",
+    "value": "lundi"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.weekday.2",
+    "value": "mardi"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.weekday.3",
+    "value": "mercredi"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.weekday.4",
+    "value": "jeudi"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.weekday.5",
+    "value": "vendredi"
+  },
+  {
+    "locale": "fr",
+    "tkey": "date.weekday.6",
+    "value": "samedi"
+  },
+  {
+    "locale": "fr",
+    "tkey": "events.church",
+    "value": "Église"
+  },
+  {
+    "locale": "fr",
+    "tkey": "events.featured",
+    "value": "À l'affiche"
+  },
+  {
+    "locale": "fr",
+    "tkey": "events.hero.eyebrow",
+    "value": "Événements"
+  },
+  {
+    "locale": "fr",
+    "tkey": "events.hero.lead",
+    "value": "Rassemblements, cultes spéciaux et culte hebdomadaire dans nos quatre églises."
+  },
+  {
+    "locale": "fr",
+    "tkey": "events.hero.title",
+    "value": "À l'agenda"
+  },
+  {
+    "locale": "fr",
+    "tkey": "events.register",
+    "value": "S'inscrire"
+  },
+  {
+    "locale": "fr",
+    "tkey": "events.registration",
+    "value": "Inscription"
+  },
+  {
+    "locale": "fr",
+    "tkey": "events.scheduleLead",
+    "value": "Chaque église ADEPC se rassemble deux fois par semaine."
+  },
+  {
+    "locale": "fr",
+    "tkey": "events.scheduleTitle",
+    "value": "Horaire de la semaine"
+  },
+  {
+    "locale": "fr",
+    "tkey": "events.time",
+    "value": "Heure"
+  },
+  {
+    "locale": "fr",
+    "tkey": "events.venue",
+    "value": "Lieu"
+  },
+  {
+    "locale": "fr",
+    "tkey": "events.weekly",
+    "value": "Chaque semaine"
+  },
+  {
+    "locale": "fr",
+    "tkey": "footer.contact",
+    "value": "Contact"
+  },
+  {
+    "locale": "fr",
+    "tkey": "footer.explore",
+    "value": "Explorer"
+  },
+  {
+    "locale": "fr",
+    "tkey": "footer.follow",
+    "value": "Suivre"
+  },
+  {
+    "locale": "fr",
+    "tkey": "footer.privacy",
+    "value": "Confidentialité"
+  },
+  {
+    "locale": "fr",
+    "tkey": "footer.rights",
+    "value": "© {year} ADEPC. Tous droits réservés."
+  },
+  {
+    "locale": "fr",
+    "tkey": "footer.tagline",
+    "value": "Une communauté de croyants dédiée à la Grande Mission et à la transformation spirituelle de nos communautés. Unis en Christ, servant par la foi, l'espérance et l'amour."
+  },
+  {
+    "locale": "fr",
+    "tkey": "footer.visit",
+    "value": "Nous visiter"
+  },
+  {
+    "locale": "fr",
+    "tkey": "format.churchCity",
+    "value": "ADEPC {city}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "format.contactBody",
+    "value": "{message}\n\n— {name} <{email}>{church}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "format.contactBodyChurch",
+    "value": "\nÉglise : {church}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "format.contactChurch",
+    "value": "[{church}]"
+  },
+  {
+    "locale": "fr",
+    "tkey": "format.contactConfidential",
+    "value": "[CONFIDENTIEL]"
+  },
+  {
+    "locale": "fr",
+    "tkey": "format.contactSubject",
+    "value": "{confidential} [adepc.ca · {purpose}] {church} {name}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "format.dayTime",
+    "value": "{day} · {time}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "format.directionsAddress",
+    "value": "{street}, {locality}, {region} {postal}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "format.hqLine",
+    "value": "{label} · {building}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "format.localityPostal",
+    "value": "{locality} {postal}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "format.localityRegionPostal",
+    "value": "{locality} ({region}) {postal}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "format.quote",
+    "value": "« {text} »"
+  },
+  {
+    "locale": "fr",
+    "tkey": "format.quoteTight",
+    "value": "« {text} »"
+  },
+  {
+    "locale": "fr",
+    "tkey": "format.separator",
+    "value": " · "
+  },
+  {
+    "locale": "fr",
+    "tkey": "format.srLabel",
+    "value": "{label} "
+  },
+  {
+    "locale": "fr",
+    "tkey": "format.streetLocality",
+    "value": "{street}, {locality}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "format.streetLocalityPostal",
+    "value": "{street}, {locality} {postal}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "format.timeWithSuffix",
+    "value": "{time} {suffix}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "give.hero.eyebrow",
+    "value": "Donner"
+  },
+  {
+    "locale": "fr",
+    "tkey": "give.hero.lead",
+    "value": "Vos contributions soutiennent nos ministères, nos programmes sociaux et la croissance de l'Évangile dans nos communautés."
+  },
+  {
+    "locale": "fr",
+    "tkey": "give.hero.title",
+    "value": "Donner"
+  },
+  {
+    "locale": "fr",
+    "tkey": "give.questions",
+    "value": "Des questions sur les dons ?"
+  },
+  {
+    "locale": "fr",
+    "tkey": "give.questionsLead",
+    "value": "Écrivez-nous, nous serons heureux de vous aider."
+  },
+  {
+    "locale": "fr",
+    "tkey": "give.ways",
+    "value": "Deux façons de donner"
+  },
+  {
+    "locale": "fr",
+    "tkey": "giving.interacBody",
+    "value": "Depuis votre banque canadienne, envoyez un virement à :"
+  },
+  {
+    "locale": "fr",
+    "tkey": "giving.interacTitle",
+    "value": "Virement Interac"
+  },
+  {
+    "locale": "fr",
+    "tkey": "giving.paypalBody",
+    "value": "Par carte ou compte PayPal, en dollars canadiens, grâce au paiement sécurisé de PayPal."
+  },
+  {
+    "locale": "fr",
+    "tkey": "giving.paypalError",
+    "value": "PayPal n'a pas pu être chargé. Réessayez, ou donnez par virement Interac."
+  },
+  {
+    "locale": "fr",
+    "tkey": "giving.paypalLoading",
+    "value": "Chargement de PayPal…"
+  },
+  {
+    "locale": "fr",
+    "tkey": "giving.paypalShow",
+    "value": "Afficher le bouton PayPal"
+  },
+  {
+    "locale": "fr",
+    "tkey": "giving.paypalTitle",
+    "value": "Donner en ligne"
+  },
+  {
+    "locale": "fr",
+    "tkey": "giving.verse",
+    "value": "Que chacun donne comme il l'a résolu en son cœur, sans tristesse ni contrainte ; car Dieu aime celui qui donne avec joie."
+  },
+  {
+    "locale": "fr",
+    "tkey": "giving.verseRef",
+    "value": "2 Corinthiens 9:7"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.churches.all",
+    "value": "Toutes les églises"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.churches.eyebrow",
+    "value": "Nos églises"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.churches.lead",
+    "value": "Avec des églises au Québec et en Ontario, il y a toujours une communauté locale prête à vous accueillir."
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.churches.title",
+    "value": "Quatre églises. Une famille."
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.events.all",
+    "value": "Tous les événements"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.events.eyebrow",
+    "value": "À l'agenda"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.events.title",
+    "value": "À l'agenda"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.film.caption",
+    "value": "La louange, la Parole et la famille de Dieu — filmé dans nos églises."
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.film.eyebrow",
+    "value": "Film · 2024"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.film.title",
+    "value": "Voici l'ADEPC"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.give.cta",
+    "value": "Faire un don"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.give.eyebrow",
+    "value": "Générosité"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.give.lead",
+    "value": "Vos contributions soutiennent nos ministères, nos programmes sociaux et la croissance de l'Évangile dans nos communautés."
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.give.title",
+    "value": "Donner"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.hero.eyebrow",
+    "value": "Association des Églises de la Pentecôte au Canada"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.hero.join",
+    "value": "Venez dimanche"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.hero.lead",
+    "value": "Bienvenue à la maison. Une communauté dédiée à la foi, à la croissance et au service en Christ — à Montréal, Granby, Ottawa et Québec."
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.hero.next",
+    "value": "Prochain culte"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.hero.scroll",
+    "value": "Ce dimanche"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.hero.watch",
+    "value": "Voir le film"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.mission.eyebrow",
+    "value": "Pourquoi nous existons"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.mission.lead",
+    "value": "Nous existons pour proclamer l'Évangile de Jésus-Christ, pour former des disciples enracinés dans la vérité des Écritures, et pour servir nos communautés par des actes concrets d'amour."
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.mission.more",
+    "value": "Notre mission et notre vision"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.mission.title",
+    "value": "Proclamer. Former des disciples. Servir."
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.pastor.cta",
+    "value": "Dites bonjour"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.pastor.eyebrow",
+    "value": "Un mot du pasteur"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.pastor.p1",
+    "value": "Cher ami, que vous nous rendiez visite pour la première fois ou que vous marchiez avec nous depuis des années, notre prière est que vous trouviez un foyer à l'ADEPC — un lieu pour appartenir, croire et devenir."
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.pastor.p2",
+    "value": "Les portes de nos églises locales sont ouvertes chaque dimanche et chaque vendredi. Venez comme vous êtes. Le Père vous attend."
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.pastor.title",
+    "value": "Bienvenue dans la famille."
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.pillars.eyebrow",
+    "value": "Nos piliers"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.stories.cta",
+    "value": "Plus d'histoires"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.stories.eyebrow",
+    "value": "La vie à l'ADEPC"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.stories.lead",
+    "value": "Louange, famille et communion — des moments de nos quatre églises."
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.stories.title",
+    "value": "Histoires de notre communauté"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.sunday.eyebrow",
+    "value": "Ce dimanche"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.sunday.findChurch",
+    "value": "Trouver votre église"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.sunday.friday",
+    "value": "Chaque vendredi à {time}, nos quatre églises ouvrent leurs portes."
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.sunday.sundayAt",
+    "value": "Culte du dimanche à {time}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.sunday.title",
+    "value": "Venez adorer avec nous."
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.sunday.today",
+    "value": "Aujourd'hui"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.sunday.watchOnline",
+    "value": "Regarder en ligne"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.testimonial.eyebrow",
+    "value": "Témoignage"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.testimonial.mark",
+    "value": "“"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.watch.cta",
+    "value": "Tout regarder"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.watch.eyebrow",
+    "value": "Regarder"
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.watch.lead",
+    "value": "Les messages du dimanche apparaîtront ici dès que la chaîne YouTube de l'ADEPC sera connectée."
+  },
+  {
+    "locale": "fr",
+    "tkey": "home.watch.title",
+    "value": "Dernier message"
+  },
+  {
+    "locale": "fr",
+    "tkey": "meta.about.description",
+    "value": "L'ADEPC est une communauté évangélique pentecôtiste enracinée dans l'héritage de l'ADEPR et des APDC — notre histoire, notre mission, notre vision et nos croyances."
+  },
+  {
+    "locale": "fr",
+    "tkey": "meta.about.title",
+    "value": "À propos"
+  },
+  {
+    "locale": "fr",
+    "tkey": "meta.church.description",
+    "value": "{name} — culte du dimanche à {time}, rassemblement du vendredi à 20 h. {address}."
+  },
+  {
+    "locale": "fr",
+    "tkey": "meta.churches.description",
+    "value": "Les églises ADEPC à Montréal, Granby, Ottawa et Québec — adresses, heures du culte du dimanche, itinéraires et coordonnées."
+  },
+  {
+    "locale": "fr",
+    "tkey": "meta.churches.title",
+    "value": "Nos églises"
+  },
+  {
+    "locale": "fr",
+    "tkey": "meta.contact.description",
+    "value": "Envoyez une demande de prière ou une question à l'ADEPC, ou joignez directement l'une de nos quatre églises."
+  },
+  {
+    "locale": "fr",
+    "tkey": "meta.contact.title",
+    "value": "Contact"
+  },
+  {
+    "locale": "fr",
+    "tkey": "meta.events.description",
+    "value": "Rassemblements, cultes spéciaux et culte hebdomadaire dans les quatre églises de l'ADEPC."
+  },
+  {
+    "locale": "fr",
+    "tkey": "meta.events.title",
+    "value": "Événements"
+  },
+  {
+    "locale": "fr",
+    "tkey": "meta.give.description",
+    "value": "Soutenez les ministères de l'ADEPC — donnez en ligne avec PayPal ou par virement Interac."
+  },
+  {
+    "locale": "fr",
+    "tkey": "meta.give.title",
+    "value": "Donner"
+  },
+  {
+    "locale": "fr",
+    "tkey": "meta.home.description",
+    "value": "L'ADEPC est une famille d'églises de Pentecôte à Montréal, Granby, Ottawa et Québec. Trouvez une église, consultez les heures de culte de ce dimanche, regardez et donnez."
+  },
+  {
+    "locale": "fr",
+    "tkey": "meta.home.title",
+    "value": "ADEPC — Appartenir. Croire. Devenir."
+  },
+  {
+    "locale": "fr",
+    "tkey": "meta.privacy.description",
+    "value": "Comment adepc.ca traite vos renseignements personnels."
+  },
+  {
+    "locale": "fr",
+    "tkey": "meta.privacy.title",
+    "value": "Confidentialité"
+  },
+  {
+    "locale": "fr",
+    "tkey": "meta.stories.description",
+    "value": "Témoignages et moments de la vie des églises de l'ADEPC."
+  },
+  {
+    "locale": "fr",
+    "tkey": "meta.stories.title",
+    "value": "Histoires"
+  },
+  {
+    "locale": "fr",
+    "tkey": "meta.titleTemplate",
+    "value": "%s · ADEPC"
+  },
+  {
+    "locale": "fr",
+    "tkey": "meta.watch.description",
+    "value": "Messages, événements spéciaux et moments de la vie des églises ADEPC."
+  },
+  {
+    "locale": "fr",
+    "tkey": "meta.watch.title",
+    "value": "Regarder"
+  },
+  {
+    "locale": "fr",
+    "tkey": "nav.closeMenu",
+    "value": "Fermer le menu"
+  },
+  {
+    "locale": "fr",
+    "tkey": "nav.homeLabel",
+    "value": "ADEPC — accueil"
+  },
+  {
+    "locale": "fr",
+    "tkey": "nav.language",
+    "value": "Langue"
+  },
+  {
+    "locale": "fr",
+    "tkey": "nav.menu",
+    "value": "Menu"
+  },
+  {
+    "locale": "fr",
+    "tkey": "nav.mobile",
+    "value": "Accès rapide"
+  },
+  {
+    "locale": "fr",
+    "tkey": "nav.openMenu",
+    "value": "Ouvrir le menu"
+  },
+  {
+    "locale": "fr",
+    "tkey": "nav.primary",
+    "value": "Principal"
+  },
+  {
+    "locale": "fr",
+    "tkey": "nav.skip",
+    "value": "Aller au contenu"
+  },
+  {
+    "locale": "fr",
+    "tkey": "notFound.code",
+    "value": "404"
+  },
+  {
+    "locale": "fr",
+    "tkey": "notFound.home",
+    "value": "Retour à l'accueil"
+  },
+  {
+    "locale": "fr",
+    "tkey": "notFound.homeShort",
+    "value": "Accueil"
+  },
+  {
+    "locale": "fr",
+    "tkey": "notFound.lead",
+    "value": "La page que vous cherchez a été déplacée ou n'existe pas."
+  },
+  {
+    "locale": "fr",
+    "tkey": "notFound.title",
+    "value": "Page introuvable"
+  },
+  {
+    "locale": "fr",
+    "tkey": "privacy.changeConsent",
+    "value": "Modifier mes préférences de témoins"
+  },
+  {
+    "locale": "fr",
+    "tkey": "privacy.hero.eyebrow",
+    "value": "Confidentialité"
+  },
+  {
+    "locale": "fr",
+    "tkey": "privacy.hero.title",
+    "value": "Vos renseignements personnels"
+  },
+  {
+    "locale": "fr",
+    "tkey": "privacy.officerTitle",
+    "value": "Responsable de la protection des renseignements personnels"
+  },
+  {
+    "locale": "fr",
+    "tkey": "privacy.policyTitle",
+    "value": "Politique de confidentialité"
+  },
+  {
+    "locale": "fr",
+    "tkey": "privacy.summary1",
+    "value": "Lorsque vous écrivez par le formulaire de contact, votre nom, votre courriel et votre message sont envoyés par courriel à l'ADEPC pour que nous puissions vous répondre. Ils ne sont pas conservés dans une base de données sur ce site."
+  },
+  {
+    "locale": "fr",
+    "tkey": "privacy.summary2",
+    "value": "Nous mesurons les visites avec un outil d'analyse respectueux de la vie privée, sans témoins (cookies). Google Analytics, qui utilise des témoins, ne se charge que si vous choisissez « Autoriser » dans le bandeau. Vous pouvez modifier votre choix en tout temps ci-dessous."
+  },
+  {
+    "locale": "fr",
+    "tkey": "privacy.summary3",
+    "value": "Les dons sont traités par PayPal ou par votre banque (virement Interac). L'ADEPC ne voit jamais les données de votre carte."
+  },
+  {
+    "locale": "fr",
+    "tkey": "privacy.summaryTitle",
+    "value": "Comment ce site traite vos renseignements"
+  },
+  {
+    "locale": "fr",
+    "tkey": "stories.all",
+    "value": "Toutes"
+  },
+  {
+    "locale": "fr",
+    "tkey": "stories.count",
+    "value": "{count, plural, one {# photo} other {# photos}}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "stories.filter",
+    "value": "Filtrer par église"
+  },
+  {
+    "locale": "fr",
+    "tkey": "stories.gallery",
+    "value": "Moments"
+  },
+  {
+    "locale": "fr",
+    "tkey": "stories.hero.eyebrow",
+    "value": "Histoires"
+  },
+  {
+    "locale": "fr",
+    "tkey": "stories.hero.lead",
+    "value": "La vie de l'ADEPC — à travers les paroles et les visages de notre communauté."
+  },
+  {
+    "locale": "fr",
+    "tkey": "stories.hero.title",
+    "value": "De vrais visages. Une vraie foi."
+  },
+  {
+    "locale": "fr",
+    "tkey": "stories.shareCta",
+    "value": "Raconter mon histoire"
+  },
+  {
+    "locale": "fr",
+    "tkey": "stories.shareLead",
+    "value": "Nous aimerions entendre votre histoire — et, avec votre permission, la partager."
+  },
+  {
+    "locale": "fr",
+    "tkey": "stories.shareTitle",
+    "value": "Dieu agit-il dans votre vie ?"
+  },
+  {
+    "locale": "fr",
+    "tkey": "stories.testimonies",
+    "value": "Témoignages"
+  },
+  {
+    "locale": "fr",
+    "tkey": "watch.hero.eyebrow",
+    "value": "Regarder"
+  },
+  {
+    "locale": "fr",
+    "tkey": "watch.hero.lead",
+    "value": "Messages, événements spéciaux et moments de la vie de nos églises."
+  },
+  {
+    "locale": "fr",
+    "tkey": "watch.hero.title",
+    "value": "Regarder"
+  },
+  {
+    "locale": "fr",
+    "tkey": "watch.latest",
+    "value": "Dernier message"
+  },
+  {
+    "locale": "fr",
+    "tkey": "watch.latestPending",
+    "value": "Les messages du dimanche seront affichés automatiquement depuis la chaîne YouTube de l'ADEPC dès qu'elle sera connectée — sans rien téléverser de nouveau."
+  },
+  {
+    "locale": "fr",
+    "tkey": "watch.onYouTube",
+    "value": "Regarder sur YouTube"
+  },
+  {
+    "locale": "fr",
+    "tkey": "watch.seconds",
+    "value": "{count} s"
+  },
+  {
+    "locale": "en",
+    "tkey": "about.beliefs.eyebrow",
+    "value": "What we believe"
+  },
+  {
+    "locale": "en",
+    "tkey": "about.beliefs.title",
+    "value": "The heart of our faith"
+  },
+  {
+    "locale": "en",
+    "tkey": "about.cta.button",
+    "value": "Find a church"
+  },
+  {
+    "locale": "en",
+    "tkey": "about.cta.lead",
+    "value": "The best way to know us is to join us. Find a local church near you and experience the family."
+  },
+  {
+    "locale": "en",
+    "tkey": "about.cta.title",
+    "value": "Come and see."
+  },
+  {
+    "locale": "en",
+    "tkey": "about.heritage.eyebrow",
+    "value": "Our heritage"
+  },
+  {
+    "locale": "en",
+    "tkey": "about.heritage.lead",
+    "value": "Rooted in the Holy Scriptures and inspired by the Pentecostal tradition, ADEPC draws from the spiritual heritage of two families of churches."
+  },
+  {
+    "locale": "en",
+    "tkey": "about.hero.eyebrow",
+    "value": "About ADEPC"
+  },
+  {
+    "locale": "en",
+    "tkey": "about.hero.title",
+    "value": "Rooted in Pentecost. Growing in Canada."
+  },
+  {
+    "locale": "en",
+    "tkey": "about.mission.bannerTitle",
+    "value": "As printed on our banner"
+  },
+  {
+    "locale": "en",
+    "tkey": "about.mission.body",
+    "value": "The mission of ADEPC is to proclaim the Gospel of Jesus Christ, faithfully teach the Word of God, and lead men and women into a personal relationship with their Saviour. We are committed to making disciples of Jesus Christ, supporting families, fostering spiritual growth, and contributing to the social and community well-being of those we serve. Through our local churches, ministries and community outreach, we seek to demonstrate God's love and respond to the spiritual and human needs of society."
+  },
+  {
+    "locale": "en",
+    "tkey": "about.mission.eyebrow",
+    "value": "Our mission"
+  },
+  {
+    "locale": "en",
+    "tkey": "about.story.eyebrow",
+    "value": "Our story"
+  },
+  {
+    "locale": "en",
+    "tkey": "about.story.p1",
+    "value": "ADEPC was born of a desire to bring the Gospel of Jesus Christ to every community."
+  },
+  {
+    "locale": "en",
+    "tkey": "about.story.p2",
+    "value": "From a small fellowship of believers, ADEPC has grown into a network of local churches united by Scripture, prayer and a common commitment to the love of Christ."
+  },
+  {
+    "locale": "en",
+    "tkey": "about.story.p3",
+    "value": "Through joys and trials, our faith has been the steady ground beneath us. Today we continue that legacy: welcoming the stranger, walking with the broken, and proclaiming hope."
+  },
+  {
+    "locale": "en",
+    "tkey": "about.strategic.eyebrow",
+    "value": "How we live it out"
+  },
+  {
+    "locale": "en",
+    "tkey": "about.strategic.title",
+    "value": "Five strategic pillars"
+  },
+  {
+    "locale": "en",
+    "tkey": "about.values.eyebrow",
+    "value": "What guides us"
+  },
+  {
+    "locale": "en",
+    "tkey": "about.vision.body",
+    "value": "Our vision is to see lives transformed by the power of the Gospel, families strengthened by Christian values, and communities renewed through the love of God. We aspire to be a vibrant church that develops committed disciples, equips spiritual leaders, and shares the hope of Jesus Christ throughout Canada and beyond."
+  },
+  {
+    "locale": "en",
+    "tkey": "about.vision.eyebrow",
+    "value": "Our vision"
+  },
+  {
+    "locale": "en",
+    "tkey": "about.vision.title",
+    "value": "A Canada transformed by the Gospel"
+  },
+  {
+    "locale": "en",
+    "tkey": "about.vision.verse",
+    "value": "Therefore go and make disciples of all nations…"
+  },
+  {
+    "locale": "en",
+    "tkey": "about.vision.verseRef",
+    "value": "Matthew 28:19"
+  },
+  {
+    "locale": "en",
+    "tkey": "about.who.eyebrow",
+    "value": "Who we are"
+  },
+  {
+    "locale": "en",
+    "tkey": "about.who.p1",
+    "value": "The Association des Églises de la Pentecôte au Canada (ADEPC) is a Pentecostal evangelical Christian community dedicated to proclaiming the Gospel of Jesus Christ, teaching the Word of God, and serving communities with love and compassion."
+  },
+  {
+    "locale": "en",
+    "tkey": "about.who.p2",
+    "value": "Our mission is to help people grow in their relationship with God, develop committed disciples of Jesus Christ, and contribute to the spiritual, social and community well-being of individuals and families."
+  },
+  {
+    "locale": "en",
+    "tkey": "about.who.p3",
+    "value": "Through our local churches, we seek to see lives transformed by the power of the Gospel and communities renewed through the hope, faith and love found in Jesus Christ."
+  },
+  {
+    "locale": "en",
+    "tkey": "churches.directory.cta",
+    "value": "Get in touch"
+  },
+  {
+    "locale": "en",
+    "tkey": "churches.directory.lead",
+    "value": "Reach out — we'll help you connect with the ADEPC community closest to you."
+  },
+  {
+    "locale": "en",
+    "tkey": "churches.directory.title",
+    "value": "Can't find a church nearby?"
+  },
+  {
+    "locale": "en",
+    "tkey": "churches.hero.eyebrow",
+    "value": "Churches"
+  },
+  {
+    "locale": "en",
+    "tkey": "churches.hero.lead",
+    "value": "Find a community near you. Join us for worship and fellowship in our local churches."
+  },
+  {
+    "locale": "en",
+    "tkey": "churches.hero.title",
+    "value": "Find your church"
+  },
+  {
+    "locale": "en",
+    "tkey": "churches.map.fallback",
+    "value": "Map unavailable — every address above links to directions."
+  },
+  {
+    "locale": "en",
+    "tkey": "churches.map.label",
+    "value": "Map of the four ADEPC churches"
+  },
+  {
+    "locale": "en",
+    "tkey": "churches.map.title",
+    "value": "On the map"
+  },
+  {
+    "locale": "en",
+    "tkey": "churches.page.aboutP1",
+    "value": "Every Sunday, our community gathers for worship, biblical teaching and prayer. Our doors are open to anyone seeking a place to belong, believe and become."
+  },
+  {
+    "locale": "en",
+    "tkey": "churches.page.aboutP2",
+    "value": "Whether you are new to {city}, visiting, or have walked with us for years, we welcome you to the family."
+  },
+  {
+    "locale": "en",
+    "tkey": "churches.page.back",
+    "value": "All churches"
+  },
+  {
+    "locale": "en",
+    "tkey": "churches.page.contact",
+    "value": "Contact"
+  },
+  {
+    "locale": "en",
+    "tkey": "churches.page.eyebrow",
+    "value": "Local church · ADEPC"
+  },
+  {
+    "locale": "en",
+    "tkey": "churches.page.moments",
+    "value": "Moments"
+  },
+  {
+    "locale": "en",
+    "tkey": "churches.page.others",
+    "value": "Other ADEPC churches"
+  },
+  {
+    "locale": "en",
+    "tkey": "churches.page.services",
+    "value": "Service times"
+  },
+  {
+    "locale": "en",
+    "tkey": "churches.page.visitCta",
+    "value": "Plan a visit"
+  },
+  {
+    "locale": "en",
+    "tkey": "churches.page.visitLead",
+    "value": "We would love to welcome you. Send us a message and we will help you feel at home from your very first Sunday."
+  },
+  {
+    "locale": "en",
+    "tkey": "churches.page.visitTitle",
+    "value": "Plan your first visit"
+  },
+  {
+    "locale": "en",
+    "tkey": "common.address",
+    "value": "Address"
+  },
+  {
+    "locale": "en",
+    "tkey": "common.allChurches",
+    "value": "All four churches"
+  },
+  {
+    "locale": "en",
+    "tkey": "common.churchPage",
+    "value": "Church page"
+  },
+  {
+    "locale": "en",
+    "tkey": "common.closeVideo",
+    "value": "Close video"
+  },
+  {
+    "locale": "en",
+    "tkey": "common.copied",
+    "value": "Copied"
+  },
+  {
+    "locale": "en",
+    "tkey": "common.copy",
+    "value": "Copy"
+  },
+  {
+    "locale": "en",
+    "tkey": "common.directions",
+    "value": "Directions"
+  },
+  {
+    "locale": "en",
+    "tkey": "common.email",
+    "value": "Email"
+  },
+  {
+    "locale": "en",
+    "tkey": "common.friday",
+    "value": "Friday"
+  },
+  {
+    "locale": "en",
+    "tkey": "common.learnMore",
+    "value": "Learn more"
+  },
+  {
+    "locale": "en",
+    "tkey": "common.localTime",
+    "value": "Eastern Time"
+  },
+  {
+    "locale": "en",
+    "tkey": "common.opensInNewTab",
+    "value": "(opens in a new tab)"
+  },
+  {
+    "locale": "en",
+    "tkey": "common.pastor",
+    "value": "Pastor"
+  },
+  {
+    "locale": "en",
+    "tkey": "common.pause",
+    "value": "Pause"
+  },
+  {
+    "locale": "en",
+    "tkey": "common.pauseBackground",
+    "value": "Pause background video"
+  },
+  {
+    "locale": "en",
+    "tkey": "common.phone",
+    "value": "Phone"
+  },
+  {
+    "locale": "en",
+    "tkey": "common.play",
+    "value": "Play"
+  },
+  {
+    "locale": "en",
+    "tkey": "common.playBackground",
+    "value": "Play background video"
+  },
+  {
+    "locale": "en",
+    "tkey": "common.playFilm",
+    "value": "Play the film: {title}"
+  },
+  {
+    "locale": "en",
+    "tkey": "common.sunday",
+    "value": "Sunday"
+  },
+  {
+    "locale": "en",
+    "tkey": "common.viewAll",
+    "value": "View all"
+  },
+  {
+    "locale": "en",
+    "tkey": "common.with",
+    "value": "With"
+  },
+  {
+    "locale": "en",
+    "tkey": "consent.accept",
+    "value": "Allow"
+  },
+  {
+    "locale": "en",
+    "tkey": "consent.decline",
+    "value": "Decline"
+  },
+  {
+    "locale": "en",
+    "tkey": "consent.label",
+    "value": "Cookie preferences"
+  },
+  {
+    "locale": "en",
+    "tkey": "consent.more",
+    "value": "Privacy"
+  },
+  {
+    "locale": "en",
+    "tkey": "consent.text",
+    "value": "We count visits with cookie-free analytics. May we also use Google Analytics, which sets cookies?"
+  },
+  {
+    "locale": "en",
+    "tkey": "contact.form.church",
+    "value": "Church"
+  },
+  {
+    "locale": "en",
+    "tkey": "contact.form.churchAny",
+    "value": "No preference"
+  },
+  {
+    "locale": "en",
+    "tkey": "contact.form.confidential",
+    "value": "Keep this request confidential (pastor only)"
+  },
+  {
+    "locale": "en",
+    "tkey": "contact.form.email",
+    "value": "Email address"
+  },
+  {
+    "locale": "en",
+    "tkey": "contact.form.error",
+    "value": "Something went wrong. Please try again, or write to us at {email}."
+  },
+  {
+    "locale": "en",
+    "tkey": "contact.form.fallback",
+    "value": "Your email app should open with your message ready to send. If it doesn't, write to us at {email}."
+  },
+  {
+    "locale": "en",
+    "tkey": "contact.form.honeypot",
+    "value": "Website"
+  },
+  {
+    "locale": "en",
+    "tkey": "contact.form.invalidEmail",
+    "value": "Enter a valid email address"
+  },
+  {
+    "locale": "en",
+    "tkey": "contact.form.message",
+    "value": "Message"
+  },
+  {
+    "locale": "en",
+    "tkey": "contact.form.messagePlaceholder",
+    "value": "How can we pray for you today?"
+  },
+  {
+    "locale": "en",
+    "tkey": "contact.form.name",
+    "value": "Full name"
+  },
+  {
+    "locale": "en",
+    "tkey": "contact.form.purpose",
+    "value": "Purpose"
+  },
+  {
+    "locale": "en",
+    "tkey": "contact.form.required",
+    "value": "Required"
+  },
+  {
+    "locale": "en",
+    "tkey": "contact.form.sending",
+    "value": "Sending…"
+  },
+  {
+    "locale": "en",
+    "tkey": "contact.form.submit",
+    "value": "Send message"
+  },
+  {
+    "locale": "en",
+    "tkey": "contact.form.success",
+    "value": "Thank you — your message has been sent. We will reply as soon as we can."
+  },
+  {
+    "locale": "en",
+    "tkey": "contact.form.title",
+    "value": "Send a message"
+  },
+  {
+    "locale": "en",
+    "tkey": "contact.form.tooShort",
+    "value": "Please write a little more"
+  },
+  {
+    "locale": "en",
+    "tkey": "contact.form.verse",
+    "value": "For where two or three are gathered together in my name, there am I in the midst of them."
+  },
+  {
+    "locale": "en",
+    "tkey": "contact.form.verseRef",
+    "value": "Matthew 18:20"
+  },
+  {
+    "locale": "en",
+    "tkey": "contact.general",
+    "value": "General inquiries"
+  },
+  {
+    "locale": "en",
+    "tkey": "contact.hero.eyebrow",
+    "value": "Contact"
+  },
+  {
+    "locale": "en",
+    "tkey": "contact.hero.lead",
+    "value": "Reach out for prayer, questions, or to plan your first visit."
+  },
+  {
+    "locale": "en",
+    "tkey": "contact.hero.title",
+    "value": "We are here to walk with you."
+  },
+  {
+    "locale": "en",
+    "tkey": "contact.reach",
+    "value": "Reach a church directly"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.am",
+    "value": "AM"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.dayDate",
+    "value": "{weekday}, {month} {day}"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.month.1",
+    "value": "January"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.month.10",
+    "value": "October"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.month.11",
+    "value": "November"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.month.12",
+    "value": "December"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.month.2",
+    "value": "February"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.month.3",
+    "value": "March"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.month.4",
+    "value": "April"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.month.5",
+    "value": "May"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.month.6",
+    "value": "June"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.month.7",
+    "value": "July"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.month.8",
+    "value": "August"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.month.9",
+    "value": "September"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.monthShort.1",
+    "value": "Jan"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.monthShort.10",
+    "value": "Oct"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.monthShort.11",
+    "value": "Nov"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.monthShort.12",
+    "value": "Dec"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.monthShort.2",
+    "value": "Feb"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.monthShort.3",
+    "value": "Mar"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.monthShort.4",
+    "value": "Apr"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.monthShort.5",
+    "value": "May"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.monthShort.6",
+    "value": "Jun"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.monthShort.7",
+    "value": "Jul"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.monthShort.8",
+    "value": "Aug"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.monthShort.9",
+    "value": "Sep"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.monthYear",
+    "value": "{month} {year}"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.pm",
+    "value": "PM"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.timeOnHour",
+    "value": "{h12}"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.timeWithMinutes",
+    "value": "{h12}:{mm}"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.weekday.0",
+    "value": "Sunday"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.weekday.1",
+    "value": "Monday"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.weekday.2",
+    "value": "Tuesday"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.weekday.3",
+    "value": "Wednesday"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.weekday.4",
+    "value": "Thursday"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.weekday.5",
+    "value": "Friday"
+  },
+  {
+    "locale": "en",
+    "tkey": "date.weekday.6",
+    "value": "Saturday"
+  },
+  {
+    "locale": "en",
+    "tkey": "events.church",
+    "value": "Church"
+  },
+  {
+    "locale": "en",
+    "tkey": "events.featured",
+    "value": "Featured"
+  },
+  {
+    "locale": "en",
+    "tkey": "events.hero.eyebrow",
+    "value": "Events"
+  },
+  {
+    "locale": "en",
+    "tkey": "events.hero.lead",
+    "value": "Gatherings, special services and weekly worship across our four churches."
+  },
+  {
+    "locale": "en",
+    "tkey": "events.hero.title",
+    "value": "What's happening"
+  },
+  {
+    "locale": "en",
+    "tkey": "events.register",
+    "value": "Register"
+  },
+  {
+    "locale": "en",
+    "tkey": "events.registration",
+    "value": "Registration"
+  },
+  {
+    "locale": "en",
+    "tkey": "events.scheduleLead",
+    "value": "Every ADEPC church gathers twice a week."
+  },
+  {
+    "locale": "en",
+    "tkey": "events.scheduleTitle",
+    "value": "Weekly schedule"
+  },
+  {
+    "locale": "en",
+    "tkey": "events.time",
+    "value": "Time"
+  },
+  {
+    "locale": "en",
+    "tkey": "events.venue",
+    "value": "Venue"
+  },
+  {
+    "locale": "en",
+    "tkey": "events.weekly",
+    "value": "Every week"
+  },
+  {
+    "locale": "en",
+    "tkey": "footer.contact",
+    "value": "Contact"
+  },
+  {
+    "locale": "en",
+    "tkey": "footer.explore",
+    "value": "Explore"
+  },
+  {
+    "locale": "en",
+    "tkey": "footer.follow",
+    "value": "Follow"
+  },
+  {
+    "locale": "en",
+    "tkey": "footer.privacy",
+    "value": "Privacy"
+  },
+  {
+    "locale": "en",
+    "tkey": "footer.rights",
+    "value": "© {year} ADEPC. All rights reserved."
+  },
+  {
+    "locale": "en",
+    "tkey": "footer.tagline",
+    "value": "A community of believers dedicated to the Great Commission and the spiritual transformation of our communities. United in Christ, serving through faith, hope and love."
+  },
+  {
+    "locale": "en",
+    "tkey": "footer.visit",
+    "value": "Visit"
+  },
+  {
+    "locale": "en",
+    "tkey": "format.churchCity",
+    "value": "ADEPC {city}"
+  },
+  {
+    "locale": "en",
+    "tkey": "format.contactBody",
+    "value": "{message}\n\n— {name} <{email}>{church}"
+  },
+  {
+    "locale": "en",
+    "tkey": "format.contactBodyChurch",
+    "value": "\nChurch: {church}"
+  },
+  {
+    "locale": "en",
+    "tkey": "format.contactChurch",
+    "value": "[{church}]"
+  },
+  {
+    "locale": "en",
+    "tkey": "format.contactConfidential",
+    "value": "[CONFIDENTIAL]"
+  },
+  {
+    "locale": "en",
+    "tkey": "format.contactSubject",
+    "value": "{confidential} [adepc.ca · {purpose}] {church} {name}"
+  },
+  {
+    "locale": "en",
+    "tkey": "format.dayTime",
+    "value": "{day} · {time}"
+  },
+  {
+    "locale": "en",
+    "tkey": "format.directionsAddress",
+    "value": "{street}, {locality}, {region} {postal}"
+  },
+  {
+    "locale": "en",
+    "tkey": "format.hqLine",
+    "value": "{label} · {building}"
+  },
+  {
+    "locale": "en",
+    "tkey": "format.localityPostal",
+    "value": "{locality} {postal}"
+  },
+  {
+    "locale": "en",
+    "tkey": "format.localityRegionPostal",
+    "value": "{locality} ({region}) {postal}"
+  },
+  {
+    "locale": "en",
+    "tkey": "format.quote",
+    "value": "« {text} »"
+  },
+  {
+    "locale": "en",
+    "tkey": "format.quoteTight",
+    "value": "« {text} »"
+  },
+  {
+    "locale": "en",
+    "tkey": "format.separator",
+    "value": " · "
+  },
+  {
+    "locale": "en",
+    "tkey": "format.srLabel",
+    "value": "{label} "
+  },
+  {
+    "locale": "en",
+    "tkey": "format.streetLocality",
+    "value": "{street}, {locality}"
+  },
+  {
+    "locale": "en",
+    "tkey": "format.streetLocalityPostal",
+    "value": "{street}, {locality} {postal}"
+  },
+  {
+    "locale": "en",
+    "tkey": "format.timeWithSuffix",
+    "value": "{time} {suffix}"
+  },
+  {
+    "locale": "en",
+    "tkey": "give.hero.eyebrow",
+    "value": "Give"
+  },
+  {
+    "locale": "en",
+    "tkey": "give.hero.lead",
+    "value": "Your contributions support our ministries, social programs and the growth of the Gospel across our communities."
+  },
+  {
+    "locale": "en",
+    "tkey": "give.hero.title",
+    "value": "Give"
+  },
+  {
+    "locale": "en",
+    "tkey": "give.questions",
+    "value": "Questions about giving?"
+  },
+  {
+    "locale": "en",
+    "tkey": "give.questionsLead",
+    "value": "Write to us and we will be glad to help."
+  },
+  {
+    "locale": "en",
+    "tkey": "give.ways",
+    "value": "Two ways to give"
+  },
+  {
+    "locale": "en",
+    "tkey": "giving.interacBody",
+    "value": "From your Canadian bank, send an e‑Transfer to:"
+  },
+  {
+    "locale": "en",
+    "tkey": "giving.interacTitle",
+    "value": "Interac e‑Transfer"
+  },
+  {
+    "locale": "en",
+    "tkey": "giving.paypalBody",
+    "value": "By card or PayPal account, in Canadian dollars, through PayPal's secure checkout."
+  },
+  {
+    "locale": "en",
+    "tkey": "giving.paypalError",
+    "value": "PayPal could not be loaded. Please try again, or give by Interac e-Transfer."
+  },
+  {
+    "locale": "en",
+    "tkey": "giving.paypalLoading",
+    "value": "Loading PayPal…"
+  },
+  {
+    "locale": "en",
+    "tkey": "giving.paypalShow",
+    "value": "Show the PayPal button"
+  },
+  {
+    "locale": "en",
+    "tkey": "giving.paypalTitle",
+    "value": "Give online"
+  },
+  {
+    "locale": "en",
+    "tkey": "giving.verse",
+    "value": "Each of you should give what you have decided in your heart to give, not reluctantly or under compulsion, for God loves a cheerful giver."
+  },
+  {
+    "locale": "en",
+    "tkey": "giving.verseRef",
+    "value": "2 Corinthians 9:7"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.churches.all",
+    "value": "All churches"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.churches.eyebrow",
+    "value": "Our churches"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.churches.lead",
+    "value": "With churches across Québec and Ontario, there is always a local community waiting to welcome you."
+  },
+  {
+    "locale": "en",
+    "tkey": "home.churches.title",
+    "value": "Four churches. One family."
+  },
+  {
+    "locale": "en",
+    "tkey": "home.events.all",
+    "value": "All events"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.events.eyebrow",
+    "value": "What's happening"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.events.title",
+    "value": "What's happening"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.film.caption",
+    "value": "Worship, the Word and the family of God — filmed in our churches."
+  },
+  {
+    "locale": "en",
+    "tkey": "home.film.eyebrow",
+    "value": "Film · 2024"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.film.title",
+    "value": "This is ADEPC"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.give.cta",
+    "value": "Give now"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.give.eyebrow",
+    "value": "Generosity"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.give.lead",
+    "value": "Your contributions support our ministries, social programs and the growth of the Gospel across our communities."
+  },
+  {
+    "locale": "en",
+    "tkey": "home.give.title",
+    "value": "Give"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.hero.eyebrow",
+    "value": "Association des Églises de la Pentecôte au Canada"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.hero.join",
+    "value": "Join us Sunday"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.hero.lead",
+    "value": "Welcome home. A community dedicated to faith, growth and service in Christ — in Montréal, Granby, Ottawa and Québec City."
+  },
+  {
+    "locale": "en",
+    "tkey": "home.hero.next",
+    "value": "Next service"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.hero.scroll",
+    "value": "This Sunday"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.hero.watch",
+    "value": "Watch the film"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.mission.eyebrow",
+    "value": "Why we exist"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.mission.lead",
+    "value": "We exist to proclaim the Gospel of Jesus Christ, to disciple believers in the truth of Scripture, and to serve our communities through tangible acts of love."
+  },
+  {
+    "locale": "en",
+    "tkey": "home.mission.more",
+    "value": "Our mission & vision"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.mission.title",
+    "value": "Proclaim. Disciple. Serve."
+  },
+  {
+    "locale": "en",
+    "tkey": "home.pastor.cta",
+    "value": "Say hello"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.pastor.eyebrow",
+    "value": "A word from the pastor"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.pastor.p1",
+    "value": "Dear friend, whether you are visiting for the first time or have walked with us for years, our prayer is that you find a home at ADEPC — a place to belong, believe and become."
+  },
+  {
+    "locale": "en",
+    "tkey": "home.pastor.p2",
+    "value": "The doors of our local churches are open every Sunday and Friday. Come as you are. The Father is waiting."
+  },
+  {
+    "locale": "en",
+    "tkey": "home.pastor.title",
+    "value": "Welcome to the family."
+  },
+  {
+    "locale": "en",
+    "tkey": "home.pillars.eyebrow",
+    "value": "Our pillars"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.stories.cta",
+    "value": "More stories"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.stories.eyebrow",
+    "value": "Life at ADEPC"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.stories.lead",
+    "value": "Worship, family and fellowship — moments from our four churches."
+  },
+  {
+    "locale": "en",
+    "tkey": "home.stories.title",
+    "value": "Stories from our community"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.sunday.eyebrow",
+    "value": "This Sunday"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.sunday.findChurch",
+    "value": "Find your church"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.sunday.friday",
+    "value": "Every Friday at {time}, all four churches open their doors."
+  },
+  {
+    "locale": "en",
+    "tkey": "home.sunday.sundayAt",
+    "value": "Sunday worship at {time}"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.sunday.title",
+    "value": "Worship with us."
+  },
+  {
+    "locale": "en",
+    "tkey": "home.sunday.today",
+    "value": "Today"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.sunday.watchOnline",
+    "value": "Watch online"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.testimonial.eyebrow",
+    "value": "Testimony"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.testimonial.mark",
+    "value": "“"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.watch.cta",
+    "value": "Go to Watch"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.watch.eyebrow",
+    "value": "Watch"
+  },
+  {
+    "locale": "en",
+    "tkey": "home.watch.lead",
+    "value": "Sunday messages will appear here as soon as ADEPC's YouTube channel is connected."
+  },
+  {
+    "locale": "en",
+    "tkey": "home.watch.title",
+    "value": "Latest message"
+  },
+  {
+    "locale": "en",
+    "tkey": "meta.about.description",
+    "value": "ADEPC is a Pentecostal evangelical community rooted in the heritage of ADEPR and the PAOC — our story, mission, vision and beliefs."
+  },
+  {
+    "locale": "en",
+    "tkey": "meta.about.title",
+    "value": "About"
+  },
+  {
+    "locale": "en",
+    "tkey": "meta.church.description",
+    "value": "{name} — Sunday worship at {time}, Friday gathering at 8 PM. {address}."
+  },
+  {
+    "locale": "en",
+    "tkey": "meta.churches.description",
+    "value": "ADEPC churches in Montréal, Granby, Ottawa and Québec City — addresses, Sunday service times, directions and contact."
+  },
+  {
+    "locale": "en",
+    "tkey": "meta.churches.title",
+    "value": "Our churches"
+  },
+  {
+    "locale": "en",
+    "tkey": "meta.contact.description",
+    "value": "Send a prayer request or a question to ADEPC, or reach one of our four churches directly."
+  },
+  {
+    "locale": "en",
+    "tkey": "meta.contact.title",
+    "value": "Contact"
+  },
+  {
+    "locale": "en",
+    "tkey": "meta.events.description",
+    "value": "Gatherings, special services and weekly worship across ADEPC's four churches."
+  },
+  {
+    "locale": "en",
+    "tkey": "meta.events.title",
+    "value": "Events"
+  },
+  {
+    "locale": "en",
+    "tkey": "meta.give.description",
+    "value": "Support the ministries of ADEPC — give online with PayPal or by Interac e-Transfer."
+  },
+  {
+    "locale": "en",
+    "tkey": "meta.give.title",
+    "value": "Give"
+  },
+  {
+    "locale": "en",
+    "tkey": "meta.home.description",
+    "value": "ADEPC is a family of Pentecostal churches in Montréal, Granby, Ottawa and Québec City. Find a church, see this Sunday's service times, watch, and give."
+  },
+  {
+    "locale": "en",
+    "tkey": "meta.home.title",
+    "value": "ADEPC — Belong. Believe. Become."
+  },
+  {
+    "locale": "en",
+    "tkey": "meta.privacy.description",
+    "value": "How adepc.ca handles your personal information."
+  },
+  {
+    "locale": "en",
+    "tkey": "meta.privacy.title",
+    "value": "Privacy"
+  },
+  {
+    "locale": "en",
+    "tkey": "meta.stories.description",
+    "value": "Testimonies and moments from the life of ADEPC's churches."
+  },
+  {
+    "locale": "en",
+    "tkey": "meta.stories.title",
+    "value": "Stories"
+  },
+  {
+    "locale": "en",
+    "tkey": "meta.titleTemplate",
+    "value": "%s · ADEPC"
+  },
+  {
+    "locale": "en",
+    "tkey": "meta.watch.description",
+    "value": "Messages, special events and moments from ADEPC churches."
+  },
+  {
+    "locale": "en",
+    "tkey": "meta.watch.title",
+    "value": "Watch"
+  },
+  {
+    "locale": "en",
+    "tkey": "nav.closeMenu",
+    "value": "Close menu"
+  },
+  {
+    "locale": "en",
+    "tkey": "nav.homeLabel",
+    "value": "ADEPC — home"
+  },
+  {
+    "locale": "en",
+    "tkey": "nav.language",
+    "value": "Language"
+  },
+  {
+    "locale": "en",
+    "tkey": "nav.menu",
+    "value": "Menu"
+  },
+  {
+    "locale": "en",
+    "tkey": "nav.mobile",
+    "value": "Quick links"
+  },
+  {
+    "locale": "en",
+    "tkey": "nav.openMenu",
+    "value": "Open menu"
+  },
+  {
+    "locale": "en",
+    "tkey": "nav.primary",
+    "value": "Main"
+  },
+  {
+    "locale": "en",
+    "tkey": "nav.skip",
+    "value": "Skip to content"
+  },
+  {
+    "locale": "en",
+    "tkey": "notFound.code",
+    "value": "404"
+  },
+  {
+    "locale": "en",
+    "tkey": "notFound.home",
+    "value": "Back to home"
+  },
+  {
+    "locale": "en",
+    "tkey": "notFound.homeShort",
+    "value": "Home"
+  },
+  {
+    "locale": "en",
+    "tkey": "notFound.lead",
+    "value": "The page you are looking for has moved or does not exist."
+  },
+  {
+    "locale": "en",
+    "tkey": "notFound.title",
+    "value": "Page not found"
+  },
+  {
+    "locale": "en",
+    "tkey": "privacy.changeConsent",
+    "value": "Change cookie preferences"
+  },
+  {
+    "locale": "en",
+    "tkey": "privacy.hero.eyebrow",
+    "value": "Privacy"
+  },
+  {
+    "locale": "en",
+    "tkey": "privacy.hero.title",
+    "value": "Your privacy"
+  },
+  {
+    "locale": "en",
+    "tkey": "privacy.officerTitle",
+    "value": "Person in charge of personal information"
+  },
+  {
+    "locale": "en",
+    "tkey": "privacy.policyTitle",
+    "value": "Privacy policy"
+  },
+  {
+    "locale": "en",
+    "tkey": "privacy.summary1",
+    "value": "When you send a message through the contact form, your name, email address and message are emailed to ADEPC so we can reply. They are not stored in a database on this website."
+  },
+  {
+    "locale": "en",
+    "tkey": "privacy.summary2",
+    "value": "We measure visits with privacy-friendly analytics that do not use cookies. Google Analytics, which does use cookies, only loads if you choose \"Allow\" in the cookie banner. You can change your choice at any time below."
+  },
+  {
+    "locale": "en",
+    "tkey": "privacy.summary3",
+    "value": "Donations are processed by PayPal or by your bank (Interac e-Transfer). ADEPC never sees your card details."
+  },
+  {
+    "locale": "en",
+    "tkey": "privacy.summaryTitle",
+    "value": "How this website handles your information"
+  },
+  {
+    "locale": "en",
+    "tkey": "stories.all",
+    "value": "All"
+  },
+  {
+    "locale": "en",
+    "tkey": "stories.count",
+    "value": "{count, plural, one {# photo} other {# photos}}"
+  },
+  {
+    "locale": "en",
+    "tkey": "stories.filter",
+    "value": "Filter by church"
+  },
+  {
+    "locale": "en",
+    "tkey": "stories.gallery",
+    "value": "Moments"
+  },
+  {
+    "locale": "en",
+    "tkey": "stories.hero.eyebrow",
+    "value": "Stories"
+  },
+  {
+    "locale": "en",
+    "tkey": "stories.hero.lead",
+    "value": "The life of ADEPC — in the words and faces of our community."
+  },
+  {
+    "locale": "en",
+    "tkey": "stories.hero.title",
+    "value": "Real people. Real faith."
+  },
+  {
+    "locale": "en",
+    "tkey": "stories.shareCta",
+    "value": "Share your story"
+  },
+  {
+    "locale": "en",
+    "tkey": "stories.shareLead",
+    "value": "We would love to hear your story — and, with your permission, share it."
+  },
+  {
+    "locale": "en",
+    "tkey": "stories.shareTitle",
+    "value": "Has God been at work in your life?"
+  },
+  {
+    "locale": "en",
+    "tkey": "stories.testimonies",
+    "value": "Testimonies"
+  },
+  {
+    "locale": "en",
+    "tkey": "watch.hero.eyebrow",
+    "value": "Watch"
+  },
+  {
+    "locale": "en",
+    "tkey": "watch.hero.lead",
+    "value": "Messages, special events and moments from the life of our churches."
+  },
+  {
+    "locale": "en",
+    "tkey": "watch.hero.title",
+    "value": "Watch"
+  },
+  {
+    "locale": "en",
+    "tkey": "watch.latest",
+    "value": "Latest message"
+  },
+  {
+    "locale": "en",
+    "tkey": "watch.latestPending",
+    "value": "Sunday messages will be pulled in automatically from ADEPC's YouTube channel once it is connected — no re-uploading."
+  },
+  {
+    "locale": "en",
+    "tkey": "watch.onYouTube",
+    "value": "Watch on YouTube"
+  },
+  {
+    "locale": "en",
+    "tkey": "watch.seconds",
+    "value": "{count} sec"
+  }
+]

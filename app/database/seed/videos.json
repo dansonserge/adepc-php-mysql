@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title_fr": "Voici l'ADEPC",
+    "title_en": "This is ADEPC",
+    "category_id": 5,
+    "church_id": 1,
+    "date_label": "2024",
+    "duration_seconds": 26,
+    "poster_media_id": 35,
+    "source_kind": "file",
+    "mp4_media_id": 44,
+    "webm_media_id": null,
+    "youtube_id": null,
+    "sort": 1,
+    "published": 1
+  },
+  {
+    "id": 2,
+    "title_fr": "Célébration à Montréal",
+    "title_en": "Celebration in Montréal",
+    "category_id": 5,
+    "church_id": 1,
+    "date_label": "2024",
+    "duration_seconds": 15,
+    "poster_media_id": 34,
+    "source_kind": "file",
+    "mp4_media_id": 45,
+    "webm_media_id": null,
+    "youtube_id": null,
+    "sort": 2,
+    "published": 1
+  },
+  {
+    "id": 3,
+    "title_fr": "Louange à Granby",
+    "title_en": "Worship in Granby",
+    "category_id": 5,
+    "church_id": 2,
+    "date_label": "2024",
+    "duration_seconds": 3,
+    "poster_media_id": 36,
+    "source_kind": "file",
+    "mp4_media_id": 46,
+    "webm_media_id": null,
+    "youtube_id": null,
+    "sort": 3,
+    "published": 1
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "pkey": "prayer",
+    "label_fr": "Demande de prière",
+    "label_en": "Prayer request",
+    "is_prayer": 1,
+    "sort": 1,
+    "visible": 1
+  },
+  {
+    "pkey": "general",
+    "label_fr": "Question générale",
+    "label_en": "General inquiry",
+    "is_prayer": 0,
+    "sort": 2,
+    "visible": 1
+  },
+  {
+    "pkey": "church",
+    "label_fr": "Renseignements sur une église",
+    "label_en": "Church information",
+    "is_prayer": 0,
+    "sort": 3,
+    "visible": 1
+  },
+  {
+    "pkey": "visit",
+    "label_fr": "Préparer une visite",
+    "label_en": "Plan a visit",
+    "is_prayer": 0,
+    "sort": 4,
+    "visible": 1
+  },
+  {
+    "pkey": "volunteer",
+    "label_fr": "Bénévolat",
+    "label_en": "Volunteering",
+    "is_prayer": 0,
+    "sort": 5,
+    "visible": 1
+  },
+  {
+    "pkey": "story",
+    "label_fr": "Raconter mon histoire",
+    "label_en": "Share my story",
+    "is_prayer": 0,
+    "sort": 6,
+    "visible": 1
+  }
+]

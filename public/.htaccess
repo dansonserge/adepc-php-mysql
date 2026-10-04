@@ -1,0 +1,48 @@
+# ADEPC — Apache configuration for cPanel hosting.
+Options -Indexes
+DirectoryIndex index.php
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Force HTTPS (uncomment once AutoSSL has issued the certificate).
+  # RewriteCond %{HTTPS} !=on
+  # RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+  # RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+  # Never serve dotfiles or the app folder if it was uploaded inside public_html.
+  RewriteRule (^|/)\. - [F,L]
+  RewriteRule ^app(/|$) - [F,L]
+
+  # Old video URLs (/video/*.mp4) keep working.
+  RewriteRule ^video/(.+)$ media/video/$1 [L]
+
+  # Existing files are served directly; everything else goes to the front controller.
+  RewriteCond %{REQUEST_FILENAME} -f
+  RewriteRule ^ - [L]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteCond %{REQUEST_URI} ^/install/?$
+  RewriteRule ^ - [L]
+  RewriteRule ^ index.php [L,QSA]
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  Header set Permissions-Policy "camera=(), microphone=(), geolocation=(), interest-cohort=()"
+  # Videos are not content-hashed: a week, so re-encodes reach visitors.
+  <FilesMatch "\.(mp4|webm)$">
+    Header set Cache-Control "public, max-age=604800, stale-while-revalidate=86400"
+  </FilesMatch>
+  # Fonts, versioned CSS/JS and generated image sizes never change in place.
+  <FilesMatch "\.(woff2|css|js|webp)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+</IfModule>
+
+<IfModule mod_mime.c>
+  AddType video/webm .webm
+  AddType image/webp .webp
+  AddType font/woff2 .woff2
+  AddType text/javascript .js
+</IfModule>

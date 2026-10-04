@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "slug": "message",
+    "role": "messages",
+    "name_fr": "Messages",
+    "name_en": "Messages",
+    "empty_fr": "Les messages du dimanche seront affichés automatiquement depuis la chaîne YouTube de l'ADEPC dès qu'elle sera connectée — sans rien téléverser de nouveau.",
+    "empty_en": "Sunday messages will be pulled in automatically from ADEPC's YouTube channel once it is connected — no re-uploading.",
+    "sort": 1,
+    "visible": 1
+  },
+  {
+    "id": 2,
+    "slug": "special",
+    "role": null,
+    "name_fr": "Événements spéciaux",
+    "name_en": "Special events",
+    "empty_fr": "Rien pour l'instant.",
+    "empty_en": "Nothing here yet.",
+    "sort": 2,
+    "visible": 1
+  },
+  {
+    "id": 3,
+    "slug": "youth",
+    "role": null,
+    "name_fr": "Jeunesse",
+    "name_en": "Youth",
+    "empty_fr": "Rien pour l'instant.",
+    "empty_en": "Nothing here yet.",
+    "sort": 3,
+    "visible": 1
+  },
+  {
+    "id": 4,
+    "slug": "live",
+    "role": "live",
+    "name_fr": "En direct",
+    "name_en": "Live",
+    "empty_fr": "Les cultes en direct apparaîtront ici lorsqu'une diffusion sera prévue.",
+    "empty_en": "Live services will appear here when a stream is scheduled.",
+    "sort": 4,
+    "visible": 1
+  },
+  {
+    "id": 5,
+    "slug": "moments",
+    "role": null,
+    "name_fr": "Moments",
+    "name_en": "Moments",
+    "empty_fr": "Rien pour l'instant.",
+    "empty_en": "Nothing here yet.",
+    "sort": 5,
+    "visible": 1
+  }
+]

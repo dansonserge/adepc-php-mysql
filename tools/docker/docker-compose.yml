@@ -1,0 +1,31 @@
+# Local stack only. Credentials here are throwaway dev values.
+#   docker compose -f tools/docker/docker-compose.yml up -d --build
+#   site:  http://localhost:8080      admin: http://localhost:8080/admin
+name: adepc-cpanel
+services:
+  web:
+    build: .
+    ports:
+      - "${WEB_PORT:-8080}:80"
+    volumes:
+      # Same layout as on cPanel: public/ is the web root, app/ sits beside it.
+      - ../../public:/var/www/html
+      - ../../app:/var/www/app
+      # Whole project, for dev tools (tools/install-cli.php) run inside the container.
+      - ../..:/var/www/project
+    depends_on:
+      db:
+        condition: service_healthy
+  db:
+    image: mariadb:10.6
+    environment:
+      MARIADB_DATABASE: adepc
+      MARIADB_USER: adepc
+      MARIADB_PASSWORD: adepc_dev_password
+      MARIADB_ROOT_PASSWORD: adepc_dev_root
+    ports:
+      - "${DB_PORT:-3307}:3306"
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 5s
+      retries: 20

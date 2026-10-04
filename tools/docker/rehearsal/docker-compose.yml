@@ -1,0 +1,25 @@
+# Deployment rehearsal: files copied (not mounted) in the cPanel layout,
+# empty MySQL 8.0 database, no Node. See tools/docker/rehearsal/run.sh.
+name: adepc-rehearsal
+services:
+  web:
+    image: adepc-cpanel-web
+    ports:
+      - "8090:80"
+    volumes:
+      - ./upload/public_html:/var/www/html
+      - ./upload/app:/var/www/app
+    depends_on:
+      db:
+        condition: service_healthy
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_DATABASE: cpanel_adepc
+      MYSQL_USER: cpanel_user
+      MYSQL_PASSWORD: rehearsal_pw_123
+      MYSQL_ROOT_PASSWORD: rehearsal_root
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1", "-uroot", "-prehearsal_root"]
+      interval: 5s
+      retries: 30

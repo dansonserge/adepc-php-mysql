@@ -1,0 +1,66 @@
+[
+  {
+    "church_id": 1,
+    "day": "sunday",
+    "time": "13:30",
+    "label_fr": "Culte du dimanche",
+    "label_en": "Sunday worship",
+    "sort": 1
+  },
+  {
+    "church_id": 1,
+    "day": "friday",
+    "time": "20:00",
+    "label_fr": "Rassemblement du vendredi soir",
+    "label_en": "Friday evening gathering",
+    "sort": 2
+  },
+  {
+    "church_id": 2,
+    "day": "sunday",
+    "time": "09:30",
+    "label_fr": "Culte du dimanche",
+    "label_en": "Sunday worship",
+    "sort": 1
+  },
+  {
+    "church_id": 2,
+    "day": "friday",
+    "time": "20:00",
+    "label_fr": "Rassemblement du vendredi soir",
+    "label_en": "Friday evening gathering",
+    "sort": 2
+  },
+  {
+    "church_id": 3,
+    "day": "sunday",
+    "time": "09:00",
+    "label_fr": "Culte du dimanche",
+    "label_en": "Sunday worship",
+    "sort": 1
+  },
+  {
+    "church_id": 3,
+    "day": "friday",
+    "time": "20:00",
+    "label_fr": "Rassemblement du vendredi soir",
+    "label_en": "Friday evening gathering",
+    "sort": 2
+  },
+  {
+    "church_id": 4,
+    "day": "sunday",
+    "time": "15:00",
+    "label_fr": "Culte du dimanche",
+    "label_en": "Sunday worship",
+    "sort": 1
+  },
+  {
+    "church_id": 4,
+    "day": "friday",
+    "time": "20:00",
+    "label_fr": "Rassemblement du vendredi soir",
+    "label_en": "Friday evening gathering",
+    "sort": 2
+  }
+]

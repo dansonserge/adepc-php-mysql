@@ -1,0 +1,20 @@
+[
+  {
+    "code": "fr",
+    "name": "Français",
+    "short_label": "FR",
+    "hreflang": "fr-CA",
+    "og_locale": "fr_CA",
+    "is_default": 1,
+    "sort": 1
+  },
+  {
+    "code": "en",
+    "name": "English",
+    "short_label": "EN",
+    "hreflang": "en-CA",
+    "og_locale": "en_CA",
+    "is_default": 0,
+    "sort": 2
+  }
+]

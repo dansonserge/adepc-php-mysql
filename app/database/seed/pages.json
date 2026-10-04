@@ -1,0 +1,83 @@
+[
+  {
+    "pkey": "home",
+    "slug_fr": "",
+    "slug_en": "",
+    "in_sitemap": 1,
+    "changefreq": "weekly",
+    "priority": 1,
+    "sort": 0
+  },
+  {
+    "pkey": "churches",
+    "slug_fr": "eglises",
+    "slug_en": "churches",
+    "in_sitemap": 1,
+    "changefreq": "monthly",
+    "priority": 0.9,
+    "sort": 1
+  },
+  {
+    "pkey": "events",
+    "slug_fr": "evenements",
+    "slug_en": "events",
+    "in_sitemap": 1,
+    "changefreq": "weekly",
+    "priority": 0.7,
+    "sort": 2
+  },
+  {
+    "pkey": "watch",
+    "slug_fr": "regarder",
+    "slug_en": "watch",
+    "in_sitemap": 1,
+    "changefreq": "weekly",
+    "priority": 0.7,
+    "sort": 3
+  },
+  {
+    "pkey": "about",
+    "slug_fr": "a-propos",
+    "slug_en": "about",
+    "in_sitemap": 1,
+    "changefreq": "monthly",
+    "priority": 0.7,
+    "sort": 4
+  },
+  {
+    "pkey": "stories",
+    "slug_fr": "histoires",
+    "slug_en": "stories",
+    "in_sitemap": 1,
+    "changefreq": "monthly",
+    "priority": 0.7,
+    "sort": 5
+  },
+  {
+    "pkey": "give",
+    "slug_fr": "donner",
+    "slug_en": "give",
+    "in_sitemap": 1,
+    "changefreq": "monthly",
+    "priority": 0.7,
+    "sort": 6
+  },
+  {
+    "pkey": "contact",
+    "slug_fr": "contact",
+    "slug_en": "contact",
+    "in_sitemap": 1,
+    "changefreq": "monthly",
+    "priority": 0.7,
+    "sort": 7
+  },
+  {
+    "pkey": "privacy",
+    "slug_fr": "confidentialite",
+    "slug_en": "privacy",
+    "in_sitemap": 1,
+    "changefreq": "monthly",
+    "priority": 0.7,
+    "sort": 8
+  }
+]

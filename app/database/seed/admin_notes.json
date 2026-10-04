@@ -1,0 +1,98 @@
+[
+  {
+    "kind": "removed",
+    "what_fr": "Événements : Congrès régional de réveil (24 oct. 2024), conférence jeunesse Ignite 2024, Festival des récoltes, distribution de pain Unity",
+    "what_en": "Events: Annual Regional Revival Convention (Oct 24, 2024), Ignite Youth Conference 2024, Community Harvest Festival, Unity Bread Distribution",
+    "why_fr": "Événements passés ou gabarits au texte générique ; rien n'indique qu'ils aient eu lieu comme décrits.",
+    "why_en": "Past or template events with generic copy; no evidence they happened as described.",
+    "sort": 1
+  },
+  {
+    "kind": "removed",
+    "what_fr": "« Une famille de foi depuis 1940 » / « fondée en 1940 »",
+    "what_en": "\"A Family of Faith Since 1940\" / \"founded in 1940\"",
+    "why_fr": "Contredit par « plus de 3 ans de ministère » sur la même page. Année de fondation inconnue.",
+    "why_en": "Contradicted by the same page's \"3+ years of ministry\". Founding year unknown.",
+    "sort": 2
+  },
+  {
+    "kind": "removed",
+    "what_fr": "Statistiques : « 100+ membres et amis », « 3+ ans de ministère »",
+    "what_en": "Stats: \"100+ members & friends\", \"3+ years of ministry\"",
+    "why_fr": "Non vérifiées. Seuls les chiffres vérifiables (4 églises, 4 villes) sont affichés.",
+    "why_en": "Unverified. Only the verifiable figures (4 churches, 4 cities) are shown.",
+    "sort": 3
+  },
+  {
+    "kind": "removed",
+    "what_fr": "Programmes des églises : ministère jeunesse (hebdomadaire), enfants 3–12 ans, réunion de prière (hebdomadaire), évangélisation (mensuelle), sainte cène le premier dimanche",
+    "what_en": "Church programs: Youth ministry (weekly), Children's ministry ages 3–12, Prayer meeting (weekly), Outreach (monthly), Communion first Sunday",
+    "why_fr": "Texte générique identique sur les quatre pages d'église. À rétablir par église une fois confirmé.",
+    "why_en": "Identical boilerplate on all four church pages. Restore per church once confirmed.",
+    "sort": 4
+  },
+  {
+    "kind": "removed",
+    "what_fr": "Heures de bureau : lun.–ven. 8 h–17 h, samedi 9 h–13 h",
+    "what_en": "Office hours: Mon–Fri 8:00–17:00, Saturday 9:00–13:00",
+    "why_fr": "Semble provenir d'un gabarit ; confirmer qu'un bureau est réellement ouvert.",
+    "why_en": "Looks like template copy; confirm whether an office is actually staffed.",
+    "sort": 5
+  },
+  {
+    "kind": "removed",
+    "what_fr": "Option de don « Virement bancaire — comptes canadiens »",
+    "what_en": "\"Bank wire transfer — Canadian bank accounts\" giving option",
+    "why_fr": "Présentée sans coordonnées bancaires. PayPal et le virement Interac sont conservés.",
+    "why_en": "Listed with no account details. PayPal and Interac e-Transfer are kept.",
+    "sort": 6
+  },
+  {
+    "kind": "removed",
+    "what_fr": "Message de la semaine « Marcher par la foi et non par la vue »",
+    "what_en": "\"This week: Walking by Faith, Not by Sight\" weekly message",
+    "why_fr": "Non daté (« Semaine du — ») ; remplacé par la section Regarder, alimentée par YouTube.",
+    "why_en": "Undated (\"Week of —\"); replaced by the Watch section, which will pull real messages from YouTube.",
+    "sort": 7
+  },
+  {
+    "kind": "removed",
+    "what_fr": "Téléphone +1 (514) 000-0000",
+    "what_en": "Phone +1 (514) 000-0000",
+    "why_fr": "Numéro fictif. Le vrai numéro de chaque église (tiré de la bannière de l'ADEPC) est affiché à la place.",
+    "why_en": "Placeholder number. Each church's real number (from the ADEPC banner) is shown instead.",
+    "sort": 8
+  },
+  {
+    "kind": "banner",
+    "what_fr": "Numéros de téléphone et adresses Gmail des églises (Montréal, Granby, Ottawa, Québec). Note : le numéro de Granby a l'indicatif 418.",
+    "what_en": "Church phone numbers and Gmail addresses (Montréal, Granby, Ottawa, Québec). Note: Granby's number has a 418 area code.",
+    "why_fr": null,
+    "why_en": null,
+    "sort": 1
+  },
+  {
+    "kind": "banner",
+    "what_fr": "Énoncé de mission : « Proclamer l'évangile de Jésus Christ selon la Sainte Bible. Offrir aux communautés les services socioéconomiques qui apportent le plein développement. »",
+    "what_en": "Mission statement: « Proclamer l'évangile de Jésus Christ selon la Sainte Bible. Offrir aux communautés les services socioéconomiques qui apportent le plein développement. »",
+    "why_fr": null,
+    "why_en": null,
+    "sort": 2
+  },
+  {
+    "kind": "banner",
+    "what_fr": "Verset de la devise : Lévitique 6:6.",
+    "what_en": "Motto verse: Lévitique 6:6.",
+    "why_fr": null,
+    "why_en": null,
+    "sort": 3
+  },
+  {
+    "kind": "banner",
+    "what_fr": "L'adresse de virement Interac adepc.quebec@adepc.ca (ancien site) diffère du courriel de Québec sur la bannière, adepc.quebec@gmail.com — confirmer l'adresse de virement.",
+    "what_en": "Interac e-Transfer address adepc.quebec@adepc.ca (from the old site) differs from Québec's banner email adepc.quebec@gmail.com — confirm the e-Transfer address.",
+    "why_fr": null,
+    "why_en": null,
+    "sort": 4
+  }
+]
