@@ -32,7 +32,7 @@ final class Form
         if ($type === 'checkbox') {
             return '<div class="py-1"' . $show . '>' . $input . $help . $err . '</div>';
         }
-        $labelTag = in_array($type, ['l10n', 'churches', 'services'], true)
+        $labelTag = in_array($type, ['l10n', 'churches', 'services', 'gallery'], true)
             ? '<p class="caption mb-2 text-stone">' . e($label) . $star . '</p>'
             : '<label for="' . e($id) . '" class="caption mb-2 block text-stone">' . e($label) . $star . '</label>';
         return '<div' . $show . '>' . $labelTag . $input . $help . $err . '</div>';
@@ -79,6 +79,8 @@ final class Form
                 return $html . '</div>';
             case 'media':
                 return self::mediaPicker($f['kind'] ?? 'image', $n($name), $id, $value === null || $value === '' ? null : (int) $value, empty($f['required']));
+            case 'gallery':
+                return self::galleryPicker($n($name), $n($name . '_remove'), $id, (array) $value);
             case 'password':
                 return '<input id="' . e($id) . '" type="password" name="' . $n($name) . '" value="" autocomplete="new-password" class="' . self::INPUT . '">';
             default:
@@ -132,12 +134,90 @@ final class Form
             $html .= '<option value="">' . e(A::t('admin.o.none')) . '</option>';
         }
         foreach ($rows as $r) {
-            $label = $r['label'] ?: basename($r['path']);
-            $alt = $r['alt_' . A::$locale] ?? '';
-            $html .= '<option value="' . (int) $r['id'] . '" data-thumb="' . e(self::thumbUrl($r)) . '"' . ((int) $r['id'] === $value ? ' selected' : '') . '>' . e('#' . $r['id'] . ' · ' . $label . ($alt ? ' — ' . mb_strimwidth($alt, 0, 60, '…') : '')) . '</option>';
+            $html .= '<option value="' . (int) $r['id'] . '" data-thumb="' . e(self::thumbUrl($r)) . '"' . ((int) $r['id'] === $value ? ' selected' : '') . '>' . e(self::optionLabel($r)) . '</option>';
         }
         $html .= '</select><button type="button" class="mt-2 text-small font-semibold text-blue underline underline-offset-4" data-media-browse>' . e(A::t('admin.media.browse')) . '</button></div></div>';
         return $html;
+    }
+
+    /** "#12 · file name" */
+    private static function mediaName(array $m): string
+    {
+        return '#' . $m['id'] . ' · ' . ($m['label'] ?: basename($m['path']));
+    }
+
+    /** "#12 · file name — start of the description" */
+    private static function optionLabel(array $m): string
+    {
+        $alt = $m['alt_' . A::$locale] ?? '';
+        return self::mediaName($m) . ($alt ? ' — ' . mb_strimwidth($alt, 0, 60, '…') : '');
+    }
+
+    /**
+     * Several photos and videos from the library, in order. Without JavaScript:
+     * remove boxes and a multiple select. With it: ↑/↓ and a browse dialog.
+     * @param list<int|string> $selected media ids
+     */
+    public static function galleryPicker(string $name, string $removeName, string $id, array $selected): string
+    {
+        $rows = Db::all("SELECT id, ref, path, label, variants, alt_fr, alt_en, kind FROM media WHERE kind IN ('image', 'video') ORDER BY sort DESC, id DESC");
+        $byId = [];
+        foreach ($rows as $r) {
+            $byId[(int) $r['id']] = $r;
+        }
+        $selected = array_values(array_unique(array_filter(array_map('intval', $selected), static fn ($i) => isset($byId[$i]))));
+        $noAlt = static fn (array $m): bool => $m['kind'] === 'image' && (trim((string) $m['alt_fr']) === '' || trim((string) $m['alt_en']) === '');
+        $item = static function (?array $m) use ($name, $removeName, $noAlt): string {
+            $value = $m ? (string) (int) $m['id'] : '';
+            return '<li class="flex flex-wrap items-center gap-3 border border-ink/15 bg-white p-2 sm:flex-nowrap" data-list-row>'
+                . '<div class="h-16 w-20 shrink-0 overflow-hidden bg-ink/5" data-gallery-thumb>' . ($m ? self::thumb($m, 'h-full w-full object-cover') : '') . '</div>'
+                . '<div class="min-w-0 flex-1"><p class="truncate text-small font-semibold" data-gallery-label>' . ($m ? e(self::mediaName($m)) : '') . '</p>'
+                . '<p class="mt-0.5 text-caption font-semibold text-ember"' . ($m && $noAlt($m) ? '' : ' hidden') . ' data-gallery-noalt>' . e(A::t('admin.media.noAlt')) . '</p></div>'
+                . '<div class="flex items-center gap-2">'
+                . '<button type="button" class="border border-ink/20 px-2 py-1 text-small" data-move="up" aria-label="' . e(A::t('admin.action.moveUp')) . '">↑</button>'
+                . '<button type="button" class="border border-ink/20 px-2 py-1 text-small" data-move="down" aria-label="' . e(A::t('admin.action.moveDown')) . '">↓</button></div>'
+                . '<label class="inline-flex items-center gap-2 text-small text-ember"><input type="checkbox" name="' . $removeName . '[]" value="' . $value . '" class="check h-5 w-5 border-2 border-ember" data-gallery-remove>' . e(A::t('admin.action.remove')) . '</label>'
+                . '<input type="hidden" name="' . $name . '[]" value="' . $value . '" data-gallery-input>'
+                . '</li>';
+        };
+
+        $html = '<div data-gallery-picker>';
+        $html .= '<p class="text-small text-stone"' . ($selected ? ' hidden' : '') . ' data-gallery-empty>' . e(A::t('admin.gallery.empty')) . '</p>';
+        $html .= '<ol class="space-y-2" data-list-items>';
+        foreach ($selected as $mid) {
+            $html .= $item($byId[$mid]);
+        }
+        $html .= '</ol><template data-gallery-template>' . $item(null) . '</template>';
+
+        // New items are added after the current ones.
+        $html .= '<div class="mt-4" data-gallery-fallback><label for="' . e($id) . '" class="mb-1 block text-small text-stone">' . e(A::t('admin.gallery.add')) . '</label>'
+            . '<select id="' . e($id) . '" name="' . $name . '[]" multiple size="8" class="' . self::INPUT . '" data-gallery-add>';
+        foreach ($rows as $r) {
+            // Already attached, or a brand file (logo, icons, share card).
+            if (in_array((int) $r['id'], $selected, true) || str_starts_with((string) $r['ref'], 'brand-')) {
+                continue;
+            }
+            $html .= '<option' . attrs([
+                'value' => (string) (int) $r['id'],
+                'data-kind' => $r['kind'],
+                'data-thumb' => self::thumbUrl($r),
+                'data-src' => $r['kind'] === 'video' ? '/media/' . $r['path'] : null,
+                'data-name' => self::mediaName($r),
+                'data-noalt' => $noAlt($r) ? '1' : null,
+            ]) . '>' . e(self::optionLabel($r)) . '</option>';
+        }
+        $html .= '</select></div>';
+        $html .= '<button type="button" class="mt-3 border border-dashed border-ink/40 px-4 py-2 text-small font-semibold" hidden data-gallery-browse>' . e(A::t('admin.media.browse')) . '</button>';
+
+        $tab = static fn (string $kind, string $label): string => '<button type="button" class="border border-ink px-4 py-2 text-nav font-semibold uppercase" data-gallery-kind="' . $kind . '">' . e(A::t($label)) . '</button>';
+        $html .= '<template data-gallery-dialog><dialog class="m-auto max-h-[85svh] w-[min(64rem,calc(100vw-2rem))] overflow-y-auto bg-paper p-6 backdrop:bg-ink/60">'
+            . '<div class="mb-6 flex flex-wrap items-center justify-between gap-4">'
+            . '<div class="flex gap-2">' . $tab('image', 'admin.media.images') . $tab('video', 'admin.media.videos') . '</div>'
+            . '<div class="flex items-center gap-4"><button type="button" class="' . e(abtn('ink')) . ' disabled:opacity-40" disabled data-gallery-confirm><span>' . e(A::t('admin.media.addSelected')) . '</span></button>'
+            . '<button type="button" class="text-h3 font-semibold" aria-label="' . e(A::t('admin.action.close')) . '" data-gallery-close>×</button></div></div>'
+            . '<div class="grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-6" data-gallery-grid></div>'
+            . '</dialog></template>';
+        return $html . '</div>';
     }
 
     public static function thumbUrl(array $m): string
@@ -190,6 +270,9 @@ final class Form
                 return [$name => (is_array($v) ? end($v) : $v) === '1' ? 1 : 0];
             case 'churches':
                 return [$name => array_values(array_map('intval', array_filter((array) ($in[$name] ?? []), 'is_numeric')))];
+            case 'gallery':
+                $ids = static fn ($v) => array_map('intval', array_filter((array) $v, static fn ($x) => is_string($x) && ctype_digit($x)));
+                return [$name => array_values(array_unique(array_diff($ids($in[$name] ?? []), $ids($in[$name . '_remove'] ?? []))))];
             case 'media':
             case 'church':
                 $v = $str($in[$name] ?? '');

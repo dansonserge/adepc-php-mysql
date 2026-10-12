@@ -13,6 +13,7 @@ initHeader();
 when('[data-js-hero-video]', () => import('./hero-video.js'));
 when('[data-js-film]', () => import('./film.js'));
 when('[data-js-gallery]', () => import('./gallery.js'));
+when('[data-js-lightbox]', () => import('./lightbox.js'));
 when('[data-js-copy]', () => import('./copy.js'));
 when('[data-js-map]', () => import('./map.js'));
 when('[data-js-paypal]', () => import('./paypal.js'));

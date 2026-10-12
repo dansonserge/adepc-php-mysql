@@ -11,6 +11,7 @@ use Adepc\Site;
  *   /                       → 307 to /fr or /en (cookie, then Accept-Language)
  *   /{locale}/{page slug}   → localized slugs from the `pages` table
  *   /{locale}/{churches}/{slug}
+ *   /{locale}/{events}/{slug}
  *   legacy paths            → `redirects` table (308)
  */
 final class Router
@@ -83,6 +84,10 @@ final class Router
 
         if ($page === 'churches' && count($rest) === 2) {
             Pages::church($rest[1]);
+            return;
+        }
+        if ($page === 'events' && count($rest) === 2) {
+            Pages::event($rest[1]);
             return;
         }
         if (count($rest) !== 1 || $page === 'home') {

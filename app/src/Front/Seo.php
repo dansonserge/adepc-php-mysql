@@ -27,7 +27,7 @@ final class Seo
         $description = (string) ($meta['description'] ?? '');
         $alternates = $meta['alternates'] ?? [];
         $canonical = isset($alternates[$locale]) ? Site::absolute($alternates[$locale]) : null;
-        $share = Site::slot('brand.share');
+        $share = ($meta['share'] ?? null) ?: Site::slot('brand.share');
         $icon = Site::slot('brand.icon');
         $apple = Site::slot('brand.apple_icon');
 
@@ -191,6 +191,7 @@ final class Seo
             'name' => Site::L($e, 'title', $locale),
             'description' => Site::L($e, 'description', $locale),
             'startDate' => $e['event_date'] . $time,
+            'url' => Site::absolute(Site::url('event', $locale, ['slug' => $e['slug']])),
             'eventStatus' => 'https://schema.org/EventScheduled',
             'eventAttendanceMode' => 'https://schema.org/OfflineEventAttendanceMode',
             'organizer' => ['@id' => self::orgId()],
@@ -201,6 +202,16 @@ final class Seo
         $people = array_values(array_filter(array_map('trim', explode("\n", (string) $e['people']))));
         if ($people) {
             $data['performer'] = array_map(static fn ($n) => ['@type' => 'Person', 'name' => $n], $people);
+        }
+        $images = [];
+        foreach ([$e['media_id'], ...$e['gallery']] as $id) {
+            $m = Site::media($id);
+            if ($m && $m['kind'] === 'image') {
+                $images[] = Site::absolute(Site::mediaUrl($m));
+            }
+        }
+        if ($images) {
+            $data['image'] = array_values(array_unique($images));
         }
         return $data;
     }
@@ -218,6 +229,10 @@ final class Seo
         $churchesPage = Site::page('churches');
         foreach (Site::churches() as $c) {
             $entries[] = ['church', ['slug' => $c['slug']], $churchesPage['changefreq'] ?? 'monthly', '0.7'];
+        }
+        $eventsPage = Site::page('events');
+        foreach (Site::d()['events'] as $e) {
+            $entries[] = ['event', ['slug' => $e['slug']], $eventsPage['changefreq'] ?? 'weekly', '0.6'];
         }
         $now = gmdate('Y-m-d\TH:i:s.v\Z');
         header('Content-Type: application/xml; charset=utf-8');

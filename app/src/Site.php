@@ -122,18 +122,30 @@ final class Site
         return null;
     }
 
+    public static function event(string $slug): ?array
+    {
+        foreach (self::d()['events'] as $e) {
+            if ($e['slug'] === $slug) {
+                return $e;
+            }
+        }
+        return null;
+    }
+
     public static function page(string $key): ?array
     {
         return self::d()['pages'][$key] ?? null;
     }
 
-    /** Path of a page in a language, e.g. url('churches', 'fr') → /fr/eglises. */
+    /** Path of a page in a language, e.g. url('churches', 'fr') → /fr/eglises, url('event', 'fr', ['slug' => …]) → /fr/evenements/…. */
     public static function url(string $page, ?string $locale = null, array $params = [], array $query = [], string $hash = ''): string
     {
         $locale ??= self::$locale;
         $path = '/' . $locale;
         if ($page === 'church') {
             $path .= '/' . self::slugOf('churches', $locale) . '/' . rawurlencode((string) $params['slug']);
+        } elseif ($page === 'event') {
+            $path .= '/' . self::slugOf('events', $locale) . '/' . rawurlencode((string) $params['slug']);
         } elseif ($page !== 'home') {
             $slug = self::slugOf($page, $locale);
             $path .= $slug === '' ? '' : '/' . $slug;

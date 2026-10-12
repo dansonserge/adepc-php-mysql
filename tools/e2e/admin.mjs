@@ -180,6 +180,30 @@ await submit('form button[type=submit]:has-text("Enregistrer")');
 const heroSrc = await (async () => { const p = await ctx.newPage(); await p.goto(`${BASE}/fr`); const s = await p.locator('section[aria-labelledby=hero-title] img').first().getAttribute('srcset'); await p.close(); return s; })();
 check(heroSrc.includes(`/media/images/${newId}/`), 'hero poster comes from the chosen media');
 
+// ── Event gallery: photos and a video from the library, on the event page ──
+await page.goto(`${BASE}/admin/events/2`);
+const galleryRows = page.locator('[data-gallery-picker] [data-list-row]');
+for (const box of await galleryRows.locator('[data-gallery-remove]').all()) await box.check();
+await page.click('[data-gallery-browse]');
+const library = page.locator('dialog[open]');
+const described = library.locator('[data-gallery-grid] > button:visible', { hasText: ' — ' });
+await described.nth(0).click();
+await described.nth(1).click();
+await library.locator('[data-gallery-kind="video"]').click();
+await library.locator('[data-gallery-grid] > button:visible').first().click();
+await library.locator('[data-gallery-confirm]').click();
+await submit('form[action="/admin/events/2"] button[type=submit]');
+check(await galleryRows.count() === 3, 'event gallery keeps the picked photos and video');
+{
+  const p = await ctx.newPage();
+  await p.goto(`${BASE}/fr/evenements`);
+  await Promise.all([p.waitForNavigation(), p.locator('a[href="/fr/evenements/culte-du-dimanche"]').click()]);
+  check(await p.locator('[data-js-lightbox-item]').count() === 2 && await p.locator('[data-js-lightbox] video').count() === 1, 'the events list opens the event page with its gallery');
+  await p.locator('[data-js-lightbox-item]').first().click();
+  check(await p.locator('[data-js-lightbox-dialog]').evaluate((d) => d.open), 'a gallery photo opens in the viewer');
+  await p.close();
+}
+
 // ── Security ──────────────────────────────────────────────────────────────
 const noCsrf = await ctx.request.post(`${BASE}/admin/settings/organization`, { form: { 's[site.short_name]': 'HACK' } });
 check(noCsrf.status() === 403, 'POST without CSRF token is rejected');

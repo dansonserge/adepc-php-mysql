@@ -155,6 +155,7 @@ CREATE TABLE IF NOT EXISTS church_services (
 CREATE TABLE IF NOT EXISTS events (
   id                 INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
   kind               VARCHAR(16)  NOT NULL DEFAULT 'recurring',   -- featured | recurring
+  slug               VARCHAR(120) NOT NULL,                       -- page address: /fr/evenements/<slug>
   title_fr           VARCHAR(255) NOT NULL,
   title_en           VARCHAR(255) NOT NULL,
   description_fr     TEXT         NOT NULL,
@@ -181,7 +182,8 @@ CREATE TABLE IF NOT EXISTS events (
   show_sunday_times  TINYINT(1)   NOT NULL DEFAULT 0,
   sort               INT          NOT NULL DEFAULT 0,
   published          TINYINT(1)   NOT NULL DEFAULT 1,
-  updated_at         TIMESTAMP    NULL DEFAULT NULL
+  updated_at         TIMESTAMP    NULL DEFAULT NULL,
+  UNIQUE KEY uq_event_slug (slug)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 CREATE TABLE IF NOT EXISTS event_churches (
@@ -189,6 +191,15 @@ CREATE TABLE IF NOT EXISTS event_churches (
   church_id  INT UNSIGNED NOT NULL,
   sort       INT          NOT NULL DEFAULT 0,
   PRIMARY KEY (event_id, church_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- Photos and videos shown on an event's page, in order.
+CREATE TABLE IF NOT EXISTS event_media (
+  event_id  INT UNSIGNED NOT NULL,
+  media_id  INT UNSIGNED NOT NULL,
+  sort      INT          NOT NULL DEFAULT 0,
+  PRIMARY KEY (event_id, media_id),
+  KEY idx_event_media_media (media_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 CREATE TABLE IF NOT EXISTS video_categories (

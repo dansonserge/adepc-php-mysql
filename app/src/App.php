@@ -17,6 +17,7 @@ final class App
 
         $path = rawurldecode((string) (parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/'));
         try {
+            Upgrade::ensure();
             if ($path === '/admin' || str_starts_with($path, '/admin/')) {
                 Admin\Router::dispatch($path);
                 return;

@@ -2,6 +2,7 @@
   {
     "id": 1,
     "kind": "featured",
+    "slug": "grande-croisade-2026",
     "title_fr": "Grande Croisade d'Évangélisation 2026",
     "title_en": "Evangelization Crusade 2026",
     "description_fr": "Des moments de louange, d'adoration, de prière et d'enseignement de la Parole de Dieu, qui rassemblent croyants et communautés. Venez grandir dans votre foi, recevoir l'encouragement de Dieu et célébrer ensemble l'amour de Jésus-Christ. Tous sont les bienvenus.",
@@ -32,6 +33,7 @@
   {
     "id": 2,
     "kind": "recurring",
+    "slug": "culte-du-dimanche",
     "title_fr": "Culte du dimanche",
     "title_en": "Sunday worship",
     "description_fr": "Louange, Parole et prière — notre rassemblement hebdomadaire principal, dans nos quatre églises.",
@@ -62,6 +64,7 @@
   {
     "id": 3,
     "kind": "recurring",
+    "slug": "rassemblement-du-vendredi",
     "title_fr": "Rassemblement du vendredi soir",
     "title_en": "Friday evening gathering",
     "description_fr": "La communion au cœur de la semaine — les portes de chaque église ADEPC sont ouvertes le vendredi soir.",

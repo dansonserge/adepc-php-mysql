@@ -13,7 +13,7 @@ Ouvrez `https://adepc.ca/admin` et connectez-vous avec votre courriel et votre m
 | **Tableau de bord** | Voir les valeurs par défaut à remplacer, les éléments masqués tant qu'ils sont vides, et les notes éditoriales. |
 | **Pages** | Modifier chaque page dans l'ordre de ses sections : textes (FR et EN côte à côte), listes (piliers, valeurs, croyances…), photos, adresse de la page et référencement. |
 | **Églises** | Nom, adresse, horaires du dimanche et du vendredi, téléphone, courriel, pasteur, textes, photo principale. |
-| **Événements** | Ajouter, modifier ou retirer un événement. La date peut être précise, un texte comme « Date à annoncer », ou un rythme comme « Chaque dimanche ». |
+| **Événements** | Ajouter, modifier ou retirer un événement. La date peut être précise, un texte comme « Date à annoncer », ou un rythme comme « Chaque dimanche ». Chaque événement a sa propre page : sous **Photos et vidéos de l'événement**, cliquez sur *Parcourir la médiathèque* pour en choisir plusieurs à la fois, puis ordonnez-les avec ↑ ↓. |
 | **Vidéos** et **Catégories de vidéos** | Films et vidéos du site, téléversés ou YouTube. |
 | **Témoignages** | Témoignages publiés. Le consentement de la personne est obligatoire. |
 | **Médiathèque** | Téléverser des photos et des vidéos. Donnez une **description** à chaque photo, en français et en anglais, et cliquez sur la photo pour choisir son **cadrage**. |
@@ -44,7 +44,7 @@ Open `https://adepc.ca/admin` and sign in with your email and password. The **FR
 | **Dashboard** | See the default values to replace, the items hidden until filled in, and the editorial notes. |
 | **Pages** | Edit each page in section order: texts (FR and EN side by side), lists (pillars, values, beliefs…), photos, page address and SEO. |
 | **Churches** | Name, address, Sunday and Friday times, phone, email, pastor, texts, main photo. |
-| **Events** | Add, edit or remove events. The date can be exact, a text such as "Date to be announced", or a rhythm such as "Every Sunday". |
+| **Events** | Add, edit or remove events. The date can be exact, a text such as "Date to be announced", or a rhythm such as "Every Sunday". Each event has its own page: under **Event photos & videos**, click *Browse the library* to pick several at once, then order them with ↑ ↓. |
 | **Videos** and **Video categories** | The site's films and videos, uploaded or from YouTube. |
 | **Testimonies** | Published testimonies. The person's consent is required. |
 | **Media library** | Upload photos and videos. Give each photo a **description** in both languages, and click the photo to set its **framing**. |

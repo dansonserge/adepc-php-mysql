@@ -11,7 +11,7 @@ final class Seeder
     /** Insert order respects references between tables. */
     public const TABLES = [
         'locales', 'settings', 'translations', 'pages', 'redirects', 'menu_items', 'media', 'media_slots',
-        'list_items', 'churches', 'church_services', 'events', 'event_churches', 'video_categories',
+        'list_items', 'churches', 'church_services', 'events', 'event_churches', 'event_media', 'video_categories',
         'videos', 'stories', 'contact_purposes', 'admin_notes',
     ];
 
@@ -51,13 +51,15 @@ final class Seeder
         }
     }
 
-    public static function insertMany(PDO $pdo, string $table, array $rows): void
+    /** $ignore skips rows whose key already exists (used by upgrades to add missing rows only). */
+    public static function insertMany(PDO $pdo, string $table, array $rows, bool $ignore = false): void
     {
         foreach (array_chunk($rows, 100) as $chunk) {
             $cols = array_keys($chunk[0]);
             $placeholders = '(' . implode(',', array_fill(0, count($cols), '?')) . ')';
             $sql = sprintf(
-                'INSERT INTO `%s` (%s) VALUES %s',
+                'INSERT %sINTO `%s` (%s) VALUES %s',
+                $ignore ? 'IGNORE ' : '',
                 $table,
                 implode(',', array_map(static fn ($c) => "`$c`", $cols)),
                 implode(',', array_fill(0, count($chunk), $placeholders))

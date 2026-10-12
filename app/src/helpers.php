@@ -120,12 +120,12 @@ function external_button(string $href, string $label, string $variant = 'gold', 
         . e($label) . '</span>' . arrow() . '</a>';
 }
 
-/** Text link with an arrow; http(s) links open in a new tab. */
-function arrow_link(string $href, string $label, string $class = ''): string
+/** Text link with an arrow; http(s) links open in a new tab. $attrs adds attributes (e.g. aria-describedby). */
+function arrow_link(string $href, string $label, string $class = '', array $attrs = []): string
 {
     $cls = 'group inline-flex items-center gap-3 text-nav font-semibold uppercase underline-offset-[6px] hover:underline ' . $class;
     $web = str_starts_with($href, 'http');
-    return '<a href="' . e($href) . '" class="' . e($cls) . '"' . ($web ? ' target="_blank" rel="noopener noreferrer"' : '') . '><span>'
+    return '<a href="' . e($href) . '" class="' . e($cls) . '"' . ($web ? ' target="_blank" rel="noopener noreferrer"' : '') . attrs($attrs) . '><span>'
         . e($label) . '</span>' . arrow() . '</a>';
 }
 
@@ -186,6 +186,16 @@ function photo(?array $media, array $o): string
 function paragraphs(string $text): array
 {
     return array_values(array_filter(array_map('trim', preg_split('/\R\s*\R/', $text) ?: []), 'strlen'));
+}
+
+/** Where an event takes place: "All four churches" or its churches' cities. */
+function event_where(array $event): string
+{
+    if ($event['all_churches']) {
+        return t('common.allChurches');
+    }
+    $cities = array_map(static fn ($id) => ($c = Site::churchById($id)) ? Site::L($c, 'city') : '', $event['church_ids']);
+    return implode(t('format.separator'), $cities);
 }
 
 function partial(string $name, array $vars = []): string

@@ -97,6 +97,75 @@ function initPickers(root = document) {
 }
 initPickers();
 
+// Gallery picker: several photos and videos, in order. Rows move with ↑/↓ (above);
+// the browse dialog adds many at once, in the order they were picked.
+function galleryThumb(opt, className) {
+  if (opt.dataset.kind === 'video') return Object.assign(document.createElement('video'), { src: opt.dataset.src, muted: true, preload: 'metadata', className });
+  return Object.assign(document.createElement('img'), { src: opt.dataset.thumb, alt: '', loading: 'lazy', className });
+}
+$$('[data-gallery-picker]').forEach((picker) => {
+  const select = picker.querySelector('[data-gallery-add]');
+  const list = picker.querySelector('[data-list-items]');
+  const browse = picker.querySelector('[data-gallery-browse]');
+  picker.querySelector('[data-gallery-fallback]').hidden = true;
+  browse.hidden = false;
+
+  const add = (opt) => {
+    const row = picker.querySelector('template[data-gallery-template]').content.firstElementChild.cloneNode(true);
+    row.querySelector('[data-gallery-thumb]').append(galleryThumb(opt, 'h-full w-full object-cover'));
+    row.querySelector('[data-gallery-label]').textContent = opt.dataset.name;
+    row.querySelector('[data-gallery-noalt]').hidden = opt.dataset.noalt !== '1';
+    row.querySelector('[data-gallery-input]').value = opt.value;
+    row.querySelector('[data-gallery-remove]').value = opt.value;
+    list.append(row);
+    opt.remove();
+    picker.querySelector('[data-gallery-empty]').hidden = true;
+  };
+
+  browse.addEventListener('click', () => {
+    const dialog = picker.querySelector('template[data-gallery-dialog]').content.firstElementChild.cloneNode(true);
+    const grid = dialog.querySelector('[data-gallery-grid]');
+    const confirm = dialog.querySelector('[data-gallery-confirm]');
+    const tabs = $$('[data-gallery-kind]', dialog);
+    const chosen = new Set();
+    [...select.options].forEach((opt) => {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.dataset.kind = opt.dataset.kind;
+      b.className = 'border-4 border-transparent bg-white text-left aria-pressed:border-gold aria-[pressed=false]:hover:border-blue';
+      b.setAttribute('aria-pressed', 'false');
+      b.append(galleryThumb(opt, 'aspect-[4/3] w-full object-cover'), Object.assign(document.createElement('span'), { className: 'block p-2 text-caption', textContent: opt.textContent }));
+      b.addEventListener('click', () => {
+        const on = !chosen.has(opt);
+        if (on) chosen.add(opt);
+        else chosen.delete(opt);
+        b.setAttribute('aria-pressed', String(on));
+        confirm.disabled = chosen.size === 0;
+      });
+      grid.append(b);
+    });
+    const show = (kind) => {
+      tabs.forEach((tab) => {
+        const on = tab.dataset.galleryKind === kind;
+        tab.setAttribute('aria-pressed', String(on));
+        tab.classList.toggle('bg-ink', on);
+        tab.classList.toggle('text-white', on);
+      });
+      [...grid.children].forEach((b) => { b.hidden = b.dataset.kind !== kind; });
+    };
+    tabs.forEach((tab) => tab.addEventListener('click', () => show(tab.dataset.galleryKind)));
+    show('image');
+    confirm.addEventListener('click', () => {
+      chosen.forEach(add);
+      dialog.close();
+    });
+    dialog.querySelector('[data-gallery-close]').addEventListener('click', () => dialog.close());
+    dialog.addEventListener('close', () => dialog.remove());
+    document.body.append(dialog);
+    dialog.showModal();
+  });
+});
+
 // Focus point: click the photo to choose what stays in frame when it is cropped.
 $$('[data-focus-picker]').forEach((box) => {
   const input = document.querySelector('[data-focus-input]');

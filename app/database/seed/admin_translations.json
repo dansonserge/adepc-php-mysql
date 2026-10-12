@@ -4808,5 +4808,65 @@
     "locale": "en",
     "tkey": "admin.media.dimensions",
     "value": "{w} × {h} px · {mime}"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.f.gallery",
+    "value": "Photos et vidéos de l'événement"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.f.gallery",
+    "value": "Event photos & videos"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.gallery",
+    "value": "Choisies dans la médiathèque, affichées dans cet ordre sur la page de l'événement."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.gallery",
+    "value": "Picked from the media library, shown in this order on the event page."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.h.eventSlug",
+    "value": "Adresse de la page (ex. /fr/evenements/grande-croisade-2026). Laisser vide pour la créer à partir du titre. Les anciennes adresses sont redirigées automatiquement."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.h.eventSlug",
+    "value": "The page address (e.g. /fr/evenements/grande-croisade-2026). Leave empty to build it from the title. Old addresses are redirected automatically."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.gallery.empty",
+    "value": "Aucune photo ni vidéo pour le moment."
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.gallery.empty",
+    "value": "No photos or videos yet."
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.gallery.add",
+    "value": "Ajouter depuis la médiathèque (Ctrl ou Cmd + clic pour en choisir plusieurs)"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.gallery.add",
+    "value": "Add from the media library (Ctrl or Cmd + click to choose several)"
+  },
+  {
+    "locale": "fr",
+    "tkey": "admin.media.addSelected",
+    "value": "Ajouter la sélection"
+  },
+  {
+    "locale": "en",
+    "tkey": "admin.media.addSelected",
+    "value": "Add selected"
   }
 ]

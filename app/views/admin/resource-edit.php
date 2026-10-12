@@ -8,6 +8,9 @@ $public = null;
 if ($row && $key === 'churches') {
     $public = Site::url('church', 'fr', ['slug' => $row['slug']]);
 }
+if ($row && $key === 'events' && $row['published']) {
+    $public = Site::url('event', 'fr', ['slug' => $row['slug']]);
+}
 ?>
 <?php if ($public): ?><p class="mb-6"><a href="<?= e($public) ?>" target="_blank" rel="noopener" class="text-small font-semibold text-blue underline-offset-4 hover:underline"><?= e(at('admin.viewOnSite')) ?> ↗</a></p><?php endif ?>
 <form method="post" action="/admin/<?= e($key) ?>/<?= $row ? (int) $row['id'] : 'new' ?>" class="max-w-4xl space-y-6 bg-white p-5 md:p-8">

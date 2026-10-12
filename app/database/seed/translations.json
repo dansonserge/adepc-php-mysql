@@ -2958,5 +2958,65 @@
     "locale": "en",
     "tkey": "watch.seconds",
     "value": "{count} sec"
+  },
+  {
+    "locale": "fr",
+    "tkey": "events.details",
+    "value": "Voir les détails"
+  },
+  {
+    "locale": "en",
+    "tkey": "events.details",
+    "value": "View details"
+  },
+  {
+    "locale": "fr",
+    "tkey": "events.back",
+    "value": "Tous les événements"
+  },
+  {
+    "locale": "en",
+    "tkey": "events.back",
+    "value": "All events"
+  },
+  {
+    "locale": "fr",
+    "tkey": "events.gallery",
+    "value": "Photos et vidéos"
+  },
+  {
+    "locale": "en",
+    "tkey": "events.gallery",
+    "value": "Photos & videos"
+  },
+  {
+    "locale": "fr",
+    "tkey": "events.galleryClose",
+    "value": "Fermer"
+  },
+  {
+    "locale": "en",
+    "tkey": "events.galleryClose",
+    "value": "Close"
+  },
+  {
+    "locale": "fr",
+    "tkey": "events.galleryPrev",
+    "value": "Photo précédente"
+  },
+  {
+    "locale": "en",
+    "tkey": "events.galleryPrev",
+    "value": "Previous photo"
+  },
+  {
+    "locale": "fr",
+    "tkey": "events.galleryNext",
+    "value": "Photo suivante"
+  },
+  {
+    "locale": "en",
+    "tkey": "events.galleryNext",
+    "value": "Next photo"
   }
 ]

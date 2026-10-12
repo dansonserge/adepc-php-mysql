@@ -18,7 +18,7 @@ final class Usage
         foreach (Db::all('SELECT id, name FROM churches WHERE hero_media_id = ?', [$id]) as $r) {
             $out[] = ['label' => $r['name'], 'link' => '/admin/churches/' . $r['id']];
         }
-        foreach (Db::all('SELECT id, title_fr FROM events WHERE media_id = ?', [$id]) as $r) {
+        foreach (Db::all('SELECT id, title_fr FROM events WHERE media_id = ? OR id IN (SELECT event_id FROM event_media WHERE media_id = ?)', [$id, $id]) as $r) {
             $out[] = ['label' => $r['title_fr'], 'link' => '/admin/events/' . $r['id']];
         }
         foreach (Db::all('SELECT id, title_fr FROM videos WHERE ? IN (poster_media_id, mp4_media_id, webm_media_id)', [$id]) as $r) {

@@ -9,6 +9,7 @@ const PAGES = [
   ["/fr/eglises/montreal", "/en/churches/montreal"],
   ["/fr/eglises/quebec", "/en/churches/quebec"],
   ["/fr/evenements", "/en/events"],
+  ["/fr/evenements/culte-du-dimanche", "/en/events/culte-du-dimanche"],
   ["/fr/regarder", "/en/watch"],
   ["/fr/a-propos", "/en/about"],
   ["/fr/histoires", "/en/stories"],

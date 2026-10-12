@@ -339,6 +339,32 @@
   background: transparent;
 }
 
+/* Event photo viewer (native <dialog>): fades in; the page behind stays still. */
+.lightbox {
+  transition:
+    opacity 0.35s var(--ease-expo),
+    overlay 0.35s allow-discrete,
+    display 0.35s allow-discrete;
+}
+
+.lightbox:not([open]) {
+  opacity: 0;
+}
+
+@starting-style {
+  .lightbox[open] {
+    opacity: 0;
+  }
+}
+
+.lightbox::backdrop {
+  background: transparent;
+}
+
+html:has(.lightbox[open]) {
+  overflow: hidden;
+}
+
 /* Square checkbox with a gold check (inputs have appearance: none). */
 .check:checked {
   /* The tick is an icon file (media/icons/check.svg), replaceable from the admin. */

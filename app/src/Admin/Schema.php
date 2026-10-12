@@ -10,7 +10,8 @@ namespace Adepc\Admin;
  * Field: [column/name, type, options...]
  *   types: text, textarea, l10n (fr/en pair; 'multiline'), email, url, time, date,
  *          number, decimal, select ('options' => [value => label key] or 'source'),
- *          checkbox, media ('kind' => image|video), church, churches, slug, lines, password
+ *          checkbox, media ('kind' => image|video), gallery (ordered photos and videos),
+ *          church, churches, slug, lines, password
  *   options: required, help, default_flag (column cleared when the value changes),
  *            show_if => [field, [values]], max
  */
@@ -56,6 +57,7 @@ final class Schema
                 'fields' => [
                     ['kind', 'select', 'options' => ['featured' => 'admin.o.featured', 'recurring' => 'admin.o.recurring'], 'label' => 'admin.f.kind'],
                     ['title', 'l10n', 'required' => true, 'label' => 'admin.f.title'],
+                    ['slug', 'slug', 'max' => 120, 'label' => 'admin.f.slug', 'help' => 'admin.h.eventSlug'],
                     ['description', 'l10n', 'multiline' => true, 'required' => true, 'label' => 'admin.f.description'],
                     ['date_mode', 'select', 'options' => ['none' => 'admin.o.dateNone', 'date' => 'admin.o.dateDate', 'text' => 'admin.o.dateText'], 'label' => 'admin.f.dateMode', 'default_flag' => 'date_is_default'],
                     ['event_date', 'date', 'label' => 'admin.f.date', 'show_if' => ['date_mode', ['date']], 'default_flag' => 'date_is_default'],
@@ -71,6 +73,7 @@ final class Schema
                     ['churches', 'churches', 'label' => 'admin.f.churches', 'show_if' => ['all_churches', ['0']]],
                     ['show_sunday_times', 'checkbox', 'label' => 'admin.f.showSundayTimes'],
                     ['media_id', 'media', 'kind' => 'image', 'required' => true, 'label' => 'admin.f.photo'],
+                    ['gallery', 'gallery', 'label' => 'admin.f.gallery', 'help' => 'admin.h.gallery'],
                     ['published', 'checkbox', 'label' => 'admin.f.published'],
                 ],
             ],

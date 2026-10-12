@@ -98,9 +98,14 @@ final class Content
         foreach (Db::all('SELECT * FROM event_churches ORDER BY event_id, sort') as $r) {
             $eventChurches[(int) $r['event_id']][] = (int) $r['church_id'];
         }
+        $eventMedia = [];
+        foreach (Db::all('SELECT * FROM event_media ORDER BY event_id, sort') as $r) {
+            $eventMedia[(int) $r['event_id']][] = (int) $r['media_id'];
+        }
         $d['events'] = [];
         foreach (Db::all('SELECT * FROM events WHERE published = 1 ORDER BY sort, id') as $r) {
             $r['church_ids'] = $eventChurches[(int) $r['id']] ?? [];
+            $r['gallery'] = $eventMedia[(int) $r['id']] ?? [];
             $d['events'][] = $r;
         }
 

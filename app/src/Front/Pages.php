@@ -79,6 +79,23 @@ final class Pages
         self::render('events', ['events' => Site::d()['events'], 'churches' => Site::churches()], self::meta('events', [], ['jsonLd' => $jsonLd]));
     }
 
+    public static function event(string $slug): void
+    {
+        $event = Site::event($slug);
+        if (!$event) {
+            self::notFound();
+            return;
+        }
+        $meta = self::meta('event', ['slug' => $slug], [
+            'title' => Site::L($event, 'title'),
+            'description' => mb_strimwidth((string) preg_replace('/\s+/u', ' ', Site::L($event, 'description')), 0, 160, '…'),
+            'active' => 'events',
+            'share' => Site::media($event['media_id']),
+            'jsonLd' => array_values(array_filter([Seo::event($event, Site::$locale)])),
+        ]);
+        self::render('event', ['event' => $event, 'churches' => Site::churches()], $meta);
+    }
+
     public static function watch(): void
     {
         $videos = Videos::all();

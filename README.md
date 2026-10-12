@@ -96,6 +96,7 @@ Deliberate differences from the Next.js site:
 - Vercel Analytics, Speed Insights and Sentry are not used.
 - The contact form keeps what the visitor typed after a validation error.
 - The home film is chosen in the admin.
+- Each event has its own page (`/fr/evenements/<slug>`) with photos and videos picked from the media library.
 - The former `[TO BE ADDED]` markers now show admin-editable default values, or are hidden.
 
 ---

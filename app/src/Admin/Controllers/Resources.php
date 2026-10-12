@@ -58,6 +58,7 @@ final class Resources
         $values = $row ?? self::defaults($res);
         if ($row && $key === 'events') {
             $values['churches'] = array_map('intval', array_column(Db::all('SELECT church_id FROM event_churches WHERE event_id = ? ORDER BY sort', [$row['id']]), 'church_id'));
+            $values['gallery'] = array_map('intval', array_column(Db::all('SELECT media_id FROM event_media WHERE event_id = ? ORDER BY sort', [$row['id']]), 'media_id'));
         }
         if ($row && $key === 'churches') {
             $values['services'] = Db::all('SELECT * FROM church_services WHERE church_id = ? ORDER BY sort, id', [$row['id']]);
@@ -94,7 +95,7 @@ final class Resources
                 continue;
             }
             $values = Form::read($f, $in, $errors);
-            if ($f[1] === 'churches') {
+            if ($f[1] === 'churches' || $f[1] === 'gallery') {
                 $relations[$f[0]] = $values[$f[0]];
                 continue;
             }
@@ -103,6 +104,16 @@ final class Resources
         $services = $key === 'churches' ? self::readServices($errors) : [];
 
         // Rules that span fields.
+        if ($key === 'events') {
+            // An empty address is built from the title (which is required).
+            if (empty($data['slug']) && !empty($data['title_fr'])) {
+                $data['slug'] = self::uniqueSlug('events', $data['title_fr'], (int) ($row['id'] ?? 0));
+            }
+            // Only items still in the library.
+            if ($relations['gallery']) {
+                $relations['gallery'] = array_values(array_intersect($relations['gallery'], array_map('intval', array_column(Db::all('SELECT id FROM media'), 'id'))));
+            }
+        }
         foreach (['slug', 'pkey', 'from_path'] as $unique) {
             if (isset($data[$unique]) && $data[$unique] !== null) {
                 $taken = Db::value("SELECT id FROM `{$res['table']}` WHERE `$unique` = ? AND id <> ?", [$data[$unique], $row['id'] ?? 0]);
@@ -180,6 +191,13 @@ final class Resources
                 foreach ($data['all_churches'] ? [] : $relations['churches'] as $i => $cid) {
                     Db::insert('event_churches', ['event_id' => $id, 'church_id' => $cid, 'sort' => $i + 1]);
                 }
+                Db::exec('DELETE FROM event_media WHERE event_id = ?', [$id]);
+                foreach ($relations['gallery'] as $i => $mid) {
+                    Db::insert('event_media', ['event_id' => $id, 'media_id' => $mid, 'sort' => $i + 1]);
+                }
+                if ($row && $row['slug'] !== $data['slug']) {
+                    self::redirectSlug('event', $row['slug'], $data['slug']);
+                }
             }
             if ($key === 'churches') {
                 Db::exec('DELETE FROM church_services WHERE church_id = ?', [$id]);
@@ -187,7 +205,7 @@ final class Resources
                     Db::insert('church_services', ['church_id' => $id] + $s + ['sort' => $i + 1]);
                 }
                 if ($row && $row['slug'] !== $data['slug']) {
-                    self::redirectChurchSlug($row['slug'], $data['slug']);
+                    self::redirectSlug('church', $row['slug'], $data['slug']);
                 }
             }
             return $id;
@@ -228,13 +246,25 @@ final class Resources
         return $out;
     }
 
-    /** Old church URLs keep working after a slug change. */
-    private static function redirectChurchSlug(string $old, string $new): void
+    /** A slug made from $text that no other row of $table uses: "culte", "culte-2"… */
+    public static function uniqueSlug(string $table, string $text, int $exceptId = 0): string
+    {
+        $base = trim(substr(slugify($text), 0, 100), '-') ?: 'item';
+        $slug = $base;
+        for ($n = 2; Db::value("SELECT id FROM `$table` WHERE slug = ? AND id <> ?", [$slug, $exceptId]); $n++) {
+            $slug = $base . '-' . $n;
+        }
+        return $slug;
+    }
+
+    /** Old church and event URLs keep working after a slug change. */
+    private static function redirectSlug(string $page, string $old, string $new): void
     {
         foreach (Site::locales() as $code => $l) {
-            $from = Site::url('church', $code, ['slug' => $old]);
-            $to = Site::url('church', $code, ['slug' => $new]);
-            Db::exec('DELETE FROM redirects WHERE from_path = ?', [$from]);
+            $from = Site::url($page, $code, ['slug' => $old]);
+            $to = Site::url($page, $code, ['slug' => $new]);
+            // The new address must not redirect (changing a slug back would loop).
+            Db::exec('DELETE FROM redirects WHERE from_path IN (?, ?)', [$from, $to]);
             Db::exec('UPDATE redirects SET to_path = ? WHERE to_path = ?', [$to, $from]);
             Db::insert('redirects', ['from_path' => $from, 'to_path' => $to, 'status' => 308, 'is_auto' => 1]);
         }
@@ -276,6 +306,7 @@ final class Resources
             }
             if ($key === 'events') {
                 Db::exec('DELETE FROM event_churches WHERE event_id = ?', [$id]);
+                Db::exec('DELETE FROM event_media WHERE event_id = ?', [$id]);
             }
             Db::exec("DELETE FROM `{$res['table']}` WHERE id = ?", [$id]);
         });
